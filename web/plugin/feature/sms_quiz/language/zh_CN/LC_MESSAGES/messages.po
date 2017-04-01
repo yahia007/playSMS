@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-29 17:59+0700\n"
+"POT-Creation-Date: \n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
@@ -61,7 +61,7 @@ msgstr "短信测试已存在, 保留或其他功能的使用"
 msgid "SMS quiz answer"
 msgstr "短信测试答案"
 
-msgid "SMS quiz answer messages has been deleted"
+msgid "SMS quiz answer messages have been deleted"
 msgstr "短信测试答案信息已删除"
 
 msgid "SMS quiz has been added"
@@ -81,6 +81,9 @@ msgstr "短信测试状态已改变"
 
 msgid "SMS quiz with all its messages has been deleted"
 msgstr "短信测试和它的全部信息已删除"
+
+msgid "SMSC"
+msgstr ""
 
 msgid "Save"
 msgstr "保存"

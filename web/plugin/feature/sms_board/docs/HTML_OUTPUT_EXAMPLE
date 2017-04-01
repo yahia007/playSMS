@@ -35,7 +35,7 @@ body {
 <!-- ADDITIONAL CSS END -->
 
 </head>
-<body>
+<body class =ar_AR>
 <div class=sms_board_view>
 
 <div class=sms_board_row>

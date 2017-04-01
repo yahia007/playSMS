@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-29 17:59+0700\n"
+"POT-Creation-Date: \n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
@@ -38,6 +38,9 @@ msgstr "Prefixo"
 msgid "Rate"
 msgstr "Taxa"
 
+msgid "Rate already exists"
+msgstr "A taxa já existe"
+
 msgid "Rate has been added"
 msgstr "A taxa foi adicionada"
 
@@ -47,14 +50,25 @@ msgstr "A taxa foi removida"
 msgid "Rate has been saved"
 msgstr "A taxa foi salva"
 
-msgid "Rate is already exists"
-msgstr "A taxa já existe"
-
 msgid "Save"
 msgstr "Salvar"
 
+#, php-format
+msgid "Username %s with account ID %d has reached lowest credit limit of %s"
+msgstr ""
+
+#, php-format
+msgid "You have reached lowest credit limit of %s"
+msgstr ""
+
 msgid "You must fill all fields"
 msgstr "Preencha todos os campos"
+
+#, php-format
+msgid ""
+"Your subuser with username %s and account ID %d has reached lowest credit "
+"limit of %s"
+msgstr ""
 
 msgid "destination"
 msgstr "destino"

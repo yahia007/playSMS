@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-29 17:59+0700\n"
+"POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Alexey Dvoryachikov <gdemoyinternet@ya.ru>\n"
+"Last-Translator: Alexey Dvoryanchikov <gdemoyinternet@ya.ru>\n"
 "Language-Team: \n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -13,65 +13,75 @@ msgstr ""
 "X-Generator: Poedit 1.5.4\n"
 
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
-msgid "Fail to recover password"
-msgstr ""
+#, fuzzy
+msgid "Fail to save temporary password"
+msgstr "Восстановление пароля"
 
 msgid "Fail to send email"
-msgstr ""
+msgstr "Не удалось отправить письмо"
 
 msgid "Home"
-msgstr ""
+msgstr "Главная"
 
 msgid "Invalid username or password"
-msgstr ""
+msgstr "Неправильное имя пользователя или пароль"
 
 msgid "Login"
-msgstr ""
+msgstr "Вход"
 
 msgid "Mobile"
-msgstr ""
+msgstr "Мобильный"
 
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 msgid "Password has been emailed"
-msgstr ""
+msgstr "Пароль отправлен по почте"
 
 msgid "Password recovery"
-msgstr ""
+msgstr "Восстановление пароля"
+
+msgid "Please type the displayed captcha phrase correctly"
+msgstr "Пожалуйста, введите символы с картинки"
 
 msgid "Recover password"
-msgstr ""
+msgstr "Восстановление пароля"
 
 msgid "Recover password disabled"
-msgstr ""
+msgstr "Восстановление пароля отключено"
 
 msgid "Register an account"
-msgstr ""
+msgstr "Регистрация пользователя"
 
 msgid "Submit"
-msgstr ""
+msgstr "Принять"
 
 msgid ""
 "This temporary password will be removed once you have logged in successfully"
-msgstr ""
+msgstr "Этот временный пароль будет удалён как только вы воспользуетесь им"
+
+msgid "Unable to login"
+msgstr "Не удалось войти"
 
 msgid "Username"
-msgstr ""
+msgstr "Имя пользователя"
 
 msgid "Username or email"
-msgstr ""
+msgstr "Имя пользователя или пароль"
+
+msgid "Verify captcha"
+msgstr "Проверочный код"
 
 msgid "You have been logged out"
-msgstr ""
+msgstr "Вы вышли"
 
 msgid "You have no access to this page"
-msgstr ""
+msgstr "У Вас нет доступа к этой странице"
 
 msgid "You or someone else have requested a password recovery"
-msgstr ""
+msgstr "Вы или кто-то другой запросил восстановление пароля"

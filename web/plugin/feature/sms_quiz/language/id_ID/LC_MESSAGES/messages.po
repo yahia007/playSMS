@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-29 17:59+0700\n"
+"POT-Creation-Date: \n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
@@ -58,7 +58,7 @@ msgstr "Kuis SMS sudah ada, dipesan, atau digunakan oleh fitur lain"
 msgid "SMS quiz answer"
 msgstr "Jawaban kuis SMS"
 
-msgid "SMS quiz answer messages has been deleted"
+msgid "SMS quiz answer messages have been deleted"
 msgstr "Pesan jawaban kuis SMS telah dihapus"
 
 msgid "SMS quiz has been added"
@@ -78,6 +78,9 @@ msgstr "Status kuis SMS telah diganti"
 
 msgid "SMS quiz with all its messages has been deleted"
 msgstr "Kuis SMS beserta semua pesannya telah dihapus"
+
+msgid "SMSC"
+msgstr ""
 
 msgid "Save"
 msgstr "Simpan"

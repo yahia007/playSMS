@@ -1,9 +1,12 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-29 17:59+0700\n"
+"POT-Creation-Date: \n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "CSV file format"
+msgstr ""
 
 msgid "Cancel send from file"
 msgstr "Cancelar envio de arquivo"
@@ -38,6 +41,9 @@ msgstr "Mensagem"
 msgid "Please select CSV file"
 msgstr "Por favor selecione arquivo CSV"
 
+msgid "Prevent duplicates"
+msgstr ""
+
 msgid "SMS has been sent to valid numbers in uploaded file"
 msgstr "O SMS foi enviado para os números válidos no arquivo enviado"
 
@@ -65,10 +71,12 @@ msgstr "Entradas válidas"
 msgid "Your choice"
 msgstr "Sua escolha"
 
-msgid "format : destination number, message"
+#, fuzzy
+msgid "destination number, message"
 msgstr "formato: número do destinatário, mensagem"
 
-msgid "format : destination number, message, username"
+#, fuzzy
+msgid "destination number, message, username"
 msgstr "formato: número do destinatário, mensagem, usuário"
 
 msgid "invalid entries"

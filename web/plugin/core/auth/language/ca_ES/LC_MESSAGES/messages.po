@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-29 17:59+0700\n"
+"POT-Creation-Date: \n"
 "PO-Revision-Date: 2013-05-08 15:42+0200\n"
 "Last-Translator: Joan <aseques@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -17,8 +17,9 @@ msgstr ""
 msgid "Email"
 msgstr ""
 
-msgid "Fail to recover password"
-msgstr ""
+#, fuzzy
+msgid "Fail to save temporary password"
+msgstr "فشل استعادة كلمة المرور"
 
 msgid "Fail to send email"
 msgstr ""
@@ -47,6 +48,9 @@ msgstr ""
 msgid "Password recovery"
 msgstr ""
 
+msgid "Please type the displayed captcha phrase correctly"
+msgstr ""
+
 msgid "Recover password"
 msgstr ""
 
@@ -63,10 +67,16 @@ msgid ""
 "This temporary password will be removed once you have logged in successfully"
 msgstr ""
 
+msgid "Unable to login"
+msgstr ""
+
 msgid "Username"
 msgstr ""
 
 msgid "Username or email"
+msgstr ""
+
+msgid "Verify captcha"
 msgstr ""
 
 msgid "You have been logged out"

@@ -1,46 +1,109 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-19 17:59+0700\n"
+"POT-Creation-Date: \n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "All reports"
-msgstr "Rapports"
-
-msgid "Ban date/time"
-msgstr ""
-
-msgid "Banned users list"
-msgstr ""
-
-msgid "Billing"
-msgstr ""
-
-msgid "Credit"
-msgstr ""
-
-msgid "Current IP address"
-msgstr ""
-
-msgid "Deleted"
-msgstr "Supprim"
-
-msgid "Delivered"
-msgstr "Dlivrs"
-
-msgid "Email"
-msgstr ""
-
-msgid "Failed"
-msgstr "En chec"
-
-msgid "Last update"
-msgstr ""
+#, fuzzy
+msgid "Account has been unbanned"
+msgstr "Le compte a été réintégré"
 
 #, fuzzy
+msgid "All feature messages"
+msgstr "Tous les messages envoyés"
+
+msgid "All inbox"
+msgstr "Toutes les boîtes de réception"
+
+msgid "All reports"
+msgstr "Tous les rapports"
+
+#, fuzzy
+msgid "All sent messages"
+msgstr "Tous les messages envoyés"
+
+msgid "Amount"
+msgstr "Montant"
+
+msgid "Are you sure you want to delete these items ?"
+msgstr "Êtes-vous sûr de vouloir supprimer ces éléments ?"
+
+msgid "Are you sure you want to delete these transactions ?"
+msgstr "Êtes-vous sûr de vouloir supprimer ces transactions ?"
+
+msgid "Balance"
+msgstr "Solde"
+
+msgid "Balance recorded on transaction"
+msgstr "Solde enregistré lors de la transaction"
+
+msgid "Ban date/time"
+msgstr "Date du bannissement"
+
+msgid "Banned users list"
+msgstr "Liste des utilisateurs bannis"
+
+msgid "Billing"
+msgstr "Facturation"
+
+msgid "Content"
+msgstr "Contenu"
+
+msgid "Credit"
+msgstr "Crédit"
+
+msgid "Current IP address"
+msgstr "Adressse IP actuelle"
+
+msgid "Deleted"
+msgstr "Supprimé"
+
+msgid "Delivered"
+msgstr "Livré"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Failed"
+msgstr "Échec"
+
+msgid "Feature"
+msgstr "Fonctionnalité"
+
+msgid "Footer"
+msgstr "Pied de page"
+
+msgid "From"
+msgstr "De"
+
+msgid "Inbox"
+msgstr "Boîte de réception"
+
+msgid "Keyword"
+msgstr "Mot-clé"
+
+msgid "Last update"
+msgstr "Dernière mise à jour"
+
+msgid "List of my credit transactions"
+msgstr "Liste de mes transactions de crédit"
+
+msgid "Message"
+msgstr "Message"
+
+msgid "My credit transactions"
+msgstr "Mes transactions de crédit"
+
+msgid "My feature messages"
+msgstr ""
+
 msgid "My report"
 msgstr "Mon rapport"
+
+#, fuzzy
+msgid "My sent messages"
+msgstr "Message"
 
 msgid "Pending"
 msgstr "En attente"
@@ -49,34 +112,74 @@ msgid "Report"
 msgstr "Rapport"
 
 msgid "Report all users"
-msgstr ""
+msgstr "Rapport pour tous les utilisateurs"
 
 msgid "Report banned users"
-msgstr ""
+msgstr "Rapport pour les utilisateurs bannis"
 
 msgid "Report whose online"
-msgstr ""
+msgstr "Rapport pour les utilisateurs connectés"
+
+msgid "SMSC"
+msgstr "SMSC"
+
+msgid "Sandbox"
+msgstr "Bac à sable"
+
+msgid "Selected incoming message has been deleted"
+msgstr "Le message entrant sélectionné a été supprimé"
+
+msgid "Selected outgoing message has been deleted"
+msgstr "Le message sortant sélectionné a été supprimé"
+
+msgid "Selected transactions has been deleted"
+msgstr "La transaction sélectionnée a été supprimée"
 
 msgid "Sent"
-msgstr "Envoys"
+msgstr "Envoyé"
+
+msgid "Status"
+msgstr "Statut"
+
+msgid "Time"
+msgstr "Heure"
+
+msgid "To"
+msgstr "À"
 
 msgid "Total"
 msgstr "Total"
 
-msgid "Unable to unban user"
-msgstr ""
+msgid "Transaction datetime"
+msgstr "Date de transaction"
+
+#, fuzzy
+msgid "Unable to unban account"
+msgstr "Échec de la réintégration du compte"
 
 msgid "User"
-msgstr ""
+msgstr "Utilisateur"
 
 msgid "User agent"
-msgstr ""
-
-msgid "User has been unbanned"
-msgstr ""
+msgstr "User agent"
 
 msgid "Whose online"
-msgstr ""
+msgstr "Dont connecté"
+
+msgid "cost"
+msgstr "coût"
+
+msgid "count"
+msgstr "quantité"
+
+msgid "handled"
+msgstr "traité"
+
+msgid "rate"
+msgstr "tarif"
+
+msgid "unhandled"
+msgstr "non traité"
 
 msgid "username"
-msgstr ""
+msgstr "nom d'utilisateur"

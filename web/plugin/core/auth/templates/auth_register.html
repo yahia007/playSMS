@@ -1,7 +1,8 @@
+
 <table width='100%'>
 	<tbody>
 
-	<tr><td>{{ ERROR }}</td></tr>
+	<tr><td>{{ DIALOG_DISPLAY }}</td></tr>
 	<tr>
 		<td align="center">
 
@@ -23,13 +24,13 @@
 					</tr>
 					</if.enable_logo>
 
-					<if.logo_replace_title>
+					<if.show_web_title>
 					<tr>
 						<td align="center">
 							<h1><a href={{ HTTP_PATH_BASE }}>{{ WEB_TITLE }}</a></h1>
 						</td>
 					</tr>
-					</if.logo_replace_title>
+					</if.show_web_title>
 
 					<tr>
 						<td align="center">
@@ -48,6 +49,12 @@
 					</tr>
 					<tr>
 						<td><input type=text class=form-control placeholder="{{ Email }}" name=email maxlength=100></td>
+					</tr>
+										
+					<tr>
+						
+						<td><div class="g-recaptcha" data-sitekey="6Lc3NQUTAAAAAI1AmFHXZYky1jOMtu72i15jFw9u"></div></td>
+
 					</tr>
 					<tr>
 						<td><input type=submit class=button value='{{ Submit }}'></td>
@@ -78,3 +85,5 @@
 
 	</tbody>
 </table>
+
+  

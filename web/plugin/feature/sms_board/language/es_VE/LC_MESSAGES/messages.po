@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-29 17:59+0700\n"
+"POT-Creation-Date: \n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
@@ -13,7 +13,6 @@ msgstr "Añadir pizarra SMS"
 
 msgid "Are you sure you want to delete SMS board with all its messages ?"
 msgstr ""
-"Etes-vous certain de vouloir supprimer ce service avec tous ses messages ?"
 
 msgid "CSS URL"
 msgstr ""
@@ -33,9 +32,6 @@ msgstr "Fallo al añadir la pizarra SMS"
 
 msgid "Forward"
 msgstr "Reenvio"
-
-msgid "Forward WebSMS"
-msgstr "Redirección SMS Web"
 
 msgid "Forward to email"
 msgstr "Reenviar a un correo electrónico"
@@ -84,6 +80,10 @@ msgstr "Plantilla"
 msgid "SMS Board"
 msgstr "Añadir pizarra SMS"
 
+#, fuzzy
+msgid "SMS board from"
+msgstr "Clave de pizarra SMS"
+
 msgid "SMS board has been added"
 msgstr "La pizarra SMS ha sido añadida"
 
@@ -117,9 +117,6 @@ msgstr ""
 
 msgid "You must fill all fields"
 msgstr "Ud. debe rellenar todos los campos"
-
-msgid "from"
-msgstr "de"
 
 msgid "keyword"
 msgstr "Clave"

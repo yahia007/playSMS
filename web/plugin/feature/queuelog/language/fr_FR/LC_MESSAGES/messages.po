@@ -1,33 +1,44 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-19 17:59+0700\n"
+"POT-Creation-Date: \n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Action"
-msgstr ""
+msgstr "Action"
+
+#, fuzzy
+msgid "All queues have been removed"
+msgstr "La file d'attente a été supprimée"
+
+#, fuzzy
+msgid "Are you sure you want to delete ALL queues"
+msgstr "Êtes-vous sûr de vouloir supprimer la file d'attente"
 
 msgid "Are you sure you want to delete queue"
-msgstr ""
+msgstr "Êtes-vous sûr de vouloir supprimer la file d'attente"
 
 msgid "Count"
+msgstr "Quantité"
+
+msgid "Delete ALL queues"
 msgstr ""
 
 msgid "Message"
-msgstr ""
+msgstr "Message"
 
 msgid "Queue Code"
-msgstr ""
+msgstr "Code de file d'attente"
 
-msgid "Queue has been remove"
-msgstr ""
+msgid "Queue has been removed"
+msgstr "La file d'attente a été supprimée"
 
 msgid "Scheduled"
-msgstr ""
+msgstr "Planifié"
 
 msgid "User"
-msgstr ""
+msgstr "Utilisateur"
 
 msgid "View SMS queue"
-msgstr ""
+msgstr "Afficher la file d'attente des SMS"

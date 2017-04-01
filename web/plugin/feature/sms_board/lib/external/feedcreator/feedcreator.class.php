@@ -1272,7 +1272,7 @@ class OPMLCreator extends FeedCreator {
 			$feed.= "         <ownerEmail>".$this->editorEmail."</ownerEmail>\n";
 		}
 		$feed.= "    </head>\n";
-		$feed.= "    <body>\n";
+		$feed.= "    <body class =ar_AR>\n";
 		for ($i=0;$i<count($this->items);$i++) {
 			$feed.= "    <outline type=\"rss\" ";
 			$title = htmlspecialchars(strip_tags(strtr($this->items[$i]->title,"\n\r","  ")));

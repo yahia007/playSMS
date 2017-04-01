@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
 	<title>{{ $core_config['main']['web_title'] }}</title>
-	<meta name="author" content="http://antonraharja.com">
+	<meta name="author" content="http://barqsms.com">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="{{ HTTP_PATH_THEMES }}/{{ THEMES_MODULE }}/jscss/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="{{ HTTP_PATH_THEMES }}/{{ THEMES_MODULE }}/jscss/uikit.css" />
 	<link rel="stylesheet" type="text/css" href="{{ HTTP_PATH_THEMES }}/common/jscss/common.css" />
 	<link rel="stylesheet" type="text/css" href="{{ HTTP_PATH_THEMES }}/{{ THEMES_MODULE }}/jscss/main.css" />
 	<script type="text/javascript" src="{{ HTTP_PATH_THEMES }}/common/jscss/jquery.min.js"></script>
@@ -18,13 +19,17 @@
 	<script type="text/javascript" src="{{ HTTP_PATH_THEMES }}/common/jscss/selectbox.js"></script>
 	<script type="text/javascript" src="{{ HTTP_PATH_THEMES }}/common/jscss/respond.min.js"></script>
 </head>
-<body>
+<body class =ar_AR>
+
 
 <div id="main-body">
 	<div class="container">
 		<if.valid>
 			<div id="main-menu">
 				{{ THEMES_MENU_TREE }}
+			</div>
+			<div id="main-submenu" class="uk-panel uk-panel-box uk-panel-box-primary" style="width:180px;">
+				{{ THEMES_SUBMENU }}
 			</div>
 		</if.valid>
 		<div id="main-content">
@@ -36,11 +41,21 @@
 
 <div id="main-footer">
 	<div class="container">
-		<p class="text-muted credit"><a href="http://playsms.org" target="_blank">playSMS</a> free and open source SMS software</p>
+		<p class="text-muted credit">{{ LAYOUT_FOOTER }}</p>
 	</div>
 </div>
 
-<!-- kurakura cinta kamu.......sampai mati... -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#main-submen').width( $('#main-content').width() )
+
+		setInterval(function() {
+			$("#submenu-credit-show").load("{{ CREDIT_SHOW_URL }}");
+		}, 3000);
+
+	});
+</script>
+
 
 </body>
 </html>

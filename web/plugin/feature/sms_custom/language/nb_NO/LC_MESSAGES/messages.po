@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-29 17:59+0700\n"
+"Last-Translator: Robin Karlsen <robikar91@gmail.com>\n"
+"Language-Team: \n"
+"Language: nb_NO\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Action"
+msgstr "Handling"
+
+msgid "Add SMS custom"
+msgstr "Legg til egendefinert SMS"
+
+msgid "Are you sure you want to delete SMS custom ?"
+msgstr "Er du sikker på at du vil slette den egendefinerte SMS-en?"
+
+msgid "Edit SMS custom"
+msgstr "Rediger egendefinert SMS"
+
+msgid "Fail to add SMS custom"
+msgstr "Kunne ikke legge til egendefinert SMS"
+
+msgid "Fail to delete SMS custom"
+msgstr "Kunne ikke slette egendefinert SMS"
+
+msgid "Fail to save SMS custom"
+msgstr "Kunne ikke lagre egendefinert SMS"
+
+#, fuzzy
+msgid "Keyword"
+msgstr "Nøkkelord"
+
+msgid "Make return as reply"
+msgstr "Gjør returverdi til svar"
+
+msgid "Manage custom"
+msgstr "Håndter egendefinert"
+
+msgid "Pass these parameters to custom URL field"
+msgstr "Videresend disse parameterene til egendefinert URL-felt"
+
+msgid "SMS custom URL"
+msgstr "Tilpasset SMS-URL"
+
+msgid "SMS custom already exists, reserved or use by other feature"
+msgstr ""
+
+#, fuzzy
+msgid "SMS custom has been added"
+msgstr "Egendefinert SMS har blitt lagret"
+
+msgid "SMS custom has been deleted"
+msgstr "Egendefinert SMS har blitt slettet"
+
+msgid "SMS custom has been saved"
+msgstr "Egendefinert SMS har blitt lagret"
+
+#, fuzzy
+msgid "SMS custom keyword"
+msgstr "Egendefinert SMS-nøkkelord"
+
+msgid "Save"
+msgstr "Lagre"
+
+msgid "URL"
+msgstr ""
+
+msgid "User"
+msgstr "Bruker"
+
+msgid "You must fill all fields"
+msgstr ""
+
+msgid "keyword"
+msgstr "nøkkelord"
+
+msgid "will be replaced by SMS incoming date/time"
+msgstr "vil bli erstattet med SMS innkommende dato/tid"
+
+msgid "will be replaced by SMS raw message"
+msgstr "vil bli erstattet med rå SMS-melding"
+
+msgid "will be replaced by custom keyword"
+msgstr "vil bli erstattet med egendefinert nøkkelord"
+
+msgid "will be replaced by custom parameter passed to server from SMS"
+msgstr ""
+"vil bli ersttatet med tilpasset parameter videreført fra server til SMS"
+
+msgid "will be replaced by sender number"
+msgstr "vil bli ersttatet med avsendernummer"

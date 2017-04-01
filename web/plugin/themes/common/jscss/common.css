@@ -6,7 +6,7 @@ body {
 	height: 100%;
 }
 
-input, select, option {
+input, select, option, textarea {
 	font-size: 12pt;
 	font-weight: normal;
 	color: #738384;
@@ -16,23 +16,23 @@ input, select, option {
 	margin-right: 2px;
 	margin-bottom: 2px;
 	border-radius: 3px;
-}
-
-input[size="30"], select {
 	width: 400px;
 }
 
+input[type="checkbox"] {
+	width: auto;
+}
+
+input[type="button"], input[type="submit"], .button, .submit {
+	width: auto;
+}
+
 textarea {
-	//font-size: 10pt;
-	font-weight: normal;
-	color: #738384;
-	//background-color: #ECF0F1;
-	border: 1px solid #ECF0F1;
-	padding-left: 5px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	width: 100%;
+	resize: none;
+	outline: none;
 }
 
 table.sortable thead, table.sortable th {
@@ -68,36 +68,24 @@ table.sortable thead, table.sortable th {
 }
 
 .status_sent {
-	width: 10px;
-	height: 10px;
-	background-color: #2ECC71;
-	color: #2ECC71;
+	color: #3498DB;
 	display: inline-block;
 	border-radius: 3px;
 }
 
 .status_failed {
-	width: 10px;
-	height: 10px;
-	background-color: #E74C3C;
 	color: #E74C3C;
 	display: inline-block;
 	border-radius: 3px;
 }
 
 .status_delivered {
-	width: 10px;
-	height: 10px;
-	background-color: #3498DB;
-	color: #3498DB;
+	color: #2ECC71;
 	display: inline-block;
 	border-radius: 3px;
 }
 
 .status_pending {
-	width: 10px;
-	height: 10px;
-	background-color: #F1C40F;
 	color: #F1C40F;
 	display: inline-block;
 	border-radius: 3px;
@@ -146,7 +134,7 @@ table.sortable thead, table.sortable th {
 .actions_box {
 	padding: 0;
 	width: 100%;
-	height: 25px;	
+	height: 25px;
 }
 
 .actions_box_left {
@@ -247,11 +235,22 @@ table.sortable thead, table.sortable th {
 	max-width: 220px;
 }
 
+.playsms-responsive {
+	width: 400px;
+}
+
+.playsms-dialog-text {
+	font-size: 14px;
+	font-weight: normal;
+	text-align: left;
+	color: #34495e;
+}
+
 /* IDs */
 
 /* Wrapper for page content to push down footer */
-#main-body {
-	// min-width: 240px;
+#main-body { //
+	min-width: 240px;
 	width: auto !important;
 	min-height: 100%;
 	height: auto;
@@ -266,8 +265,23 @@ table.sortable thead, table.sortable th {
 }
 
 #main-content {
-	padding-top: 20px;
+	padding-top: 40px;
 	height: 100%;
+	overflow: hidden;
+}
+
+#main-submenu {
+	padding: 0;
+	background-color: #f5f5f5;
+	border-radius: 3px;
+	top: 50px;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+
+#main-submenu div {
+	padding: 5px;
 }
 
 /* Set the fixed height of the footer here */
@@ -287,84 +301,111 @@ table.sortable thead, table.sortable th {
 	background-color: transparent;
 	border: 0px solid;
 	font-weight: normal;
-	
 }
 
 #user_inbox_msg {
+	padding-right: 2px;
 	padding-bottom: 12px;
-	word-break: break-all;
-	-ms-word-break: break-all;
+	color: #fff;
+	background-color: #34495e;
+	border-radius: 3px;
+	padding: 8px;
+	text-align: justify;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
-        hyphens: auto;
+	hyphens: auto;
 }
 
 #user_incoming_msg {
+	padding-right: 2px;
 	padding-bottom: 12px;
-	word-break: break-all;
-	-ms-word-break: break-all;
+	color: #fff;
+	background-color: #34495e;
+	border-radius: 3px;
+	padding: 8px;
+	text-align: justify;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
-        hyphens: auto;
+	hyphens: auto;
 }
 
 #user_outgoing_msg {
-	padding-left: 2px;
 	padding-right: 2px;
 	padding-bottom: 12px;
-	word-break: break-all;
-	-ms-word-break: break-all;
+	color: #fff;
+	background-color: #34495e;
+	border-radius: 3px;
+	padding: 8px;
+	text-align: justify;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
-        hyphens: auto;
+	hyphens: auto;
 }
 
 #all_inbox_msg {
+	padding-right: 2px;
 	padding-bottom: 12px;
-	word-break: break-all;
-	-ms-word-break: break-all;
+	color: #fff;
+	background-color: #34495e;
+	border-radius: 3px;
+	padding: 8px;
+	text-align: justify;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
-        hyphens: auto;
+	hyphens: auto;
 }
 
 #all_incoming_msg {
+	padding-right: 2px;
 	padding-bottom: 12px;
-	word-break: break-all;
-	-ms-word-break: break-all;
+	color: #fff;
+	background-color: #34495e;
+	border-radius: 3px;
+	padding: 8px;
+	text-align: justify;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
-        hyphens: auto;
+	hyphens: auto;
 }
 
 #all_outgoing_msg {
+	padding-right: 2px;
 	padding-bottom: 12px;
-	word-break: break-all;
-	-ms-word-break: break-all;
+	color: #fff;
+	background-color: #34495e;
+	border-radius: 3px;
+	padding: 8px;
+	text-align: justify;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
-        hyphens: auto;
+	hyphens: auto;
 }
 
 #sandbox_msg {
+	padding-right: 2px;
 	padding-bottom: 12px;
-	word-break: break-all;
-	-ms-word-break: break-all;
+	color: #fff;
+	background-color: #34495e;
+	border-radius: 3px;
+	padding: 8px;
+	text-align: justify;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
-        hyphens: auto;
+	hyphens: auto;
 }
 
-#msg_label {
-	font-size: 11pt;
-	padding-left: 2px;
+#msg_price {
+	padding-top: 6px;
 	padding-right: 2px;
 }
 
+#msg_label {
+	padding-right: 2px;
+	padding-bottom: 2px;
+}
+
 #msg_option {
-	font-size: 11pt;
 	text-align: left;
-	padding-left: 2px;
 	padding-right: 2px;
 	padding-bottom: 12px;
 }
@@ -393,4 +434,16 @@ table.sortable thead, table.sortable th {
 	height: 100px;
 	resize: none;
 	outline: none;
+}
+
+#submenu-credit-show {
+	display: inline;
+}
+
+.modal-dialog {
+	position: absolute;
+	width: 46%;
+	left: 50%;
+	margin-left : -23%;
+	top: 15%;
 }

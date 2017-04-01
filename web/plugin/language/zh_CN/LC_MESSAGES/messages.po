@@ -5,46 +5,233 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "About"
+msgid " "
 msgstr ""
 
-msgid "About playSMS"
+msgid "  "
+msgstr ""
+
+msgid "     "
+msgstr ""
+
+msgid "1 Day"
+msgstr ""
+
+msgid "1 Month"
+msgstr ""
+
+msgid "1 Week"
+msgstr ""
+
+msgid "2 Days"
+msgstr ""
+
+msgid "2 Weeks"
+msgstr ""
+
+msgid "6 Months"
+msgstr ""
+
+msgid "ACL"
+msgstr ""
+
+msgid "ACL DEFAULT will not restrict access to menus"
+msgstr ""
+
+msgid "ACL ID"
+msgstr ""
+
+msgid "ACL been edited"
+msgstr ""
+
+msgid "ACL has been deleted"
+msgstr ""
+
+msgid "ACL name"
+msgstr ""
+
+msgid "API ID"
+msgstr ""
+
+msgid "API key"
+msgstr ""
+
+msgid "API password"
+msgstr ""
+
+msgid "API secret"
+msgstr ""
+
+#, fuzzy
+msgid "API username"
+msgstr "删除"
+
+msgid "Access Control List"
+msgstr ""
+
+msgid ""
+"Access to unknown domain mapped to this server IP address will be redirected "
+"to this website URL. This website URL should be the primary address for the "
+"service."
+msgstr ""
+
+#, php-format
+msgid "Account %s is currently banned to use services"
+msgstr ""
+
+msgid "Account SID"
+msgstr ""
+
+msgid "Account admin or currently logged in administrator cannot be banned"
+msgstr ""
+
+msgid "Account admin or currently logged in administrator cannot be unbanned"
+msgstr ""
+
+msgid "Account already exists"
+msgstr ""
+
+msgid "Account has been added and password has been emailed"
+msgstr ""
+
+msgid "Account has been added but failed to send email"
+msgstr ""
+
+msgid "Account has been banned"
+msgstr ""
+
+msgid "Account has been removed"
+msgstr ""
+
+msgid "Account has been unbanned"
+msgstr ""
+
+msgid "Account name is mandatory"
+msgstr ""
+
+msgid "Account registration is not available"
+msgstr ""
+
+msgid "Account status"
+msgstr ""
+
+msgid "Account with this email already exists"
+msgstr ""
+
+msgid "Account with this mobile already exists"
 msgstr ""
 
 msgid "Action"
-msgstr "行为"
-
-msgid "Active gateway module"
-msgstr "活跃的网关模块"
+msgstr ""
 
 msgid "Active language"
-msgstr "活跃的语言"
+msgstr ""
 
 msgid "Active themes"
-msgstr "活跃的主题"
+msgstr ""
 
 msgid "Add"
 msgstr "添加"
 
+msgid "Add ACL"
+msgstr ""
+
+msgid "Add SMS autoreply"
+msgstr ""
+
+msgid "Add SMS autoreply scenario"
+msgstr ""
+
+msgid "Add SMS board"
+msgstr ""
+
+msgid "Add SMS command"
+msgstr ""
+
+msgid "Add SMS custom"
+msgstr ""
+
+msgid "Add SMS poll"
+msgstr ""
+
+msgid "Add SMS quiz"
+msgstr ""
+
+msgid "Add SMS schedule"
+msgstr ""
+
+msgid "Add SMS subscribe"
+msgstr ""
+
+msgid "Add SMSC"
+msgstr ""
+
 #, fuzzy
-msgid "Add administrator"
-msgstr "管理员"
+msgid "Add account"
+msgstr "管理用户"
+
+msgid "Add blocked IP addresses"
+msgstr ""
+
+msgid "Add blocked mobile numbers"
+msgstr ""
+
+msgid "Add catch-all"
+msgstr ""
+
+msgid "Add choice to this poll"
+msgstr ""
+
+msgid "Add contact"
+msgstr ""
+
+msgid "Add credit"
+msgstr ""
+
+msgid "Add credit to users"
+msgstr ""
+
+msgid "Add destination"
+msgstr ""
+
+msgid "Add group"
+msgstr ""
+
+msgid "Add group inbox"
+msgstr ""
+
+msgid "Add member"
+msgstr ""
+
+#, fuzzy
+msgid "Add message"
+msgstr "发送为非代码信息"
 
 msgid "Add message template"
-msgstr "增加信息模版"
+msgstr ""
+
+msgid "Add or reduce credit from manage credit menu"
+msgstr ""
+
+msgid "Add rate"
+msgstr ""
+
+msgid "Add route"
+msgstr ""
 
 #, fuzzy
-msgid "Add normal user"
-msgstr "一般用户"
+msgid "Add sender ID"
+msgstr "短信发件人"
 
-msgid "Add user"
-msgstr "添加用户"
+#, fuzzy
+msgid "Add subuser"
+msgstr "管理用户"
+
+msgid "Additional URL parameter"
+msgstr ""
 
 msgid "Address"
-msgstr "地址"
-
-msgid "Administration"
-msgstr "管理员"
+msgstr ""
 
 msgid "Administrator"
 msgstr "管理员"
@@ -54,35 +241,39 @@ msgid "Administrators"
 msgstr "管理员"
 
 msgid "All"
-msgstr "全部"
+msgstr ""
 
-msgid "All Inbox"
-msgstr "全部收件箱"
+msgid "All feature messages"
+msgstr ""
 
 msgid "All inbox"
-msgstr "全部发件箱"
+msgstr ""
 
-msgid "All incoming SMS"
-msgstr "全部收到的短信"
+msgid "All mandatory fields must be filled"
+msgstr ""
 
-#, fuzzy
-msgid "All incoming messages"
-msgstr "全部收到的短信"
+msgid "All queues have been removed"
+msgstr ""
 
-msgid "All outgoing SMS"
-msgstr "全部发出的短信"
-
-#, fuzzy
-msgid "All outgoing messages"
-msgstr "全部发出的短信"
+msgid "All reports"
+msgstr ""
 
 #, fuzzy
-msgid "Allow custom SMS footer"
-msgstr "短信页脚"
+msgid "All sent messages"
+msgstr "发送为非代码信息"
 
 #, fuzzy
-msgid "Allow custom sender ID"
-msgstr "网关号"
+msgid "All users"
+msgstr "删除"
+
+msgid "Allow users to select SMS footer while on Send SMS page"
+msgstr ""
+
+msgid "Allow users to select sender ID while on Send SMS page"
+msgstr ""
+
+msgid "Already a member reply"
+msgstr ""
 
 msgid "Always add plus sign"
 msgstr ""
@@ -90,140 +281,606 @@ msgstr ""
 msgid "Always choose to send as unicode"
 msgstr ""
 
-msgid "Application information"
-msgstr "应用信息"
-
-msgid "Application options"
-msgstr "应用信息"
-
-#, fuzzy
-msgid "Are you sure you want to ban user"
-msgstr "确定删除用户"
-
-msgid "Are you sure you want to delete outgoing SMS ?"
-msgstr "你确定要删除发出的信息吗 ?"
-
-#, fuzzy
-msgid "Are you sure you want to delete these items ?"
-msgstr "你确定删除这条短信吗 ?"
-
-msgid "Are you sure you want to delete this SMS ?"
-msgstr "你确定删除这条短信吗 ?"
-
-msgid "Are you sure you want to delete user"
-msgstr "确定删除用户"
-
-msgid "Are you sure you want to delete user ?"
-msgstr "确定删除用户 ?"
-
-#, fuzzy
-msgid "Are you sure you want to unban user"
-msgstr "确定删除用户"
-
-msgid "Auto remove plus sign"
+msgid "Always remove plus sign"
 msgstr ""
 
-msgid "Auto replace prefix 0"
+msgid "Amount"
+msgstr ""
+
+msgid "Annually"
+msgstr ""
+
+msgid "Answer"
+msgstr ""
+
+msgid "Anyone"
+msgstr ""
+
+msgid ""
+"Application footer here. Go to main configuration or manage site to edit "
+"this footer."
+msgstr ""
+
+msgid "Application options"
+msgstr ""
+
+#, fuzzy
+msgid "Approve sender ID"
+msgstr "短信发件人"
+
+msgid "Are you sure ?"
+msgstr ""
+
+msgid "Are you sure you want to ban account"
+msgstr ""
+
+msgid "Are you sure you want to ban subuser"
+msgstr ""
+
+msgid "Are you sure you want to delete ACL ?"
+msgstr ""
+
+msgid "Are you sure you want to delete ALL queues"
+msgstr ""
+
+msgid "Are you sure you want to delete SMS autoreply ?"
+msgstr ""
+
+msgid "Are you sure you want to delete SMS board with all its messages ?"
+msgstr ""
+
+msgid "Are you sure you want to delete SMS command ?"
+msgstr ""
+
+msgid "Are you sure you want to delete SMS custom ?"
+msgstr ""
+
+msgid ""
+"Are you sure you want to delete SMS poll with all its choices and votes ?"
+msgstr ""
+
+msgid ""
+"Are you sure you want to delete SMS quiz with all its choices and answers ?"
+msgstr ""
+
+msgid "Are you sure you want to delete SMS schedule ?"
+msgstr ""
+
+msgid "Are you sure you want to delete SMS subscribe ?"
+msgstr ""
+
+msgid "Are you sure you want to delete choice ?"
+msgstr ""
+
+msgid "Are you sure you want to delete queue"
+msgstr ""
+
+msgid "Are you sure you want to delete rate ?"
+msgstr ""
+
+msgid "Are you sure you want to delete sender ID"
+msgstr ""
+
+msgid "Are you sure you want to delete subuser"
+msgstr ""
+
+msgid "Are you sure you want to delete subuser ?"
+msgstr ""
+
+msgid "Are you sure you want to delete these items ?"
+msgstr ""
+
+msgid "Are you sure you want to delete these transactions ?"
+msgstr ""
+
+msgid "Are you sure you want to delete this SMS autoreply scenario ?"
+msgstr ""
+
+msgid "Are you sure you want to delete this answer ?"
+msgstr ""
+
+msgid "Are you sure you want to delete this group inbox ?"
+msgstr ""
+
+msgid "Are you sure you want to delete this member ?"
+msgstr ""
+
+msgid "Are you sure you want to delete this message?"
+msgstr ""
+
+msgid "Are you sure you want to delete user"
+msgstr ""
+
+msgid "Are you sure you want to delete user ?"
+msgstr ""
+
+msgid "Are you sure you want to remove this number from SMS schedule ?"
+msgstr ""
+
+msgid "Are you sure you want to unban account"
+msgstr ""
+
+msgid "Are you sure you want to unban subuser"
+msgstr ""
+
+msgid "Auth Token"
+msgstr ""
+
+msgid "Author"
 msgstr ""
 
 msgid "Back"
-msgstr "返回"
+msgstr ""
+
+msgid "Balance"
+msgstr ""
+
+msgid "Balance recorded on transaction"
+msgstr ""
 
 msgid "Ban"
 msgstr ""
 
-msgid "Changelog"
+msgid "Ban date/time"
+msgstr ""
+
+msgid "Banned users list"
+msgstr ""
+
+msgid "Bearerbox hostname or IP"
+msgstr ""
+
+msgid "Billing"
+msgstr ""
+
+msgid "Blocked IP address"
+msgstr ""
+
+msgid "Blocked mobile"
+msgstr ""
+
+msgid "Bulksms API URL"
+msgstr ""
+
+msgid "Bulksms is a bulk SMS provider"
+msgstr ""
+
+msgid "Bulksms will push DLR and incoming SMS to your callback URL"
+msgstr ""
+
+msgid "Buy"
+msgstr ""
+
+msgid "Buy Credit"
+msgstr ""
+
+msgid "Buy credit page"
+msgstr ""
+
+msgid "CSS URL"
+msgstr ""
+
+msgid "CSV file format"
+msgstr ""
+
+msgid "Callback Secret"
+msgstr ""
+
+msgid "Callback URL"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cancel send from file"
+msgstr ""
+
+msgid "Cannot change status when user have subusers"
+msgstr ""
+
+msgid "Cannot find PHP PEAR-DB"
+msgstr ""
+
+msgid "Catch-all"
+msgstr ""
+
+msgid "Catch-all has been added"
+msgstr ""
+
+msgid "Catch-all has been deleted"
+msgstr ""
+
+msgid "Catch-all list"
+msgstr ""
+
+msgid "Changes have been made"
+msgstr ""
+
+msgid "Check email sender"
+msgstr ""
+
+msgid "Check to enable receiving push messages from SMSSync app"
+msgstr ""
+
+msgid "Choice already exists"
+msgstr ""
+
+msgid "Choice description"
+msgstr ""
+
+msgid "Choice has been added"
+msgstr ""
+
+msgid "Choice keyword"
 msgstr ""
 
 msgid "City"
-msgstr "城市"
+msgstr ""
+
+msgid "Click the status button to enable or disable status"
+msgstr ""
+
+msgid "Clickatell API URL"
+msgstr ""
+
+msgid "Clickatell is a bulk SMS provider"
+msgstr ""
+
+msgid "Clickatell will push DLR and incoming SMS to your callback URL"
+msgstr ""
 
 msgid "Comma separated"
 msgstr ""
 
-msgid "Comma seperated"
+msgid "Comma separated for multiple entries"
+msgstr ""
+
+msgid "Comma separated values for multiple mobile numbers"
+msgstr ""
+
+#, fuzzy
+msgid "Compose message"
+msgstr "发送为非代码信息"
+
+#, fuzzy
+msgid "Configuration"
+msgstr "主要构造"
+
+#, fuzzy
+msgid "Confirmation"
+msgstr "主要构造"
+
+msgid "Contact has been added"
+msgstr ""
+
+msgid "Contact has been edited"
+msgstr ""
+
+msgid "Contacts have been imported"
 msgstr ""
 
 msgid "Content"
-msgstr "内容"
+msgstr ""
+
+msgid "Copy the message to user inbox when incoming SMS contains @username"
+msgstr ""
+
+msgid "Core"
+msgstr ""
+
+msgid "Count"
+msgstr ""
 
 msgid "Country"
-msgstr "国家"
+msgstr ""
 
 msgid "Created"
 msgstr ""
 
 msgid "Credit"
-msgstr "信用"
-
-msgid "Currently logged in user is immune to deletion"
-msgstr "目前在用户登陆的免疫缺失"
-
-msgid "Date time"
-msgstr "日期时间"
-
-msgid "Default"
-msgstr "网关号"
-
-msgid "Default SMS rate"
-msgstr "默认短信率"
-
-msgid "Default credit for user"
 msgstr ""
 
+msgid "Credit has been added"
+msgstr ""
+
+msgid "Credit has been reduced"
+msgstr ""
+
+msgid "Current IP address"
+msgstr ""
+
+msgid "Current catchall"
+msgstr ""
+
+msgid "Current members"
+msgstr ""
+
+msgid "Currently logged in user is immune to deletion"
+msgstr ""
+
+msgid "DEFAULT"
+msgstr ""
+
+msgid "Daily"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Date and time"
+msgstr ""
+
+msgid "Date/Time"
+msgstr ""
+
+msgid "Datetime"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Default ACL upon registration"
+msgstr ""
+
+msgid "Default SMS rate"
+msgstr ""
+
+msgid "Default SMSC"
+msgstr ""
+
+msgid "Default account status upon registration"
+msgstr ""
+
+msgid "Default credit upon registration"
+msgstr ""
+
+#, fuzzy
 msgid "Default language"
 msgstr "活跃的语言"
 
+msgid "Default message footer"
+msgstr ""
+
+msgid ""
+"Default parent selected upon registration when the default account status on "
+"registration setting set to Subuser"
+msgstr ""
+
+msgid "Default parent upon registration"
+msgstr ""
+
+msgid "Default prefix or country code"
+msgstr ""
+
+msgid ""
+"Default prefix or country code to replace prefix 0 on destination number"
+msgstr ""
+
+#, fuzzy
 msgid "Default sender ID"
-msgstr "网关号"
+msgstr "短信发件人"
+
+msgid "Default settings"
+msgstr ""
+
+#, fuzzy
+msgid "Default site configuration"
+msgstr "主要构造"
 
 msgid "Default timezone"
-msgstr "网关号"
+msgstr ""
+
+msgid ""
+"Define a single character as keyword separator replacing default keyword "
+"separator a space"
+msgstr ""
 
 msgid "Delete"
 msgstr "删除"
 
-msgid "Delete all templates ?"
-msgstr "删除全部模版 ?"
+#, fuzzy
+msgid "Delete ALL queues"
+msgstr "删除"
 
-msgid "Delete message template"
-msgstr "删除信息模版"
+msgid "Delete catch-all"
+msgstr ""
 
-msgid "Delete selection"
-msgstr "删除选择"
+msgid "Delete group inbox"
+msgstr ""
+
+#, fuzzy
+msgid "Delete member"
+msgstr "删除"
 
 #, fuzzy
 msgid "Delete user"
 msgstr "删除"
 
+#, fuzzy
+msgid "Deleted"
+msgstr "删除"
+
 msgid "Delivered"
-msgstr "已传送的"
+msgstr ""
+
+msgid "Delivered to SMSC"
+msgstr ""
+
+msgid "Delivered to phone"
+msgstr ""
+
+msgid "Delivery Report"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Destination"
+msgstr ""
+
+msgid "Destination has been deleted"
+msgstr ""
+
+msgid "Destination has been edited"
+msgstr ""
+
+msgid "Destination name"
+msgstr ""
+
+msgid "Destination number"
+msgstr ""
+
+msgid "Disable login as subuser"
+msgstr ""
+
+msgid "Domain"
+msgstr ""
+
+msgid "Download SMSSync app for Android from"
+msgstr ""
 
 msgid "Edit"
 msgstr "编辑"
 
-msgid "Edit message template"
-msgstr "编辑信息模版"
+#, fuzzy
+msgid "Edit ACL"
+msgstr "编辑"
+
+msgid "Edit SMS autoreply"
+msgstr ""
+
+msgid "Edit SMS autoreply scenario"
+msgstr ""
+
+msgid "Edit SMS board"
+msgstr ""
+
+msgid "Edit SMS command"
+msgstr ""
+
+msgid "Edit SMS custom"
+msgstr ""
+
+msgid "Edit SMS poll"
+msgstr ""
+
+msgid "Edit SMS poll choices"
+msgstr ""
+
+msgid "Edit SMS quiz"
+msgstr ""
+
+msgid "Edit SMS subscribe"
+msgstr ""
 
 #, fuzzy
-msgid "Effective SMS sender ID"
+msgid "Edit SMSC"
+msgstr "编辑"
+
+msgid "Edit contact"
+msgstr ""
+
+msgid "Edit destination"
+msgstr ""
+
+msgid "Edit group"
+msgstr ""
+
+msgid "Edit group inbox"
+msgstr ""
+
+#, fuzzy
+msgid "Edit message"
+msgstr "发送为非代码信息"
+
+msgid "Edit message template"
+msgstr ""
+
+#, fuzzy
+msgid "Edit rate"
+msgstr "编辑"
+
+msgid "Edit route"
+msgstr ""
+
+msgid "Edit schedule"
+msgstr ""
+
+#, fuzzy
+msgid "Edit sender ID"
 msgstr "短信发件人"
+
+msgid "Effective SMS sender ID"
+msgstr ""
 
 msgid "Eg: +0700 for Jakarta/Bangkok timezone"
 msgstr ""
 
 msgid "Email"
-msgstr "电子邮件"
+msgstr ""
 
-msgid "Email is already in use by other username"
-msgstr "电子邮件已被其他用户使用"
+msgid "Email address is mandatory"
+msgstr ""
 
-msgid "Enable forgot password"
-msgstr "无效用户名或密码"
+msgid "Email footer"
+msgstr ""
+
+msgid "Email protocol"
+msgstr ""
+
+msgid "Email service"
+msgstr ""
+
+msgid "Email to SMS PIN has been saved"
+msgstr ""
+
+msgid "Email to SMS PIN has been saved but service is disabled"
+msgstr ""
+
+msgid "Email to SMS address"
+msgstr ""
 
 #, fuzzy
+msgid "Email to SMS configuration has been saved and enabled"
+msgstr "主要构造"
+
+msgid "Email to SMS configuration has been saved and service disabled"
+msgstr ""
+
+msgid "Email to SMS configuration has been saved and service enabled"
+msgstr ""
+
+#, fuzzy
+msgid "Email to SMS configuration has been saved but disabled"
+msgstr "主要构造"
+
+msgid "Empty callback URL to set default"
+msgstr ""
+
+msgid "Empty default sender ID to allow users setting their own sender ID"
+msgstr ""
+
+msgid "Enable SMS Sync"
+msgstr ""
+
+msgid "Enable credit unicode SMS as normal SMS"
+msgstr ""
+
+#, fuzzy
+msgid "Enable email to SMS"
+msgstr "管理用户"
+
+msgid "Enable fetch new emails"
+msgstr ""
+
+msgid "Enable forgot password"
+msgstr ""
+
+msgid "Enable login brute force detection"
+msgstr ""
+
 msgid "Enable logo"
-msgstr "无效用户名或密码"
+msgstr ""
 
 msgid "Enable public registration"
 msgstr ""
@@ -231,138 +888,450 @@ msgstr ""
 msgid "Enable webservices"
 msgstr ""
 
+msgid "Enhance privacy for subusers"
+msgstr ""
+
+msgid "Entries in CSV file have been imported"
+msgstr ""
+
+msgid "Exclusive"
+msgstr ""
+
+msgid "Exec"
+msgstr ""
+
 msgid "Export"
 msgstr ""
 
-msgid "F.A.Q"
+msgid "FATAL ERROR"
 msgstr ""
 
 #, fuzzy
-msgid "Fail sent SMS, no credit"
-msgstr "发送短信失败"
-
-msgid "Fail to delete SMS"
+msgid "Fail to add SMS autoreply"
 msgstr "删除短信失败"
 
-msgid "Fail to delete incoming SMS"
-msgstr "删除收到的短信失败"
+msgid "Fail to add SMS autoreply scenario"
+msgstr ""
 
-msgid "Fail to delete user"
-msgstr "删除用户失败"
+msgid "Fail to add SMS board"
+msgstr ""
+
+msgid "Fail to add SMS command"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to add SMS custom"
+msgstr "发送短信失败"
+
+msgid "Fail to add SMS poll"
+msgstr ""
+
+msgid "Fail to add SMS quiz"
+msgstr ""
+
+msgid "Fail to add SMS subscribe"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to add catch-all"
+msgstr "删除短信失败"
+
+#, fuzzy
+msgid "Fail to add credit"
+msgstr "发送短信失败"
+
+msgid "Fail to add group inbox"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to add member"
+msgstr "发送短信失败"
+
+#, fuzzy
+msgid "Fail to add message"
+msgstr "发送短信失败"
+
+#, fuzzy
+msgid "Fail to add message template"
+msgstr "发送短信失败"
+
+#, fuzzy
+msgid "Fail to add new ACL"
+msgstr "删除短信失败"
+
+msgid "Fail to add new SMS schedule"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to add new SMSC"
+msgstr "删除短信失败"
+
+#, fuzzy
+msgid "Fail to add new destination"
+msgstr "发送短信失败"
+
+msgid "Fail to delete ACL"
+msgstr ""
+
+msgid "Fail to delete SMS autoreply"
+msgstr ""
+
+msgid "Fail to delete SMS autoreply scenario"
+msgstr ""
+
+msgid "Fail to delete SMS command"
+msgstr ""
+
+msgid "Fail to delete SMS custom"
+msgstr ""
+
+msgid "Fail to delete SMS poll choice"
+msgstr ""
+
+msgid "Fail to delete SMS schedule"
+msgstr ""
+
+msgid "Fail to delete catch-all"
+msgstr ""
+
+msgid "Fail to delete destination"
+msgstr ""
+
+msgid "Fail to delete group"
+msgstr ""
+
+msgid "Fail to delete group inbox"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to delete member"
+msgstr "发送短信失败"
+
+#, fuzzy
+msgid "Fail to delete rate"
+msgstr "删除短信失败"
+
+#, fuzzy
+msgid "Fail to delete route"
+msgstr "发送短信失败"
+
+msgid "Fail to disable group inbox"
+msgstr ""
+
+msgid "Fail to edit ACL"
+msgstr ""
+
+msgid "Fail to edit SMS autoreply scenario"
+msgstr ""
+
+msgid "Fail to edit SMS board"
+msgstr ""
+
+msgid "Fail to edit SMS quiz"
+msgstr ""
+
+msgid "Fail to edit SMS schedule"
+msgstr ""
+
+msgid "Fail to edit SMS subscribe"
+msgstr ""
+
+msgid "Fail to edit SMSC"
+msgstr ""
+
+msgid "Fail to edit destination"
+msgstr ""
+
+msgid "Fail to edit group inbox"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to edit message"
+msgstr "发送短信失败"
 
 msgid "Fail to edit message template"
-msgstr "无法编辑信息模版"
+msgstr ""
 
-msgid "Fail to recover password"
-msgstr "无效用户名或密码"
+msgid "Fail to enable group inbox"
+msgstr ""
+
+msgid "Fail to insert keyword"
+msgstr ""
+
+msgid "Fail to reduce credit"
+msgstr ""
 
 msgid "Fail to register an account"
 msgstr ""
 
-msgid "Fail to save preferences"
-msgstr "保存偏好失败"
+msgid "Fail to remove SMSC"
+msgstr ""
 
-msgid "Fail to send email"
-msgstr "发送短信失败"
-
-msgid "Fail to sent SMS"
-msgstr "发送短信失败"
-
-msgid "Failed"
-msgstr "发送失败的"
-
-msgid "Feature"
-msgstr "特征"
-
-msgid "Fill to change password for username"
-msgstr "填写更改用户名密码"
+msgid "Fail to remove cancelled entries from database"
+msgstr ""
 
 #, fuzzy
-msgid "Fill to update"
+msgid "Fail to save SMS Sync configuration"
+msgstr "主要构造"
+
+msgid "Fail to save SMS command"
+msgstr ""
+
+msgid "Fail to save SMS custom"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to save configuration"
+msgstr "主要构造"
+
+msgid "Fail to save email to SMS PIN"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to save email to SMS configuration"
+msgstr "主要构造"
+
+msgid "Fail to save gateway module configurations"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to save preferences"
+msgstr "偏好"
+
+#, fuzzy
+msgid "Fail to save rate"
 msgstr "删除短信失败"
 
 #, fuzzy
+msgid "Fail to save route"
+msgstr "发送短信失败"
+
+msgid "Fail to save temporary password"
+msgstr ""
+
+msgid "Fail to send SMS"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to send email"
+msgstr "发送短信失败"
+
+msgid "Fail to send message to all destinations"
+msgstr ""
+
+msgid "Fail to simulate incoming SMS"
+msgstr ""
+
+msgid "Fail to update SMS autoreply"
+msgstr ""
+
+msgid "Fail to update due to invalid sender ID"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to upload CSV file"
+msgstr "活跃的语言"
+
+msgid "Fail to upload CSV file for phonebook"
+msgstr ""
+
+msgid "Failed"
+msgstr ""
+
+#, fuzzy
+msgid "Feature"
+msgstr "特征"
+
+#, fuzzy
+msgid "Features"
+msgstr "特征"
+
+msgid "Fill the password field to change password"
+msgstr ""
+
+msgid "Fill to change the API key"
+msgstr ""
+
+msgid "Fill to change the API password"
+msgstr ""
+
+msgid "Fill to change the API secret"
+msgstr ""
+
+msgid "Fill to change the Auth Token"
+msgstr ""
+
+msgid "Fill to change the password"
+msgstr ""
+
+msgid "Fill with zero to disable limit"
+msgstr ""
+
+#, fuzzy
 msgid "Flash message"
-msgstr "发送为瞬时信息"
+msgstr "发送为非代码信息"
 
-#, fuzzy
 msgid "Footer"
-msgstr "短信页脚"
+msgstr ""
 
-#, fuzzy
-msgid "Forgot password"
-msgstr "无效用户名或密码"
+msgid "For example a short code"
+msgstr ""
+
+msgid "Format YYYY-MM-DD hh:mm"
+msgstr ""
 
 #, fuzzy
 msgid "Forward"
 msgstr "转发邮件页脚"
 
-msgid "Forward PV to email"
-msgstr "转发邮件页脚"
-
-msgid "Forward PV to inbox"
-msgstr ""
-
-msgid "Forward PV to mobile"
-msgstr ""
-
-msgid "Forward Private WebSMS"
-msgstr "提出非官方网络短信"
-
-#, fuzzy
-msgid "Forward SMS to email"
-msgstr "转发邮件页脚"
-
-#, fuzzy
-msgid "Forward SMS to inbox"
-msgstr "转发邮件页脚"
-
-#, fuzzy
-msgid "Forward SMS to mobile"
-msgstr "转发邮件页脚"
-
-#, fuzzy
-msgid "Forward from"
-msgstr "转发邮件页脚"
-
-#, fuzzy
 msgid "Forward message to email"
-msgstr "转发邮件页脚"
+msgstr ""
 
-#, fuzzy
 msgid "Forward message to inbox"
-msgstr "转发邮件页脚"
+msgstr ""
+
+msgid "Forward message to mobile"
+msgstr ""
 
 #, fuzzy
-msgid "Forward message to mobile"
+msgid "Forward to email"
 msgstr "转发邮件页脚"
 
 msgid "Forwarded email footer"
-msgstr "转发邮件页脚"
+msgstr ""
+
+msgid "Found invalid entries in uploaded file"
+msgstr ""
+
+msgid "Found valid entries in uploaded file"
+msgstr ""
 
 msgid "From"
-msgstr "来自"
+msgstr ""
 
 msgid "Full name"
-msgstr "全名"
+msgstr ""
 
 msgid "Gateway"
-msgstr "网关号"
+msgstr ""
+
+msgid "Gateway host"
+msgstr ""
+
+msgid "Gateway module configurations has been saved"
+msgstr ""
+
+msgid "Gateway name"
+msgstr ""
+
+msgid "Gateway port"
+msgstr ""
+
+msgid "Gateways"
+msgstr ""
+
+msgid "Generic send SMS URL"
+msgstr ""
+
+msgid "Generic will push DLR and incoming SMS to your callback URL"
+msgstr ""
+
+msgid "Gnokii installation path"
+msgstr ""
 
 msgid "Go"
 msgstr "运行"
 
+msgid "Go to main configuration or manage site to edit this page"
+msgstr ""
+
+msgid "Go to manage site menu to edit this page"
+msgstr ""
+
+msgid "Grand total SMS"
+msgstr ""
+
+msgid "Grand total senders"
+msgstr ""
+
+msgid "Graph output"
+msgstr ""
+
 msgid "Group"
 msgstr "群"
 
+#, fuzzy
 msgid "Group code"
-msgstr "群代码"
+msgstr "群"
 
-msgid "HTTP API"
+msgid "Group code already exists"
+msgstr ""
+
+msgid "Group code has been added"
+msgstr ""
+
+msgid "Group code may be used to broadcast SMS to this group"
+msgstr ""
+
+msgid "Group has been edited"
+msgstr ""
+
+msgid ""
+"Group has been edited but unable to set broadcast from members or anyone"
+msgstr ""
+
+#, fuzzy
+msgid "Group inbox"
+msgstr "群"
+
+msgid "Group inbox has been added"
+msgstr ""
+
+msgid "Group inbox has been deleted"
+msgstr ""
+
+msgid "Group inbox has been disabled"
+msgstr ""
+
+msgid "Group inbox has been edited"
+msgstr ""
+
+msgid "Group inbox has been enabled"
+msgstr ""
+
+#, fuzzy
+msgid "Group name"
+msgstr "群"
+
+msgid "HTML output"
+msgstr ""
+
+msgid "HTTP Kannel admin host"
+msgstr ""
+
+msgid "HTTP Kannel admin password"
+msgstr ""
+
+msgid "HTTP Kannel admin port"
 msgstr ""
 
 msgid "Home"
 msgstr "主页"
+
+msgid "ID"
+msgstr ""
+
+msgid "IP address"
+msgstr ""
+
+msgid "IP addresses"
+msgstr ""
+
+msgid "IP addresses have been blocked"
+msgstr ""
+
+msgid "IP addresses have been deleted"
+msgstr ""
 
 msgid "Idle"
 msgstr ""
@@ -370,50 +1339,160 @@ msgstr ""
 msgid "Import"
 msgstr ""
 
-msgid "Inbox"
-msgstr "收件箱"
-
-msgid "Incoming SMS"
-msgstr "收件箱"
-
-#, fuzzy
-msgid "Incoming messages"
-msgstr "发送为非代码信息"
-
-msgid "Installation Guide"
+msgid "Import above destination entries ?"
 msgstr ""
 
-msgid "International format"
-msgstr "国际格式"
+msgid "Import above phonebook entries ?"
+msgstr ""
+
+#, fuzzy
+msgid "Import confirmation"
+msgstr "主要构造"
+
+msgid "Inbox"
+msgstr ""
+
+msgid "Incoming SMS route changes has been saved"
+msgstr ""
+
+msgid "Incoming SMS time is in local time"
+msgstr ""
+
+msgid "Infobip API URL"
+msgstr ""
+
+msgid "Infobip is a bulk SMS provider"
+msgstr ""
+
+msgid "Infobip will push DLR and incoming SMS to above URL"
+msgstr ""
+
+msgid "Information"
+msgstr ""
+
+msgid "Information page"
+msgstr ""
+
+msgid "Insert keyword"
+msgstr ""
+
+msgid "Internal error please contact service provider"
+msgstr ""
+
+msgid "Invalid"
+msgstr ""
+
+msgid "Invalid CSV file"
+msgstr ""
+
+msgid "Invalid entries"
+msgstr ""
+
+#, fuzzy
+msgid "Invalid sender ID"
+msgstr "短信发件人"
+
+msgid "Invalid session ID"
+msgstr ""
 
 msgid "Invalid username or password"
-msgstr "无效用户名或密码"
+msgstr ""
+
+msgid "JSON output"
+msgstr ""
+
+msgid "Jasmin send SMS URL"
+msgstr ""
+
+msgid "Jasmin will push DLR and incoming SMS to your callback URL"
+msgstr ""
+
+msgid "Kannel admin host"
+msgstr ""
+
+msgid "Kannel admin password"
+msgstr ""
+
+msgid "Kannel admin port"
+msgstr ""
+
+msgid "Kannel specific"
+msgstr ""
+
+msgid "Kannel status"
+msgstr ""
 
 msgid "Keyword"
-msgstr "关键字"
+msgstr ""
+
+msgid "Keyword separator"
+msgstr ""
+
+msgid "Keywords"
+msgstr ""
+
+msgid "Languages"
+msgstr ""
 
 msgid "Last update"
 msgstr ""
 
-msgid "License"
+msgid "Layout footer"
+msgstr ""
+
+msgid "Leave a copy in sandbox SMS page"
+msgstr ""
+
+msgid "Leaving a copy in sandbox SMS page may be useful for audit or reviews"
+msgstr ""
+
+msgid "List of accounts"
 msgstr ""
 
 #, fuzzy
 msgid "List of administrators"
 msgstr "管理员"
 
+msgid "List of destinations"
+msgstr ""
+
 #, fuzzy
-msgid "List of normal users"
-msgstr "一般用户"
+msgid "List of gateways and SMSCs"
+msgstr "管理用户"
+
+msgid "List of my credit transactions"
+msgstr ""
+
+msgid "List of subusers"
+msgstr ""
+
+msgid "List of transactions"
+msgstr ""
+
+msgid "List of users"
+msgstr ""
 
 msgid "Local number length"
+msgstr ""
+
+msgid "Local playnet password"
+msgstr ""
+
+msgid "Local playnet username"
+msgstr ""
+
+msgid "Logged in as"
 msgstr ""
 
 msgid "Login"
 msgstr ""
 
+msgid "Login as"
+msgstr ""
+
+#, fuzzy
 msgid "Login information"
-msgstr "登陆信息"
+msgstr "主要构造"
 
 msgid "Logo URL"
 msgstr ""
@@ -425,11 +1504,30 @@ msgstr ""
 msgid "Logout"
 msgstr "注销"
 
+msgid "Lowest credit limit to trigger notification"
+msgstr ""
+
+msgid "MBOX output"
+msgstr ""
+
+msgid "Mail server address"
+msgstr ""
+
+msgid "Mail server port"
+msgstr ""
+
+msgid "Mailbox password"
+msgstr ""
+
+msgid "Mailbox username"
+msgstr ""
+
 msgid "Main configuration"
 msgstr "主要构造"
 
+#, fuzzy
 msgid "Main configuration changes has been saved"
-msgstr "主要构造变化已被保存"
+msgstr "主要构造"
 
 msgid "Main website URL"
 msgstr ""
@@ -437,57 +1535,309 @@ msgstr ""
 msgid "Main website name"
 msgstr ""
 
+msgid "Make return as reply"
+msgstr ""
+
 msgid "Manage"
 msgstr "管理"
 
-msgid "Manage user"
+#, fuzzy
+msgid "Manage ACL"
+msgstr "管理"
+
+#, fuzzy
+msgid "Manage Clients"
 msgstr "管理用户"
 
-msgid "Max. 16 numeric or 11 alphanumeric characters"
-msgstr "最多16个数字或11个字母"
+#, fuzzy
+msgid "Manage OpenVox"
+msgstr "管理用户"
 
-msgid "Max. 20 digits mobile phone number"
+#, fuzzy
+msgid "Manage SMS rate"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage account"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage autoreply"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage blocked"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage board"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage bulksms"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage clickatell"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage command"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage credit"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage custom"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage dev"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage email to SMS"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage firewall"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage gammu"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage gateway and SMSC"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage generic"
+msgstr "短信发件人"
+
+#, fuzzy
+msgid "Manage gnokii"
+msgstr "短信发件人"
+
+#, fuzzy
+msgid "Manage infobip"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage jasmin"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage kannel"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage msgtoolbox"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage nexmo"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage payments"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage playnet"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage plugin"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage poll"
+msgstr "管理"
+
+#, fuzzy
+msgid "Manage quiz"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage schedule"
+msgstr "短信发件人"
+
+#, fuzzy
+msgid "Manage sender ID"
+msgstr "短信发件人"
+
+#, fuzzy
+msgid "Manage site"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage smstools"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage stoplist"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage subscribe"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage subuser"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage sync"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage telerivet"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage template"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage twilio"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Manage uplink"
+msgstr "管理用户"
+
+msgid "Mandatory fields must not be empty"
+msgstr ""
+
+msgid "Master URL"
+msgstr ""
+
+msgid "Match with all approved sender ID"
+msgstr ""
+
+msgid "Max. 16 numeric or 11 alphanumeric char. empty to disable"
+msgstr ""
+
+msgid "Max. 16 numeric or 11 alphanumeric characters"
 msgstr ""
 
 msgid "Max. 30 alphanumeric characters"
-msgstr "最多30个字母"
+msgstr ""
+
+msgid "Maximum 8 digits numeric only"
+msgstr ""
 
 msgid "Maximum SMS count"
 msgstr ""
 
-msgid "Message"
-msgstr "消息"
+msgid "Maximum username length"
+msgstr ""
+
+msgid "Maximum username length must be a number between 4 to 100"
+msgstr ""
+
+msgid "Me only"
+msgstr ""
+
+msgid "Member has been added"
+msgstr ""
+
+msgid "Member has been deleted"
+msgstr ""
+
+msgid "Member join datetime"
+msgstr ""
+
+msgid "Member list"
+msgstr ""
+
+msgid "Member list for keyword"
+msgstr ""
+
+msgid "Members"
+msgstr ""
 
 #, fuzzy
+msgid "Message"
+msgstr "发送为非代码信息"
+
+#, php-format
+msgid "Message %s has been delivered to queue"
+msgstr ""
+
+msgid "Message ID"
+msgstr ""
+
+msgid "Message body"
+msgstr ""
+
+msgid "Message detail"
+msgstr ""
+
+msgid "Message footer"
+msgstr ""
+
 msgid "Message from"
-msgstr "消息"
+msgstr ""
+
+msgid "Message has been added"
+msgstr ""
+
+msgid "Message has been deleted"
+msgstr ""
+
+msgid "Message has been edited"
+msgstr ""
+
+msgid "Message received at"
+msgstr ""
 
 msgid "Message template"
-msgstr "信息模版"
+msgstr ""
 
 msgid "Message template content"
-msgstr "信息模版内容"
+msgstr ""
 
 msgid "Message template has been edited"
-msgstr "信息模版已被编辑"
+msgstr ""
 
 msgid "Message template has been saved"
-msgstr "信息模版已被保存"
+msgstr ""
 
 msgid "Message template name"
-msgstr "信息模版名字"
+msgstr ""
+
+#, fuzzy
+msgid "Messages"
+msgstr "发送为非代码信息"
 
 msgid "Min length to detect missing country code"
 msgstr ""
 
 msgid "Mobile"
-msgstr "手机"
+msgstr ""
 
-msgid "Mobile is already in use by other username"
-msgstr "电子邮件已被其他用户使用"
+msgid "Mobile numbers"
+msgstr ""
 
-msgid "Mobile number"
-msgstr "电话号码"
+msgid "Mobile numbers have been blocked"
+msgstr ""
+
+msgid "Mobile numbers have been deleted"
+msgstr ""
+
+#, fuzzy
+msgid "Module sender ID"
+msgstr "短信发件人"
+
+msgid "Module timezone"
+msgstr ""
+
+msgid "Monthly"
+msgstr ""
 
 msgid "Move"
 msgstr ""
@@ -495,157 +1845,366 @@ msgstr ""
 msgid "Move to"
 msgstr ""
 
-msgid "My Account"
+msgid "Multi"
 msgstr ""
 
+msgid "Multiple IP addresses must be comma-separated"
+msgstr ""
+
+msgid "Multiple entries separated by space"
+msgstr ""
+
+msgid "Multiple mobile numbers must be comma-separated"
+msgstr ""
+
+msgid "My account"
+msgstr ""
+
+msgid "My credit transactions"
+msgstr ""
+
+msgid "My email to SMS"
+msgstr ""
+
+msgid "My feature messages"
+msgstr ""
+
+msgid "My report"
+msgstr ""
+
+#, fuzzy
+msgid "My sent messages"
+msgstr "发送为非代码信息"
+
 msgid "Name"
-msgstr "名字"
+msgstr ""
+
+msgid "New ACL been added"
+msgstr ""
+
+msgid "New SMS schedule been added"
+msgstr ""
+
+msgid "New SMSC has been added"
+msgstr ""
 
 msgid "New account registration"
 msgstr ""
 
-msgid "New inbox from"
+msgid "New destination has been added"
 msgstr ""
 
-msgid "New webservices token"
+msgid "Nexmo URL"
+msgstr ""
+
+msgid "Nexmo is a bulk SMS provider"
+msgstr ""
+
+msgid "Nexmo will push DLR and incoming SMS to your callback URL"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No changes has been made"
+msgstr ""
+
+msgid "No changes have been made"
 msgstr ""
 
 msgid "No changes made"
-msgstr "没有作出改变"
+msgstr ""
 
-msgid "Normal User"
-msgstr "标准用户"
-
-msgid "Normal user"
-msgstr "一般用户"
+msgid "No changes made!"
+msgstr ""
 
 #, fuzzy
-msgid "Normal users"
-msgstr "一般用户"
+msgid "No group"
+msgstr "群"
+
+msgid "No route has been saved"
+msgstr ""
+
+msgid "No trailing slash"
+msgstr ""
+
+msgid "No validate cert option"
+msgstr ""
+
+msgid "Non-Delivered to SMSC"
+msgstr ""
+
+msgid "Non-Delivered to phone"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+msgid "Number"
+msgstr ""
+
+msgid "Number of sent SMS per hour limit"
+msgstr ""
+
+msgid "Number of votes"
+msgstr ""
 
 msgid "Offline"
+msgstr ""
+
+msgid "Once"
 msgstr ""
 
 msgid "Online"
 msgstr ""
 
-#, fuzzy
+msgid "Only when the sender ID is approved"
+msgstr ""
+
 msgid "Options"
-msgstr "行为"
+msgstr ""
 
-msgid "Or"
-msgstr "或者"
+msgid "PHP serialize output"
+msgstr ""
 
-msgid "Outgoing SMS"
-msgstr "短信发件箱"
+msgid "PIN"
+msgstr ""
+
+msgid "PIN for email to SMS"
+msgstr ""
+
+msgid "PIN is empty"
+msgstr ""
 
 #, fuzzy
-msgid "Outgoing messages"
-msgstr "短信发件箱"
+msgid "Page content"
+msgstr "管理用户"
+
+#, fuzzy
+msgid "Page title"
+msgstr "管理用户"
+
+msgid "Param"
+msgstr ""
+
+msgid "Parent"
+msgstr ""
+
+#, fuzzy
+msgid "Parent account"
+msgstr "管理用户"
+
+msgid ""
+"Parent account is mandatory for subusers only. If no value is given then the "
+"subuser will be automatically assigned to user admin"
+msgstr ""
+
+msgid "Pass these parameter to command exec field"
+msgstr ""
+
+msgid "Pass these parameters to custom URL field"
+msgstr ""
 
 msgid "Password"
-msgstr "密码"
+msgstr ""
 
 msgid "Password does not match"
 msgstr ""
 
-#, fuzzy
 msgid "Password has been emailed"
-msgstr "用户已被删除"
-
-msgid "Password has been sent to your email"
 msgstr ""
 
 msgid "Password recovery"
-msgstr "密码"
+msgstr ""
 
 msgid "Password should be at least 4 characters"
 msgstr ""
 
 msgid "Pending"
-msgstr "等候中"
+msgstr ""
 
 msgid "Personal information"
-msgstr "个人信息"
+msgstr ""
 
-msgid "Phone number(s)"
-msgstr "电话号码"
+msgid "Phone number"
+msgstr ""
 
 msgid "Phonebook"
-msgstr "电话簿"
+msgstr ""
 
-#, fuzzy
-msgid "Phonebook groups"
-msgstr "电话簿"
-
-#, fuzzy
-msgid "Phonebook numbers"
-msgstr "电话号码"
-
-msgid "Pick Date & Time"
-msgstr "选择日期和时间"
-
-#, fuzzy
-msgid "Pick date & time"
-msgstr "选择日期和时间"
+msgid "Please remove all subusers from this user to delete"
+msgstr ""
 
 msgid "Please select"
-msgstr "请选择"
+msgstr ""
+
+msgid "Please select CSV file"
+msgstr ""
+
+msgid "Please select CSV file for phonebook entries"
+msgstr ""
 
 msgid "Please select template"
-msgstr "请选择"
+msgstr ""
+
+msgid "Please type the displayed captcha phrase correctly"
+msgstr ""
+
+msgid "Please use alphanumeric only and make it short"
+msgstr ""
+
+msgid "Please use uppercase and make it short"
+msgstr ""
+
+msgid "Post rules"
+msgstr ""
+
+msgid "Pre rules"
+msgstr ""
 
 msgid "Preferences"
 msgstr "偏好"
 
-msgid "Preferences has been saved"
-msgstr "偏好已被保存"
+msgid "Preferences have been saved"
+msgstr ""
 
-msgid "Preferences has been saved and password updated"
-msgstr "偏好已被保存且密码已更新"
+msgid "Preferences have been saved and password updated"
+msgstr ""
 
-#, fuzzy
-msgid "Preferences has been saved and webservices token updated"
-msgstr "偏好已被保存且密码已更新"
+msgid "Preferences have been saved and webservices token updated"
+msgstr ""
+
+msgid "Prefix"
+msgstr ""
 
 msgid "Prefix or country code"
 msgstr ""
 
-msgid "Public registration disabled"
+msgid "Prefix with # for groups and @ for users"
 msgstr ""
 
-msgid "Public registration is disabled"
+msgid "Press submit button to add selected users to catch-all list"
 msgstr ""
 
-msgid "Publish"
+msgid "Press submit button to add selected users to member list"
 msgstr ""
 
-msgid "Re-Type Password"
-msgstr "再次输入密码"
+msgid "Press submit button to remove selected catchall from catch-all list"
+msgstr ""
 
-#, fuzzy
+msgid "Press submit button to remove selected members from member list"
+msgstr ""
+
+msgid "Prevent duplicates"
+msgstr ""
+
+msgid "Project ID"
+msgstr ""
+
+msgid "Question"
+msgstr ""
+
+msgid "Queue Code"
+msgstr ""
+
+msgid "Queue has been removed"
+msgstr ""
+
+msgid "Queued on SMSC"
+msgstr ""
+
+msgid "RSS 0.91 output"
+msgstr ""
+
+msgid "RSS 1.0 output"
+msgstr ""
+
+msgid "RSS 2.0 output"
+msgstr ""
+
+msgid "RSS ATOM output"
+msgstr ""
+
+msgid "Rate"
+msgstr ""
+
+msgid "Rate already exists"
+msgstr ""
+
+msgid "Rate has been added"
+msgstr ""
+
+msgid "Rate has been deleted"
+msgstr ""
+
+msgid "Rate has been saved"
+msgstr ""
+
 msgid "Re-type password"
-msgstr "再次输入密码"
+msgstr ""
 
-#, fuzzy
-msgid "Received"
-msgstr "收件人"
+msgid "Received answer list for keyword"
+msgstr ""
 
 msgid "Receiver"
-msgstr "收件人"
+msgstr ""
 
-#, fuzzy
+msgid "Receiver number"
+msgstr ""
+
+msgid ""
+"Receiver number can be matched with default sender ID or with all approved "
+"sender ID"
+msgstr ""
+
+msgid "Receiver number does not exist"
+msgstr ""
+
 msgid "Recover password"
-msgstr "无效用户名或密码"
+msgstr ""
 
 msgid "Recover password disabled"
 msgstr ""
 
-msgid "Register an account"
+msgid "Reduce"
 msgstr ""
 
+msgid "Reduce credit"
+msgstr ""
+
+msgid "Reduce credit from users"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+#, fuzzy
+msgid "Register an account"
+msgstr "管理用户"
+
 msgid "Registered"
-msgstr "已传送的"
+msgstr ""
+
+msgid "Remote is on"
+msgstr ""
+
+msgid "Remote playSMS URL"
+msgstr ""
+
+msgid "Remote playnet SMSC name"
+msgstr ""
+
+msgid "Remote playnet password"
+msgstr ""
+
+msgid "Remote playnet username"
+msgstr ""
+
+msgid "Renew webservices token"
+msgstr ""
 
 msgid "Replace prefix 0 or padding local numbers"
 msgstr ""
@@ -656,109 +2215,583 @@ msgstr ""
 msgid "Reply"
 msgstr "回复"
 
+msgid "Reply message on correct"
+msgstr ""
+
+msgid "Reply message on incorrect"
+msgstr ""
+
+msgid "Reply message on invalid vote"
+msgstr ""
+
+msgid "Reply message on out of vote option"
+msgstr ""
+
+msgid "Reply message on valid vote"
+msgstr ""
+
+msgid "Report"
+msgstr ""
+
+msgid "Report all users"
+msgstr ""
+
+msgid "Report banned users"
+msgstr ""
+
+msgid "Report whose online"
+msgstr ""
+
+msgid "Reports"
+msgstr ""
+
 msgid "Resend"
+msgstr ""
+
+msgid "Restart Kannel"
+msgstr ""
+
+msgid "Restrict sender to regular members or catch-all members only"
+msgstr ""
+
+msgid "Result graph"
+msgstr ""
+
+msgid "Result table"
+msgstr ""
+
+msgid "Return"
+msgstr ""
+
+msgid "Route"
+msgstr ""
+
+msgid "Route SMS outgoing"
+msgstr ""
+
+msgid "Route all sandbox SMS to users"
+msgstr ""
+
+msgid "Route all sandbox SMS with matched sender ID"
+msgstr ""
+
+msgid "Route has been added"
+msgstr ""
+
+msgid "Route has been deleted"
+msgstr ""
+
+msgid "Route has been saved"
+msgstr ""
+
+msgid "Route incoming SMS"
+msgstr ""
+
+msgid "Route outgoing SMS"
+msgstr ""
+
+msgid "Route to user inbox if receiver number matched with user sender ID"
+msgstr ""
+
+msgid "Routed SMSC"
+msgstr ""
+
+msgid "Row template"
+msgstr ""
+
+msgid "Rules applied after incoming SMS processed"
+msgstr ""
+
+msgid "Rules applied before incoming SMS processed"
 msgstr ""
 
 msgid "SMS"
 msgstr ""
 
-msgid "SMS character"
-msgstr "短信字符"
+msgid "SMS Board"
+msgstr ""
+
+msgid "SMS Sync configuration has been saved"
+msgstr ""
+
+msgid "SMS autoreply has been deleted"
+msgstr ""
+
+msgid "SMS autoreply has been updated"
+msgstr ""
+
+msgid "SMS autoreply keyword"
+msgstr ""
+
+msgid "SMS autoreply keyword has been added"
+msgstr ""
+
+msgid "SMS autoreply scenario has been added"
+msgstr ""
+
+msgid "SMS autoreply scenario has been deleted"
+msgstr ""
+
+msgid "SMS autoreply scenario has been edited"
+msgstr ""
+
+msgid "SMS autoreply scenario parameter"
+msgstr ""
+
+msgid "SMS autoreply scenario replies with"
+msgstr ""
+
+msgid "SMS board from"
+msgstr ""
+
+msgid "SMS board has been added"
+msgstr ""
+
+msgid "SMS board has been saved"
+msgstr ""
+
+msgid "SMS board keyword"
+msgstr ""
+
+msgid "SMS board with all its messages has been deleted"
+msgstr ""
+
+msgid "SMS command already exists, reserved or use by other feature"
+msgstr ""
+
+msgid "SMS command exec"
+msgstr ""
+
+msgid "SMS command exec path"
+msgstr ""
+
+msgid "SMS command has been added"
+msgstr ""
+
+msgid "SMS command has been deleted"
+msgstr ""
+
+msgid "SMS command has been saved"
+msgstr ""
+
+msgid "SMS command keyword"
+msgstr ""
+
+msgid "SMS custom URL"
+msgstr ""
+
+msgid "SMS custom already exists, reserved or use by other feature"
+msgstr ""
+
+#, fuzzy
+msgid "SMS custom has been added"
+msgstr "主要构造"
+
+msgid "SMS custom has been deleted"
+msgstr ""
+
+msgid "SMS custom has been saved"
+msgstr ""
+
+msgid "SMS custom keyword"
+msgstr ""
 
 msgid "SMS footer"
-msgstr "短信页脚"
+msgstr ""
 
-#, fuzzy
-msgid "SMS from"
-msgstr "短信页脚"
+msgid "SMS forward parameter"
+msgstr ""
 
-msgid "SMS sender ID"
-msgstr "短信发件人"
+msgid "SMS has been sent to valid numbers in uploaded file"
+msgstr ""
 
-#, fuzzy
-msgid "SMS to email"
-msgstr "转发邮件页脚"
+msgid "SMS keyword already exists, reserved or use by other feature"
+msgstr ""
+
+msgid "SMS messages list for keyword"
+msgstr ""
+
+msgid "SMS poll access code"
+msgstr ""
+
+msgid "SMS poll access code used mainly by webservices"
+msgstr ""
+
+msgid "SMS poll already exists, reserved or use by other feature"
+msgstr ""
+
+msgid "SMS poll choice and all its voters has been deleted"
+msgstr ""
+
+msgid "SMS poll has been added"
+msgstr ""
+
+msgid "SMS poll has been saved"
+msgstr ""
+
+msgid "SMS poll keyword"
+msgstr ""
+
+msgid "SMS poll status has been changed"
+msgstr ""
+
+msgid "SMS poll title"
+msgstr ""
+
+msgid "SMS poll with all its messages has been deleted"
+msgstr ""
+
+msgid "SMS quiz already exists, reserved or use by other feature"
+msgstr ""
+
+msgid "SMS quiz answer"
+msgstr ""
+
+msgid "SMS quiz answer messages have been deleted"
+msgstr ""
+
+msgid "SMS quiz has been added"
+msgstr ""
+
+msgid "SMS quiz has been saved"
+msgstr ""
+
+msgid "SMS quiz keyword"
+msgstr ""
+
+msgid "SMS quiz question"
+msgstr ""
+
+msgid "SMS quiz status has been changed"
+msgstr ""
+
+msgid "SMS quiz with all its messages has been deleted"
+msgstr ""
+
+msgid "SMS schedule been saved"
+msgstr ""
+
+msgid "SMS schedule has been deleted"
+msgstr ""
+
+msgid "SMS schedule has been disabled"
+msgstr ""
+
+msgid "SMS schedule has been enabled"
+msgstr ""
+
+msgid "SMS subscribe already exists, reserved or use by other feature"
+msgstr ""
+
+msgid "SMS subscribe has been added"
+msgstr ""
+
+msgid "SMS subscribe has been saved"
+msgstr ""
+
+msgid "SMS subscribe keyword"
+msgstr ""
+
+msgid "SMS subscribe parameter"
+msgstr ""
+
+msgid "SMS subscribe reply"
+msgstr ""
+
+msgid "SMS subscribe status has been changed"
+msgstr ""
+
+msgid "SMS subscribe with all its messages and members has been deleted"
+msgstr ""
+
+msgid "SMS unsubscribe parameter"
+msgstr ""
+
+msgid "SMS unsubscribe reply"
+msgstr ""
+
+msgid "SMSC"
+msgstr ""
+
+msgid "SMSC already exists"
+msgstr ""
+
+msgid "SMSC has been edited"
+msgstr ""
+
+msgid "SMSC has been removed"
+msgstr ""
+
+msgid "SMSC name"
+msgstr ""
+
+msgid "SMSCs"
+msgstr ""
 
 msgid "Sandbox"
 msgstr ""
 
 msgid "Save"
-msgstr "保存"
+msgstr ""
 
-msgid "Save template"
-msgstr "保存模版"
+msgid "Scan incoming SMS for #groupcode"
+msgstr ""
+
+msgid "Scan incoming SMS for @username"
+msgstr ""
 
 msgid "Schedule"
 msgstr ""
 
-msgid "Search"
+msgid "Schedule ID"
 msgstr ""
 
 #, fuzzy
-msgid "Select"
-msgstr "选择行为"
+msgid "Schedule messages"
+msgstr "发送为非代码信息"
 
-msgid "Select action"
-msgstr "选择行为"
+msgid "Schedule name"
+msgstr ""
 
-msgid "Selected incoming SMS has been deleted"
-msgstr "选择的收到的短信已删除"
+msgid "Schedule rule"
+msgstr ""
+
+msgid "Scheduled"
+msgstr ""
 
 #, fuzzy
+msgid "Scheduled message"
+msgstr "发送为非代码信息"
+
+msgid "Search"
+msgstr ""
+
+msgid "Secret key"
+msgstr ""
+
+msgid "Secret key is used in SMSSync app"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Select no if the incoming SMS time is in UTC"
+msgstr ""
+
+#, fuzzy
+msgid "Select username"
+msgstr "删除"
+
+#, fuzzy
+msgid "Select users"
+msgstr "删除"
+
+msgid "Selected catchall"
+msgstr ""
+
+msgid "Selected contact has been deleted"
+msgstr ""
+
+msgid "Selected contact moved to new group"
+msgstr ""
+
+msgid "Selected group has been deleted"
+msgstr ""
+
 msgid "Selected incoming message has been deleted"
-msgstr "选择的收到的短信已删除"
+msgstr ""
+
+msgid "Selected members"
+msgstr ""
 
 msgid "Selected message template has been deleted"
-msgstr "选择的信息模版已被删除"
+msgstr ""
 
-msgid "Selected outgoing SMS has been deleted"
-msgstr "选择的发送短信已被删除"
+msgid "Selected outgoing message has been deleted"
+msgstr ""
+
+msgid "Selected transactions has been deleted"
+msgstr ""
 
 #, fuzzy
-msgid "Selected outgoing message has been deleted"
-msgstr "选择的发送短信已被删除"
+msgid "Selected users"
+msgstr "删除"
 
 msgid "Send"
-msgstr "发送"
+msgstr ""
 
-msgid "Send SMS"
-msgstr "发送短信"
+msgid "Send SMS from remote using local username"
+msgstr ""
 
-msgid "Send as flash message"
-msgstr "发送为瞬时信息"
+msgid "Send SMS hostname or IP"
+msgstr ""
 
-msgid "Send as unicode message"
-msgstr "发送为非代码信息"
+msgid "Send SMS port"
+msgstr ""
 
-msgid "Send broadcast SMS"
-msgstr "发送广播短信"
+msgid "Send SMS to groups with found group codes in the incoming SMS"
+msgstr ""
 
-#, fuzzy
-msgid "Send message"
-msgstr "发送为非代码信息"
+msgid "Send SMS to valid entries"
+msgstr ""
+
+msgid "Send from file"
+msgstr ""
+
+msgid "Send from file has been cancelled"
+msgstr ""
+
+msgid "Send message failed due to insufficient funds"
+msgstr ""
+
+msgid "Send message failed due to unable to create queue"
+msgstr ""
+
+#, php-format
+msgid "Send message failed due to unable to prepare queue %s"
+msgstr ""
+
+#, php-format
+msgid "Send message to %s in queue %s has failed"
+msgstr ""
+
+msgid "Send this message to all members"
+msgstr ""
 
 msgid "Send to"
-msgstr "发送到"
-
-msgid "Send to group"
-msgstr "发送至群"
+msgstr ""
 
 msgid "Sender"
-msgstr "发件人"
+msgstr ""
+
+#, fuzzy
+msgid "Sender ID"
+msgstr "短信发件人"
+
+msgid "Sender ID description has been added"
+msgstr ""
+
+msgid "Sender ID description has been updated"
+msgstr ""
+
+msgid "Sender ID has been added and waiting for approval"
+msgstr ""
+
+msgid "Sender ID has been removed"
+msgstr ""
+
+msgid "Sender ID is not available"
+msgstr ""
+
+msgid "Sender ID is now approved"
+msgstr ""
+
+msgid "Sender ID is now disabled"
+msgstr ""
+
+msgid "Senders sent multi votes"
+msgstr ""
+
+msgid "Senders sent multiple votes"
+msgstr ""
+
+msgid "Senders sent once"
+msgstr ""
 
 msgid "Sent"
-msgstr "已发送的"
+msgstr ""
+
+msgid "Separate by comma for multiple destinations"
+msgstr ""
+
+msgid "Separate with comma for multiple items"
+msgstr ""
+
+msgid "Set as default"
+msgstr ""
+
+msgid ""
+"Set credit value bigger than 0 to set credit lowest limit that will trigger "
+"notification"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Share phonebook and allow broadcast"
+msgstr ""
+
+msgid ""
+"Share this phonebook group and set permission for broadcasting SMS to this "
+"group from mobile phone"
+msgstr ""
+
+msgid "Simulate incoming SMS"
+msgstr ""
+
+#, fuzzy
+msgid "Site configuration"
+msgstr "主要构造"
+
+msgid "Site configuration has been saved"
+msgstr ""
 
 msgid "State or Province"
-msgstr "州或省"
+msgstr ""
+
+msgid "Statistics"
+msgstr ""
 
 msgid "Status"
-msgstr "状态"
+msgstr ""
 
 msgid "Submit"
 msgstr ""
 
+msgid "Subscribe duration"
+msgstr ""
+
+msgid "Subscription expired reply"
+msgstr ""
+
+msgid "Subuser"
+msgstr ""
+
+msgid "Subuser ACL"
+msgstr ""
+
+#, fuzzy
+msgid "Subusers"
+msgstr "管理用户"
+
+msgid "Supplied SMSC"
+msgstr ""
+
+msgid "Sync URL"
+msgstr ""
+
+msgid "System error has occured"
+msgstr ""
+
+msgid "Tags"
+msgstr ""
+
+msgid "Telerivet URL"
+msgstr ""
+
+msgid "Template installation path"
+msgstr ""
+
+msgid "The domain is already configured by other user"
+msgstr ""
+
+msgid "Themes"
+msgstr ""
+
 msgid "This field is required"
+msgstr ""
+
+msgid "This is a test incoming SMS message"
 msgstr ""
 
 msgid ""
@@ -766,27 +2799,85 @@ msgid ""
 msgstr ""
 
 msgid "Time"
-msgstr "时间"
+msgstr ""
 
 msgid "Timezone"
-msgstr "时间"
+msgstr ""
+
+msgid "Title"
+msgstr ""
 
 msgid "To"
 msgstr ""
 
-msgid "Tools"
+msgid "Total"
+msgstr ""
+
+msgid "Total invalid SMS"
+msgstr ""
+
+msgid "Total multiple votes SMS"
+msgstr ""
+
+msgid "Total one time vote SMS"
+msgstr ""
+
+msgid "Total valid SMS"
+msgstr ""
+
+msgid "Transaction datetime"
+msgstr ""
+
+msgid "Try to disable SMS footer on master"
+msgstr ""
+
+msgid "Twilio URL"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "URL to playSMS, empty it to set it to base URL"
+msgstr ""
+
+msgid "URLs"
 msgstr ""
 
 #, fuzzy
-msgid "Unable to ban user"
-msgstr "不能更新登陆会话"
+msgid "Unable to ban account"
+msgstr "管理用户"
 
 #, fuzzy
-msgid "Unable to unban user"
+msgid "Unable to ban subuser"
+msgstr "管理用户"
+
+msgid "Unable to delete group until the group is empty"
+msgstr ""
+
+#, fuzzy
+msgid "Unable to delete other users"
 msgstr "不能更新登陆会话"
 
-msgid "Unable to update login session"
-msgstr "不能更新登陆会话"
+msgid ""
+"Unable to delete this user until all subusers under this user have been "
+"removed"
+msgstr ""
+
+msgid "Unable to login"
+msgstr ""
+
+msgid "Unable to process subuser addition"
+msgstr ""
+
+msgid "Unable to process user addition"
+msgstr ""
+
+#, fuzzy
+msgid "Unable to unban account"
+msgstr "管理用户"
+
+msgid "Unable to unban subuser"
+msgstr ""
 
 msgid "Unban"
 msgstr ""
@@ -795,27 +2886,38 @@ msgstr ""
 msgid "Unicode message"
 msgstr "发送为非代码信息"
 
+msgid "Unknown error"
+msgstr ""
+
 msgid "Unknown error has occurred"
 msgstr ""
 
-msgid "Unpublish"
+msgid "Unknown format reply"
 msgstr ""
 
-msgid "Use"
-msgstr "用户"
+msgid "Unlimited"
+msgstr ""
 
-msgid "Use template"
-msgstr "使用模版"
+msgid "Upload file"
+msgstr ""
+
+msgid "Uploaded file"
+msgstr ""
+
+msgid "Use JSON format URL"
+msgstr ""
+
+msgid "Use SSL"
+msgstr ""
 
 msgid "User"
-msgstr "用户"
-
-msgid "User admin or currently logged in administrator cannot be unbanned"
 msgstr ""
 
-#, fuzzy
-msgid "User already exists"
-msgstr "用户已存在"
+msgid "User ID"
+msgstr ""
+
+msgid "User agent"
+msgstr ""
 
 #, fuzzy
 msgid "User configuration"
@@ -823,253 +2925,423 @@ msgstr "主要构造"
 
 #, fuzzy
 msgid "User configuration has been saved"
-msgstr "主要构造变化已被保存"
+msgstr "主要构造"
 
-#, fuzzy
-msgid "User configuration has been saved and password updated"
-msgstr "偏好已被保存且密码已更新"
-
-#, fuzzy
 msgid "User configuration has been saved and webservices token updated"
-msgstr "偏好已被保存且密码已更新"
+msgstr ""
 
-#, fuzzy
-msgid "User does not exists"
-msgstr "用户已存在"
+msgid "User deletion unavailable"
+msgstr ""
 
-msgid "User has been added"
-msgstr "用户已添加"
+msgid "User does not exist"
+msgstr ""
 
-#, fuzzy
-msgid "User has been added and password has been emailed"
-msgstr "用户已被删除"
+msgid "User is already on banned subusers list"
+msgstr ""
 
-#, fuzzy
-msgid "User has been added but failed to send email"
-msgstr "用户已被删除"
-
-#, fuzzy
-msgid "User has been banned"
-msgstr "用户已添加"
-
-msgid "User has been deleted"
-msgstr "用户已被删除"
-
-#, fuzzy
-msgid "User has been removed"
-msgstr "用户已被删除"
-
-#, fuzzy
-msgid "User has been unbanned"
-msgstr "用户已添加"
-
-msgid "User is already exists"
-msgstr "用户已存在"
-
-#, fuzzy
 msgid "User is already on banned users list"
-msgstr "用户已存在"
+msgstr ""
 
 msgid "User is immune to deletion"
-msgstr "用户删除无效"
+msgstr ""
+
+msgid "User is not on banned subusers list"
+msgstr ""
 
 msgid "User is not on banned users list"
 msgstr ""
-
-msgid "User level"
-msgstr "用户等级"
 
 #, fuzzy
 msgid "User preference"
 msgstr "偏好"
 
-#, fuzzy
-msgid "User with this email is already exists"
-msgstr "用户已存在"
-
-#, fuzzy
-msgid "User with this mobile is already exists"
-msgstr "用户已存在"
-
 msgid "Username"
-msgstr "用户名"
+msgstr ""
 
-#, fuzzy
-msgid "Username is empty"
-msgstr "用户名"
+#, php-format
+msgid "Username %s with account ID %d has made a succesfull PayPal payment"
+msgstr ""
 
-msgid "Username should be at least 3 characters"
+#, php-format
+msgid "Username %s with account ID %d has reached lowest credit limit of %s"
+msgstr ""
+
+#, php-format
+msgid "Username must be at least 3 characters and maximum %d characters"
+msgstr ""
+
+msgid "Username or email"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "Valid"
 msgstr ""
 
 msgid "Valid characters for username are alphabets, numbers, dot or dash"
 msgstr ""
 
+msgid "Valid entries"
+msgstr ""
+
+msgid "Verify captcha"
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
 msgid "View"
 msgstr "查看"
 
-#, fuzzy
-msgid "View administrator"
-msgstr "管理员"
+msgid "View SMS queue"
+msgstr ""
 
-#, fuzzy
-msgid "View administrators"
-msgstr "管理员"
-
-msgid "View groups"
+msgid "View board"
 msgstr ""
 
 #, fuzzy
-msgid "View normal user"
-msgstr "一般用户"
+msgid "View log"
+msgstr "查看"
 
-#, fuzzy
-msgid "View normal users"
-msgstr "一般用户"
-
-#, fuzzy
-msgid "View numbers"
-msgstr "电话号码"
-
-msgid "Webapp Token"
-msgstr ""
-
-msgid "Webapp token"
-msgstr ""
-
-msgid "Webservices"
+msgid "View members"
 msgstr ""
 
 #, fuzzy
+msgid "View messages"
+msgstr "发送为非代码信息"
+
+msgid "View report"
+msgstr ""
+
+msgid "Vote option"
+msgstr ""
+
+msgid "Webservice token"
+msgstr ""
+
+msgid "Webservice username"
+msgstr ""
+
 msgid "Webservices IP range"
-msgstr "网站名称"
+msgstr ""
 
-#, fuzzy
+msgid "Webservices links"
+msgstr ""
+
 msgid "Webservices token"
-msgstr "网站名称"
+msgstr ""
 
-#, fuzzy
 msgid "Webservices username"
-msgstr "网站名称"
+msgstr ""
+
+msgid "Website URL"
+msgstr ""
 
 msgid "Website email"
-msgstr "网站邮件"
+msgstr ""
 
 msgid "Website title"
-msgstr "网站名称"
+msgstr ""
 
-msgid "Welcome to playSMS"
+msgid "Weekly"
+msgstr ""
+
+msgid "Welcome information"
+msgstr ""
+
+msgid "Whose online"
+msgstr ""
+
+msgid "Wrong amount or user does not exist"
+msgstr ""
+
+msgid "XML output"
+msgstr ""
+
+msgid "Yes"
 msgstr ""
 
 msgid "You have been logged out"
-msgstr "你已注销"
+msgstr ""
 
 msgid "You have no access to this page"
-msgstr "你无法访问这一页"
+msgstr ""
+
+msgid "You have no member"
+msgstr ""
+
+#, php-format
+msgid "You have reached lowest credit limit of %s"
+msgstr ""
 
 msgid "You must fill all field"
-msgstr "你必须添满全部空白"
+msgstr ""
 
 msgid "You must fill all fields"
-msgstr "你必须填写全部空白"
+msgstr ""
 
-#, fuzzy
+msgid "You must fill all mandatory fields"
+msgstr ""
+
 msgid "You must fill all required fields"
-msgstr "你必须填写全部空白"
+msgstr ""
+
+msgid "You must fill mandatory fields"
+msgstr ""
+
+msgid "You must fill required fields"
+msgstr ""
 
 msgid "You must select receiver and your message should not be empty"
-msgstr "你必须选择收件人并且你的信息不能为空"
-
-msgid "You must select receiver group and your message should not be empty"
-msgstr "你必须选择收件群并且你的信息不能为空"
+msgstr ""
 
 msgid "You or someone else have requested a password recovery"
 msgstr ""
 
+msgid "Your DLR URL is"
+msgstr ""
+
 msgid "Your SMS has been delivered to queue"
-msgstr "你的短信已在发送序列中"
+msgstr ""
+
+msgid "Your callback URL is"
+msgstr ""
+
+msgid "Your callback URL should be accessible from Bulksms"
+msgstr ""
+
+msgid "Your callback URL should be accessible from Clickatell"
+msgstr ""
+
+msgid "Your callback URL should be accessible from Generic"
+msgstr ""
+
+msgid "Your callback URL should be accessible from Infobip"
+msgstr ""
+
+msgid "Your callback URL should be accessible from Jasmin"
+msgstr ""
+
+msgid "Your callback URL should be accessible from Nexmo"
+msgstr ""
+
+msgid "Your callback URL should be accessible from OpenVox"
+msgstr ""
+
+msgid "Your callback URL should be accessible from twilio"
+msgstr ""
+
+msgid "Your choice"
+msgstr ""
+
+msgid "Your credit"
+msgstr ""
+
+msgid "Your current callback URL is"
+msgstr ""
 
 msgid "Your email format is invalid"
 msgstr ""
 
-msgid "Your message"
-msgstr "你的信息"
-
-#, fuzzy
 msgid "Your message has been delivered to queue"
-msgstr "你的短信已在发送序列中"
+msgstr ""
+
+msgid "Your message has been delivered to some of the destinations"
+msgstr ""
 
 msgid "Your mobile format is invalid"
 msgstr ""
 
+#, php-format
+msgid ""
+"Your subuser with username %s and account ID %d has reached lowest credit "
+"limit of %s"
+msgstr ""
+
 msgid "Zipcode"
-msgstr "邮政编码"
+msgstr ""
+
+msgid "amount"
+msgstr ""
+
+msgid "balance"
+msgstr ""
+
+msgid "blocked"
+msgstr ""
 
 msgid "chars"
 msgstr ""
 
+msgid "code"
+msgstr ""
+
+msgid "correct"
+msgstr ""
+
+msgid "cost"
+msgstr ""
+
+msgid "count"
+msgstr ""
+
+msgid "create an account to send SMS"
+msgstr ""
+
+msgid "destination"
+msgstr ""
+
+msgid "destination number, message"
+msgstr ""
+
+msgid "destination number, message, username"
+msgstr ""
+
+msgid "domain"
+msgstr ""
+
 msgid "email"
-msgstr "电子邮件"
+msgstr ""
 
 msgid "failed"
-msgstr "发送失败"
+msgstr ""
 
-msgid "format YYYY-MM-DD hh:mm"
+msgid "for subuser only"
+msgstr ""
+
+msgid "format"
+msgstr ""
+
+msgid "free credits are available for testing purposes"
 msgstr ""
 
 #, fuzzy
-msgid "forward"
-msgstr "转发邮件页脚"
-
-msgid "from"
-msgstr "来自"
-
-msgid "generated on user creation"
-msgstr ""
+msgid "group"
+msgstr "群"
 
 msgid "handled"
-msgstr "已处理的"
+msgstr ""
+
+msgid "incorrect"
+msgstr ""
+
+msgid "index.php?app=main&inc=feature_credit&op=actions&go=add"
+msgstr ""
+
+msgid "index.php?app=main&inc=feature_credit&op=actions&go=reduce"
+msgstr ""
+
+msgid "invalid entries"
+msgstr ""
+
+msgid "keyword"
+msgstr ""
 
 msgid "mobile"
-msgstr "手机"
+msgstr ""
+
+msgid "msgtoolbox URL"
+msgstr ""
+
+msgid "multiple times"
+msgstr ""
 
 msgid "no"
 msgstr ""
 
-msgid "not set"
-msgstr "为设置"
+msgid "of"
+msgstr ""
 
-msgid "number"
-msgstr "号码"
+msgid "on"
+msgstr ""
 
-msgid "prefix with # for groups and @ for users"
+msgid "one time"
+msgstr ""
+
+msgid "one time every 24 hours"
+msgstr ""
+
+msgid "one time every month"
+msgstr ""
+
+msgid "one time every week"
+msgstr ""
+
+msgid "playSMS daemon is NOT running"
+msgstr ""
+
+msgid "playSMS daemon is running"
+msgstr ""
+
+msgid "playSMS daemon status"
+msgstr ""
+
+msgid "playSMS web URL"
+msgstr ""
+
+msgid "prefix"
 msgstr ""
 
 msgid "queued"
 msgstr ""
 
-#, fuzzy
-msgid "reply"
-msgstr "回复"
-
-msgid "resend"
+msgid "rate"
 msgstr ""
 
-msgid "row"
-msgstr "行"
+msgid "return"
+msgstr ""
 
-msgid "shared by"
-msgstr "被分享"
+msgid "title"
+msgstr ""
 
-msgid "to"
-msgstr "到"
+msgid "twilio is a bulk SMS provider"
+msgstr ""
+
+msgid "twilio will push DLR and incoming SMS to your callback URL"
+msgstr ""
+
+#, fuzzy
+msgid "unable to translate"
+msgstr "管理用户"
 
 msgid "unhandled"
-msgstr "未处理的"
+msgstr ""
+
+msgid "user"
+msgstr ""
 
 msgid "username"
-msgstr "用户名"
+msgstr ""
 
-msgid "version"
+msgid "valid entries"
+msgstr ""
+
+msgid "will be replaced by SMS incoming date/time"
+msgstr ""
+
+msgid "will be replaced by SMS raw message"
+msgstr ""
+
+msgid "will be replaced by command keyword"
+msgstr ""
+
+msgid "will be replaced by command parameter passed to server from SMS"
+msgstr ""
+
+msgid "will be replaced by custom keyword"
+msgstr ""
+
+msgid "will be replaced by custom parameter passed to server from SMS"
+msgstr ""
+
+msgid "will be replaced by sender number"
+msgstr ""
+
+msgid "will be replaced with the name listed in phonebook"
+msgstr ""
+
+msgid "will be replaced with the phone number listed in phonebook"
 msgstr ""
 
 msgid "yes"

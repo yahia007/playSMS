@@ -1,4 +1,4 @@
-{{ ERROR }}
+{{ DIALOG_DISPLAY }}
 <h2>{{ FORM_TITLE }}</h2>
 <form action="index.php?app=main&inc=core_user&route=user_config&op=user_config_save{{ URL_UNAME }}&view={{ VIEW }}" method=post enctype="multipart/form-data">
 {{ CSRF_FORM }}
@@ -11,28 +11,39 @@
 			<td>{{ c_username }}</td>
 		</tr>
 		<tr>
-			<td>{{ Effective SMS sender ID }}</td>
-			<td>{{ effective_sender_id }}</td>
+			<td>{{ Access Control List }}</td>
+			<td>{{ option_acl }} {{ HINT_ACL }}</td>
 		</tr>
 		<tr>
-			<td>{{ SMS sender ID }}</td>
-			<td><input type=text size=30 maxlength=16 name=up_sender value='{{ sender }}'> {{ HINT_MAX_CHARS }}</td>
+			<td>{{ Default sender ID }}</td>
+			<td><select name='up_sender'>{{ option_sender_id }}</select></td>
 		</tr>
 		<tr>
-			<td>{{ SMS footer }}</td>
-			<td><input type=text size=30 maxlength=30 name=up_footer value='{{ footer }}'> {{ HINT_MAX_ALPHANUMERIC }}</td>
+			<td>{{ Default message footer }}</td>
+			<td><input type=text maxlength=30 name=up_footer value="{{ footer }}"> {{ HINT_MAX_ALPHANUMERIC }}</td>
 		</tr>
-		{{ option_credit }}
+		<tr>
+			<td>{{ PIN }}</td>
+			<td><input type=text maxlength=4 name=up_pin value="{{ pin }}"> {{ HINT_PIN }}</td>
+		</tr>
+		<tr>
+			<td>{{ Credit }}</td>
+			<td><input type=text maxlength=14 value='{{ credit }}' readonly> {{ HINT_MANAGE_CREDIT }}</td>
+		</tr>
+		<tr>
+			<td>{{ Enable credit unicode SMS as normal SMS }}</td>
+			<td>{{ option_enable_credit_unicode }}</td>
+		</tr>
 		<tr>
 			<td>{{ Webservices username }}</td>
 			<td>{{ c_username }}</td>
 		</tr>
 		<tr>
 			<td>{{ Webservices token }}</td>
-			<td><input type=text size=30 value='{{ token }}' disabled></td>
+			<td><input type=text value='{{ token }}' readonly></td>
 		</tr>
 		<tr>
-			<td>{{ New webservices token }}</td>
+			<td>{{ Renew webservices token }}</td>
 			<td><select name='up_new_token'>{{ option_new_token }}</select></td>
 		</tr>
 		<tr>
@@ -41,7 +52,7 @@
 		</tr>
 		<tr>
 			<td>{{ Webservices IP range }}</td>
-			<td><input type=text size=30 maxlength=100 name=up_webservices_ip value='{{ webservices_ip }}'> {{ HINT_COMMA_SEPARATED }}</td>
+			<td><input type=text maxlength=100 name=up_webservices_ip value='{{ webservices_ip }}'> {{ HINT_COMMA_SEPARATED }}</td>
 		</tr>
 		<tr>
 			<td>{{ Active language }}</td>
@@ -70,18 +81,6 @@
 		<tr>
 			<td>{{ Prefix or country code }}</td>
 			<td><input type=text size=5 maxlength=5 name='up_replace_zero' value='{{ replace_zero }}'> {{ HINT_REPLACE_ZERO }}</td>
-		</tr>
-		<tr>
-			<td>{{ Auto remove plus sign }}</td>
-			<td><select name='up_plus_sign_remove'>{{ option_plus_sign_remove }}</select></td>
-		</tr>
-		<tr>
-			<td>{{ Always add plus sign }}</td>
-			<td><select name='up_plus_sign_add'>{{ option_plus_sign_add }}</select></td>
-		</tr>
-		<tr>
-			<td>{{ Always choose to send as unicode }}</td>
-			<td><select name='up_send_as_unicode'>{{ option_send_as_unicode }}</select></td>
 		</tr>
 	</tbody>
 </table>

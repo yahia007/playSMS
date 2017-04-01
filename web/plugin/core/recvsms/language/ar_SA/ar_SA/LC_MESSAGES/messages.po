@@ -1,0 +1,14 @@
+msgid "From"
+msgstr ""
+
+msgid "Message from"
+msgstr ""
+
+msgid "Message received at"
+msgstr ""
+
+msgid "New inbox from"
+msgstr ""
+
+msgid "on"
+msgstr ""

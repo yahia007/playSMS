@@ -1,0 +1,5 @@
+#~ msgid "Logged in as"
+#~ msgstr "  "
+
+#~ msgid "Logout"
+#~ msgstr " "

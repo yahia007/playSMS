@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-29 17:59+0700\n"
+"POT-Creation-Date: \n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
@@ -150,7 +150,7 @@ msgstr ""
 msgid "Receiver number"
 msgstr "Empfängernummer"
 
-msgid "Receiver number does not exists"
+msgid "Receiver number does not exist"
 msgstr "Empfängernummer existiert nicht"
 
 msgid "Restrict sender to regular members or catch-all members only"
@@ -168,7 +168,7 @@ msgstr "Ausgewählte Mitglieder"
 msgid "Selected users"
 msgstr "Ausgewählte Benutzer"
 
-msgid "Seperate with comma for multiple items"
+msgid "Separate with comma for multiple items"
 msgstr "Mit Komma trennen für mehrere Objekte"
 
 msgid "Status"

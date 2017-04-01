@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-29 17:59+0700\n"
+"POT-Creation-Date: \n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
@@ -32,9 +32,6 @@ msgstr ""
 msgid "Forward"
 msgstr ""
 
-msgid "Forward WebSMS"
-msgstr ""
-
 msgid "Forward to email"
 msgstr ""
 
@@ -51,7 +48,7 @@ msgid "MBOX output"
 msgstr ""
 
 msgid "Manage board"
-msgstr "Manage board"
+msgstr ""
 
 msgid "Message"
 msgstr ""
@@ -78,6 +75,9 @@ msgid "Row template"
 msgstr ""
 
 msgid "SMS Board"
+msgstr ""
+
+msgid "SMS board from"
 msgstr ""
 
 msgid "SMS board has been added"
@@ -111,9 +111,6 @@ msgid "XML output"
 msgstr ""
 
 msgid "You must fill all fields"
-msgstr ""
-
-msgid "from"
 msgstr ""
 
 msgid "keyword"

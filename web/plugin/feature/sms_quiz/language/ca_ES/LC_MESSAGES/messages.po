@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-29 17:59+0700\n"
+"POT-Creation-Date: \n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
@@ -57,7 +57,7 @@ msgstr ""
 msgid "SMS quiz answer"
 msgstr ""
 
-msgid "SMS quiz answer messages has been deleted"
+msgid "SMS quiz answer messages have been deleted"
 msgstr ""
 
 msgid "SMS quiz has been added"
@@ -76,6 +76,9 @@ msgid "SMS quiz status has been changed"
 msgstr ""
 
 msgid "SMS quiz with all its messages has been deleted"
+msgstr ""
+
+msgid "SMSC"
 msgstr ""
 
 msgid "Save"

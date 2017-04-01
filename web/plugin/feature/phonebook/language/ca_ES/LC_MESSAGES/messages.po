@@ -4,6 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
+"POT-Creation-Date: \n"
 "PO-Revision-Date: 2014-03-25 14:47+0100\n"
 "Last-Translator: Joan <aseques@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -23,11 +24,11 @@ msgstr "Afegir contacte"
 msgid "Add group"
 msgstr "Afegir grup"
 
-msgid "Allow broadcast from mobile"
-msgstr "Permetre difusió des de mòbil"
-
 msgid "Anyone"
 msgstr "Qualsevol"
+
+msgid "CSV file format"
+msgstr ""
 
 msgid "Contact has been added"
 msgstr "El contacte s'ha afegit"
@@ -35,7 +36,7 @@ msgstr "El contacte s'ha afegit"
 msgid "Contact has been edited"
 msgstr "El contacte s'ha editat"
 
-msgid "Contacts has been imported"
+msgid "Contacts have been imported"
 msgstr "Els contactes s'han importat"
 
 msgid "Delete"
@@ -62,17 +63,21 @@ msgstr "Grup"
 msgid "Group code"
 msgstr "Codi grup"
 
+msgid "Group code already exists"
+msgstr "El codi de grup ja existeix"
+
 msgid "Group code has been added"
 msgstr "S'ha afegit el codi de grup"
 
-msgid "Group code is already exists"
-msgstr "El codi de grup ja existeix"
-
-msgid "Group code used by keyword"
-msgstr "Codi de grup funciona amb paraula clau"
+msgid "Group code may be used to broadcast SMS to this group"
+msgstr ""
 
 msgid "Group has been edited"
 msgstr "El grup s'ha editat"
+
+msgid ""
+"Group has been edited but unable to set broadcast from members or anyone"
+msgstr ""
 
 msgid "Group name"
 msgstr "Nom del grup"
@@ -98,20 +103,32 @@ msgstr "Mòbil"
 msgid "Move to"
 msgstr "Moure a"
 
+msgid "Multiple entries separated by space"
+msgstr ""
+
 msgid "Name"
 msgstr "Nom"
 
-msgid "No changes has been made"
+msgid "No changes have been made"
 msgstr "No s'han fet canvis"
 
-msgid "Note"
-msgstr "Nota"
+#, fuzzy
+msgid "No group"
+msgstr "grup"
 
 msgid "Phonebook"
 msgstr "Agenda"
 
 msgid "Please select CSV file for phonebook entries"
 msgstr "Si us plau trieu el fitxer CSV per les entrades de l'agenda"
+
+#, fuzzy
+msgid "Please use alphanumeric only and make it short"
+msgstr "si us plau feu servir majúscules i un nom curt"
+
+#, fuzzy
+msgid "Please use uppercase and make it short"
+msgstr "si us plau feu servir majúscules i un nom curt"
 
 msgid "Save"
 msgstr "Guardar"
@@ -128,6 +145,18 @@ msgstr "El contacte marcat s'ha mogut a un nou grup"
 msgid "Selected group has been deleted"
 msgstr "El grup marcat s'ha esborrat"
 
+msgid "Share phonebook and allow broadcast"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Share this phonebook group and set permission for broadcasting SMS to this "
+"group from mobile phone"
+msgstr "تعيين صلاحيات إرسال رسالة جماعية لعناصر هذه المجموعة من رقم الجوال"
+
+msgid "Tags"
+msgstr ""
+
 msgid "Unable to delete group until the group is empty"
 msgstr "No es pot esborrar el grup fins que sigui buit"
 
@@ -140,17 +169,14 @@ msgstr "Heu d'omplir tots els camps obligatoris"
 msgid "You must fill required fields"
 msgstr "Heu d'omplir tots els camps requerits"
 
-msgid "broadcast SMS from single SMS"
-msgstr "distribuir SMS a partir d'un SMS"
-
 msgid "code"
 msgstr "codi"
-
-msgid "format"
-msgstr "format"
 
 msgid "group"
 msgstr "grup"
 
-msgid "please use uppercase and make it short"
-msgstr "si us plau feu servir majúscules i un nom curt"
+msgid " "
+msgstr ""
+
+msgid "  "
+msgstr ""

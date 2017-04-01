@@ -12,46 +12,233 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 
-msgid "About"
-msgstr "О программе"
+msgid " "
+msgstr ""
 
-msgid "About playSMS"
-msgstr "О playSMS"
+msgid "  "
+msgstr ""
+
+msgid "     "
+msgstr ""
+
+msgid "1 Day"
+msgstr ""
+
+msgid "1 Month"
+msgstr ""
+
+msgid "1 Week"
+msgstr ""
+
+msgid "2 Days"
+msgstr ""
+
+msgid "2 Weeks"
+msgstr ""
+
+msgid "6 Months"
+msgstr ""
+
+msgid "ACL"
+msgstr ""
+
+msgid "ACL DEFAULT will not restrict access to menus"
+msgstr ""
+
+msgid "ACL ID"
+msgstr ""
+
+msgid "ACL been edited"
+msgstr ""
+
+msgid "ACL has been deleted"
+msgstr ""
+
+msgid "ACL name"
+msgstr ""
+
+msgid "API ID"
+msgstr ""
+
+msgid "API key"
+msgstr ""
+
+msgid "API password"
+msgstr ""
+
+msgid "API secret"
+msgstr ""
+
+#, fuzzy
+msgid "API username"
+msgstr "Удалить пользователя"
+
+msgid "Access Control List"
+msgstr ""
+
+msgid ""
+"Access to unknown domain mapped to this server IP address will be redirected "
+"to this website URL. This website URL should be the primary address for the "
+"service."
+msgstr ""
+
+#, php-format
+msgid "Account %s is currently banned to use services"
+msgstr ""
+
+msgid "Account SID"
+msgstr ""
+
+msgid "Account admin or currently logged in administrator cannot be banned"
+msgstr ""
+
+msgid "Account admin or currently logged in administrator cannot be unbanned"
+msgstr ""
+
+msgid "Account already exists"
+msgstr ""
+
+msgid "Account has been added and password has been emailed"
+msgstr ""
+
+msgid "Account has been added but failed to send email"
+msgstr ""
+
+msgid "Account has been banned"
+msgstr ""
+
+msgid "Account has been removed"
+msgstr ""
+
+msgid "Account has been unbanned"
+msgstr ""
+
+msgid "Account name is mandatory"
+msgstr ""
+
+msgid "Account registration is not available"
+msgstr ""
+
+msgid "Account status"
+msgstr ""
+
+msgid "Account with this email already exists"
+msgstr ""
+
+msgid "Account with this mobile already exists"
+msgstr ""
 
 msgid "Action"
-msgstr "Действие"
-
-msgid "Active gateway module"
-msgstr "Активный шлюз"
+msgstr ""
 
 msgid "Active language"
-msgstr "Язык"
+msgstr ""
 
 msgid "Active themes"
-msgstr "Тема"
+msgstr ""
 
 msgid "Add"
 msgstr "Добавить"
 
+msgid "Add ACL"
+msgstr ""
+
+msgid "Add SMS autoreply"
+msgstr ""
+
+msgid "Add SMS autoreply scenario"
+msgstr ""
+
+msgid "Add SMS board"
+msgstr ""
+
+msgid "Add SMS command"
+msgstr ""
+
+msgid "Add SMS custom"
+msgstr ""
+
+msgid "Add SMS poll"
+msgstr ""
+
+msgid "Add SMS quiz"
+msgstr ""
+
+msgid "Add SMS schedule"
+msgstr ""
+
+msgid "Add SMS subscribe"
+msgstr ""
+
+msgid "Add SMSC"
+msgstr ""
+
 #, fuzzy
-msgid "Add administrator"
-msgstr "Администратор"
+msgid "Add account"
+msgstr "Мой профиль"
+
+msgid "Add blocked IP addresses"
+msgstr ""
+
+msgid "Add blocked mobile numbers"
+msgstr ""
+
+msgid "Add catch-all"
+msgstr ""
+
+msgid "Add choice to this poll"
+msgstr ""
+
+msgid "Add contact"
+msgstr ""
+
+msgid "Add credit"
+msgstr ""
+
+msgid "Add credit to users"
+msgstr ""
+
+msgid "Add destination"
+msgstr ""
+
+msgid "Add group"
+msgstr ""
+
+msgid "Add group inbox"
+msgstr ""
+
+msgid "Add member"
+msgstr ""
+
+#, fuzzy
+msgid "Add message"
+msgstr "Отправить сообщение"
 
 msgid "Add message template"
-msgstr "Добавить шаблон"
+msgstr ""
+
+msgid "Add or reduce credit from manage credit menu"
+msgstr ""
+
+msgid "Add rate"
+msgstr ""
+
+msgid "Add route"
+msgstr ""
 
 #, fuzzy
-msgid "Add normal user"
-msgstr "Показать пользователей"
+msgid "Add sender ID"
+msgstr "Управление именами отправителей"
 
-msgid "Add user"
-msgstr "Добавить пользователя"
+#, fuzzy
+msgid "Add subuser"
+msgstr "Управление дочерними пользователями"
+
+msgid "Additional URL parameter"
+msgstr ""
 
 msgid "Address"
-msgstr "Адрес"
-
-msgid "Administration"
-msgstr "Администрирование"
+msgstr ""
 
 msgid "Administrator"
 msgstr "Администратор"
@@ -61,347 +248,1260 @@ msgid "Administrators"
 msgstr "Администратор"
 
 msgid "All"
-msgstr "Все"
-
-msgid "All Inbox"
-msgstr "Все Принятые"
-
-msgid "All inbox"
-msgstr "Все принятые"
-
-msgid "All incoming SMS"
-msgstr "Все входящие СМС"
-
-msgid "All incoming messages"
-msgstr "Все входящие сообщения"
-
-msgid "All outgoing SMS"
-msgstr "Все исходящие СМС"
-
-msgid "All outgoing messages"
-msgstr "Все исходящие сообщения"
-
-msgid "Allow custom SMS footer"
-msgstr "Разрешить изменение подписи СМС"
-
-msgid "Allow custom sender ID"
-msgstr "Разрешить изменение имени отправителя"
-
-msgid "Always add plus sign"
-msgstr "Всегда добавлять знак +"
-
-msgid "Always choose to send as unicode"
-msgstr "Юникод по умолчанию"
-
-msgid "Application information"
-msgstr "Информация о приложении"
-
-msgid "Application options"
-msgstr "Настройки приложения"
-
-#, fuzzy
-msgid "Are you sure you want to ban user"
-msgstr "Вы уверены, что хотите удалить пользователя"
-
-msgid "Are you sure you want to delete outgoing SMS ?"
-msgstr "Вы уверены, что хотите удалить исходящее СМС?"
-
-msgid "Are you sure you want to delete these items ?"
-msgstr "Вы уверены, что хотите удалить выбранное?"
-
-msgid "Are you sure you want to delete this SMS ?"
-msgstr "Вы уверены, что хотите удалить это СМС?"
-
-msgid "Are you sure you want to delete user"
-msgstr "Вы уверены, что хотите удалить пользователя"
-
-msgid "Are you sure you want to delete user ?"
-msgstr "Вы уверены, что хотите удалить пользователя?"
-
-#, fuzzy
-msgid "Are you sure you want to unban user"
-msgstr "Вы уверены, что хотите удалить пользователя"
-
-msgid "Auto remove plus sign"
-msgstr "Автоматически удалять знак +"
-
-msgid "Auto replace prefix 0"
-msgstr "Автоматически заменять префикс 0"
-
-msgid "Back"
-msgstr "Назад"
-
-msgid "Ban"
 msgstr ""
 
-msgid "Changelog"
-msgstr "Изменения"
+msgid "All feature messages"
+msgstr ""
 
-msgid "City"
-msgstr "Город"
+msgid "All inbox"
+msgstr ""
+
+msgid "All mandatory fields must be filled"
+msgstr ""
+
+msgid "All queues have been removed"
+msgstr ""
 
 #, fuzzy
-msgid "Comma separated"
-msgstr "Разделённый запятыми"
+msgid "All reports"
+msgstr "Отчёты"
 
-msgid "Comma seperated"
-msgstr "Разделённый запятыми"
+#, fuzzy
+msgid "All sent messages"
+msgstr "Отправить сообщение"
+
+#, fuzzy
+msgid "All users"
+msgstr "Удалить пользователя"
+
+msgid "Allow users to select SMS footer while on Send SMS page"
+msgstr ""
+
+msgid "Allow users to select sender ID while on Send SMS page"
+msgstr ""
+
+msgid "Already a member reply"
+msgstr ""
+
+msgid "Always add plus sign"
+msgstr ""
+
+msgid "Always choose to send as unicode"
+msgstr ""
+
+msgid "Always remove plus sign"
+msgstr ""
+
+msgid "Amount"
+msgstr ""
+
+msgid "Annually"
+msgstr ""
+
+msgid "Answer"
+msgstr ""
+
+msgid "Anyone"
+msgstr ""
+
+msgid ""
+"Application footer here. Go to main configuration or manage site to edit "
+"this footer."
+msgstr ""
+
+msgid "Application options"
+msgstr ""
+
+#, fuzzy
+msgid "Approve sender ID"
+msgstr "Управление именами отправителей"
+
+msgid "Are you sure ?"
+msgstr ""
+
+msgid "Are you sure you want to ban account"
+msgstr ""
+
+msgid "Are you sure you want to ban subuser"
+msgstr ""
+
+msgid "Are you sure you want to delete ACL ?"
+msgstr ""
+
+msgid "Are you sure you want to delete ALL queues"
+msgstr ""
+
+msgid "Are you sure you want to delete SMS autoreply ?"
+msgstr ""
+
+msgid "Are you sure you want to delete SMS board with all its messages ?"
+msgstr ""
+
+msgid "Are you sure you want to delete SMS command ?"
+msgstr ""
+
+msgid "Are you sure you want to delete SMS custom ?"
+msgstr ""
+
+msgid ""
+"Are you sure you want to delete SMS poll with all its choices and votes ?"
+msgstr ""
+
+msgid ""
+"Are you sure you want to delete SMS quiz with all its choices and answers ?"
+msgstr ""
+
+msgid "Are you sure you want to delete SMS schedule ?"
+msgstr ""
+
+msgid "Are you sure you want to delete SMS subscribe ?"
+msgstr ""
+
+msgid "Are you sure you want to delete choice ?"
+msgstr ""
+
+msgid "Are you sure you want to delete queue"
+msgstr ""
+
+msgid "Are you sure you want to delete rate ?"
+msgstr ""
+
+msgid "Are you sure you want to delete sender ID"
+msgstr ""
+
+msgid "Are you sure you want to delete subuser"
+msgstr ""
+
+msgid "Are you sure you want to delete subuser ?"
+msgstr ""
+
+msgid "Are you sure you want to delete these items ?"
+msgstr ""
+
+msgid "Are you sure you want to delete these transactions ?"
+msgstr ""
+
+msgid "Are you sure you want to delete this SMS autoreply scenario ?"
+msgstr ""
+
+msgid "Are you sure you want to delete this answer ?"
+msgstr ""
+
+msgid "Are you sure you want to delete this group inbox ?"
+msgstr ""
+
+msgid "Are you sure you want to delete this member ?"
+msgstr ""
+
+msgid "Are you sure you want to delete this message?"
+msgstr ""
+
+msgid "Are you sure you want to delete user"
+msgstr ""
+
+msgid "Are you sure you want to delete user ?"
+msgstr ""
+
+msgid "Are you sure you want to remove this number from SMS schedule ?"
+msgstr ""
+
+msgid "Are you sure you want to unban account"
+msgstr ""
+
+msgid "Are you sure you want to unban subuser"
+msgstr ""
+
+msgid "Auth Token"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Balance"
+msgstr ""
+
+msgid "Balance recorded on transaction"
+msgstr ""
+
+msgid "Ban"
+msgstr "Заблокировать"
+
+msgid "Ban date/time"
+msgstr ""
+
+msgid "Banned users list"
+msgstr ""
+
+msgid "Bearerbox hostname or IP"
+msgstr ""
+
+msgid "Billing"
+msgstr ""
+
+msgid "Blocked IP address"
+msgstr ""
+
+msgid "Blocked mobile"
+msgstr ""
+
+msgid "Bulksms API URL"
+msgstr ""
+
+msgid "Bulksms is a bulk SMS provider"
+msgstr ""
+
+msgid "Bulksms will push DLR and incoming SMS to your callback URL"
+msgstr ""
+
+msgid "Buy"
+msgstr "Купить"
+
+#, fuzzy
+msgid "Buy Credit"
+msgstr "Уменьшить"
+
+msgid "Buy credit page"
+msgstr ""
+
+msgid "CSS URL"
+msgstr ""
+
+msgid "CSV file format"
+msgstr ""
+
+msgid "Callback Secret"
+msgstr ""
+
+msgid "Callback URL"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cancel send from file"
+msgstr ""
+
+msgid "Cannot change status when user have subusers"
+msgstr ""
+
+msgid "Cannot find PHP PEAR-DB"
+msgstr ""
+
+msgid "Catch-all"
+msgstr ""
+
+msgid "Catch-all has been added"
+msgstr ""
+
+msgid "Catch-all has been deleted"
+msgstr ""
+
+msgid "Catch-all list"
+msgstr ""
+
+msgid "Changes have been made"
+msgstr ""
+
+msgid "Check email sender"
+msgstr ""
+
+msgid "Check to enable receiving push messages from SMSSync app"
+msgstr ""
+
+msgid "Choice already exists"
+msgstr ""
+
+msgid "Choice description"
+msgstr ""
+
+msgid "Choice has been added"
+msgstr ""
+
+msgid "Choice keyword"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "Click the status button to enable or disable status"
+msgstr ""
+
+msgid "Clickatell API URL"
+msgstr ""
+
+msgid "Clickatell is a bulk SMS provider"
+msgstr ""
+
+msgid "Clickatell will push DLR and incoming SMS to your callback URL"
+msgstr ""
+
+msgid "Comma separated"
+msgstr ""
+
+msgid "Comma separated for multiple entries"
+msgstr ""
+
+msgid "Comma separated values for multiple mobile numbers"
+msgstr ""
+
+#, fuzzy
+msgid "Compose message"
+msgstr "Отправить сообщение"
+
+#, fuzzy
+msgid "Configuration"
+msgstr "Конфигурация"
+
+#, fuzzy
+msgid "Confirmation"
+msgstr "Конфигурация"
+
+msgid "Contact has been added"
+msgstr ""
+
+msgid "Contact has been edited"
+msgstr ""
+
+msgid "Contacts have been imported"
+msgstr ""
 
 msgid "Content"
-msgstr "Содержимое"
+msgstr ""
+
+msgid "Copy the message to user inbox when incoming SMS contains @username"
+msgstr ""
+
+msgid "Core"
+msgstr ""
+
+msgid "Count"
+msgstr ""
 
 msgid "Country"
-msgstr "Страна"
+msgstr ""
 
 msgid "Created"
-msgstr "Создан"
+msgstr ""
 
 msgid "Credit"
-msgstr "Баланс"
+msgstr ""
+
+msgid "Credit has been added"
+msgstr ""
+
+msgid "Credit has been reduced"
+msgstr ""
+
+msgid "Current IP address"
+msgstr ""
+
+msgid "Current catchall"
+msgstr ""
+
+msgid "Current members"
+msgstr ""
 
 msgid "Currently logged in user is immune to deletion"
-msgstr "Невозможно удалить пользователя, выполнившего вход"
+msgstr ""
 
-msgid "Date time"
-msgstr "Дата время"
+msgid "DEFAULT"
+msgstr ""
+
+msgid "Daily"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Date and time"
+msgstr ""
+
+msgid "Date/Time"
+msgstr ""
+
+msgid "Datetime"
+msgstr ""
 
 msgid "Default"
-msgstr "По умолчанию"
+msgstr ""
+
+msgid "Default ACL upon registration"
+msgstr ""
 
 msgid "Default SMS rate"
-msgstr "Цена СМС по умолчанию"
+msgstr ""
 
-msgid "Default credit for user"
-msgstr "Баланс пользователя по умолчанию "
+msgid "Default SMSC"
+msgstr ""
 
+msgid "Default account status upon registration"
+msgstr ""
+
+msgid "Default credit upon registration"
+msgstr ""
+
+#, fuzzy
 msgid "Default language"
-msgstr "Язык по умолчанию"
+msgstr "Не удалось загрузить язык"
 
+msgid "Default message footer"
+msgstr ""
+
+msgid ""
+"Default parent selected upon registration when the default account status on "
+"registration setting set to Subuser"
+msgstr ""
+
+msgid "Default parent upon registration"
+msgstr ""
+
+msgid "Default prefix or country code"
+msgstr ""
+
+msgid ""
+"Default prefix or country code to replace prefix 0 on destination number"
+msgstr ""
+
+#, fuzzy
 msgid "Default sender ID"
-msgstr "Имя отправителя по умолчанию"
+msgstr "Управление именами отправителей"
+
+msgid "Default settings"
+msgstr ""
+
+#, fuzzy
+msgid "Default site configuration"
+msgstr "Конфигурация"
 
 msgid "Default timezone"
-msgstr "Часовой пояс по умолчанию"
+msgstr ""
+
+msgid ""
+"Define a single character as keyword separator replacing default keyword "
+"separator a space"
+msgstr ""
 
 msgid "Delete"
 msgstr "Удалить"
 
-msgid "Delete all templates ?"
-msgstr "Удалить все шаблоны?"
+#, fuzzy
+msgid "Delete ALL queues"
+msgstr "Удалить пользователя"
 
-msgid "Delete message template"
-msgstr "Удалить шаблон"
+msgid "Delete catch-all"
+msgstr ""
 
-msgid "Delete selection"
-msgstr "Удалить выбранное"
+msgid "Delete group inbox"
+msgstr ""
+
+#, fuzzy
+msgid "Delete member"
+msgstr "Удалить пользователя"
 
 msgid "Delete user"
 msgstr "Удалить пользователя"
 
+#, fuzzy
+msgid "Deleted"
+msgstr "Удалить"
+
 msgid "Delivered"
-msgstr "Доставлено"
+msgstr ""
+
+msgid "Delivered to SMSC"
+msgstr ""
+
+msgid "Delivered to phone"
+msgstr ""
+
+msgid "Delivery Report"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Destination"
+msgstr ""
+
+msgid "Destination has been deleted"
+msgstr ""
+
+msgid "Destination has been edited"
+msgstr ""
+
+msgid "Destination name"
+msgstr ""
+
+msgid "Destination number"
+msgstr ""
+
+msgid "Disable login as subuser"
+msgstr ""
+
+msgid "Domain"
+msgstr ""
+
+msgid "Download SMSSync app for Android from"
+msgstr ""
 
 msgid "Edit"
 msgstr "Редактировать"
 
-msgid "Edit message template"
-msgstr "Редактировать шаблон"
+#, fuzzy
+msgid "Edit ACL"
+msgstr "Редактировать"
 
-msgid "Effective SMS sender ID"
-msgstr "СМС будет отправлено от имени"
+msgid "Edit SMS autoreply"
+msgstr ""
 
-msgid "Eg: +0700 for Jakarta/Bangkok timezone"
-msgstr "Например: +0400 для Москвы"
+msgid "Edit SMS autoreply scenario"
+msgstr ""
 
-msgid "Email"
-msgstr "Email"
+msgid "Edit SMS board"
+msgstr ""
 
-msgid "Email is already in use by other username"
-msgstr "Email уже используется другим пользователем"
+msgid "Edit SMS command"
+msgstr ""
 
-msgid "Enable forgot password"
-msgstr "Включить восстановление пароля"
+msgid "Edit SMS custom"
+msgstr ""
+
+msgid "Edit SMS poll"
+msgstr ""
+
+msgid "Edit SMS poll choices"
+msgstr ""
+
+msgid "Edit SMS quiz"
+msgstr ""
+
+msgid "Edit SMS subscribe"
+msgstr ""
 
 #, fuzzy
+msgid "Edit SMSC"
+msgstr "Редактировать"
+
+msgid "Edit contact"
+msgstr ""
+
+msgid "Edit destination"
+msgstr ""
+
+msgid "Edit group"
+msgstr ""
+
+msgid "Edit group inbox"
+msgstr ""
+
+#, fuzzy
+msgid "Edit message"
+msgstr "Отправить сообщение"
+
+msgid "Edit message template"
+msgstr ""
+
+#, fuzzy
+msgid "Edit rate"
+msgstr "Редактировать"
+
+msgid "Edit route"
+msgstr ""
+
+msgid "Edit schedule"
+msgstr ""
+
+#, fuzzy
+msgid "Edit sender ID"
+msgstr "Управление именами отправителей"
+
+msgid "Effective SMS sender ID"
+msgstr ""
+
+msgid "Eg: +0700 for Jakarta/Bangkok timezone"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Email address is mandatory"
+msgstr ""
+
+msgid "Email footer"
+msgstr ""
+
+msgid "Email protocol"
+msgstr ""
+
+msgid "Email service"
+msgstr ""
+
+msgid "Email to SMS PIN has been saved"
+msgstr ""
+
+msgid "Email to SMS PIN has been saved but service is disabled"
+msgstr ""
+
+msgid "Email to SMS address"
+msgstr ""
+
+#, fuzzy
+msgid "Email to SMS configuration has been saved and enabled"
+msgstr "Настройки"
+
+msgid "Email to SMS configuration has been saved and service disabled"
+msgstr ""
+
+msgid "Email to SMS configuration has been saved and service enabled"
+msgstr ""
+
+#, fuzzy
+msgid "Email to SMS configuration has been saved but disabled"
+msgstr "Настройки"
+
+msgid "Empty callback URL to set default"
+msgstr ""
+
+msgid "Empty default sender ID to allow users setting their own sender ID"
+msgstr ""
+
+msgid "Enable SMS Sync"
+msgstr ""
+
+msgid "Enable credit unicode SMS as normal SMS"
+msgstr ""
+
+#, fuzzy
+msgid "Enable email to SMS"
+msgstr "Управление шлюзами и SMS-центрами"
+
+msgid "Enable fetch new emails"
+msgstr ""
+
+msgid "Enable forgot password"
+msgstr ""
+
+msgid "Enable login brute force detection"
+msgstr ""
+
 msgid "Enable logo"
-msgstr "Включить восстановление пароля"
+msgstr ""
 
 msgid "Enable public registration"
-msgstr "Включить регистрацию"
+msgstr ""
 
 msgid "Enable webservices"
-msgstr "Включить веб-сервисы"
+msgstr ""
+
+msgid "Enhance privacy for subusers"
+msgstr ""
+
+msgid "Entries in CSV file have been imported"
+msgstr ""
+
+msgid "Exclusive"
+msgstr ""
+
+msgid "Exec"
+msgstr ""
 
 msgid "Export"
 msgstr "Экспорт"
 
-msgid "F.A.Q"
-msgstr "Ча.Во."
+msgid "FATAL ERROR"
+msgstr "КРИТИЧЕСКАЯ ОШИБКА"
 
-msgid "Fail sent SMS, no credit"
-msgstr "Не удалось отправить СМС, недостаточно средств"
+#, fuzzy
+msgid "Fail to add SMS autoreply"
+msgstr "Не удалось загрузить шлюз"
 
-msgid "Fail to delete SMS"
-msgstr "Не удалось удалить СМС"
+msgid "Fail to add SMS autoreply scenario"
+msgstr ""
 
-msgid "Fail to delete incoming SMS"
-msgstr "Не удалось удалить входящее СМС"
+msgid "Fail to add SMS board"
+msgstr ""
 
-msgid "Fail to delete user"
-msgstr "Не удалось удалить пользователя"
+msgid "Fail to add SMS command"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to add SMS custom"
+msgstr "Не удалось загрузить темы"
+
+msgid "Fail to add SMS poll"
+msgstr ""
+
+msgid "Fail to add SMS quiz"
+msgstr ""
+
+msgid "Fail to add SMS subscribe"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to add catch-all"
+msgstr "Не удалось загрузить шлюз"
+
+#, fuzzy
+msgid "Fail to add credit"
+msgstr "Не удалось загрузить темы"
+
+msgid "Fail to add group inbox"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to add member"
+msgstr "Не удалось загрузить темы"
+
+#, fuzzy
+msgid "Fail to add message"
+msgstr "Не удалось загрузить темы"
+
+#, fuzzy
+msgid "Fail to add message template"
+msgstr "Не удалось загрузить темы"
+
+#, fuzzy
+msgid "Fail to add new ACL"
+msgstr "Не удалось загрузить шлюз"
+
+msgid "Fail to add new SMS schedule"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to add new SMSC"
+msgstr "Не удалось загрузить шлюз"
+
+#, fuzzy
+msgid "Fail to add new destination"
+msgstr "Не удалось загрузить темы"
+
+msgid "Fail to delete ACL"
+msgstr ""
+
+msgid "Fail to delete SMS autoreply"
+msgstr ""
+
+msgid "Fail to delete SMS autoreply scenario"
+msgstr ""
+
+msgid "Fail to delete SMS command"
+msgstr ""
+
+msgid "Fail to delete SMS custom"
+msgstr ""
+
+msgid "Fail to delete SMS poll choice"
+msgstr ""
+
+msgid "Fail to delete SMS schedule"
+msgstr ""
+
+msgid "Fail to delete catch-all"
+msgstr ""
+
+msgid "Fail to delete destination"
+msgstr ""
+
+msgid "Fail to delete group"
+msgstr ""
+
+msgid "Fail to delete group inbox"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to delete member"
+msgstr "Не удалось загрузить темы"
+
+#, fuzzy
+msgid "Fail to delete rate"
+msgstr "Не удалось загрузить шлюз"
+
+#, fuzzy
+msgid "Fail to delete route"
+msgstr "Не удалось загрузить темы"
+
+msgid "Fail to disable group inbox"
+msgstr ""
+
+msgid "Fail to edit ACL"
+msgstr ""
+
+msgid "Fail to edit SMS autoreply scenario"
+msgstr ""
+
+msgid "Fail to edit SMS board"
+msgstr ""
+
+msgid "Fail to edit SMS quiz"
+msgstr ""
+
+msgid "Fail to edit SMS schedule"
+msgstr ""
+
+msgid "Fail to edit SMS subscribe"
+msgstr ""
+
+msgid "Fail to edit SMSC"
+msgstr ""
+
+msgid "Fail to edit destination"
+msgstr ""
+
+msgid "Fail to edit group inbox"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to edit message"
+msgstr "Не удалось загрузить темы"
 
 msgid "Fail to edit message template"
-msgstr "Не удалось изменить шаблон"
+msgstr ""
 
-msgid "Fail to recover password"
-msgstr "Не удалось восстановить пароль"
+msgid "Fail to enable group inbox"
+msgstr ""
+
+msgid "Fail to insert keyword"
+msgstr ""
+
+msgid "Fail to reduce credit"
+msgstr ""
 
 msgid "Fail to register an account"
-msgstr "Не удалось зарегистрировать пользователя"
+msgstr ""
 
+msgid "Fail to remove SMSC"
+msgstr ""
+
+msgid "Fail to remove cancelled entries from database"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to save SMS Sync configuration"
+msgstr "Конфигурация"
+
+msgid "Fail to save SMS command"
+msgstr ""
+
+msgid "Fail to save SMS custom"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to save configuration"
+msgstr "Конфигурация"
+
+msgid "Fail to save email to SMS PIN"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to save email to SMS configuration"
+msgstr "Конфигурация"
+
+msgid "Fail to save gateway module configurations"
+msgstr ""
+
+#, fuzzy
 msgid "Fail to save preferences"
-msgstr "Не удалось сохранить настройки"
+msgstr "Пользовательские настройки"
 
+#, fuzzy
+msgid "Fail to save rate"
+msgstr "Не удалось загрузить шлюз"
+
+#, fuzzy
+msgid "Fail to save route"
+msgstr "Не удалось загрузить темы"
+
+msgid "Fail to save temporary password"
+msgstr ""
+
+msgid "Fail to send SMS"
+msgstr ""
+
+#, fuzzy
 msgid "Fail to send email"
-msgstr "Не удалось отправить email"
+msgstr "Не удалось загрузить темы"
 
-msgid "Fail to sent SMS"
-msgstr "На удалось отправить СМС"
+msgid "Fail to send message to all destinations"
+msgstr ""
+
+msgid "Fail to simulate incoming SMS"
+msgstr ""
+
+msgid "Fail to update SMS autoreply"
+msgstr ""
+
+msgid "Fail to update due to invalid sender ID"
+msgstr ""
+
+#, fuzzy
+msgid "Fail to upload CSV file"
+msgstr "Не удалось загрузить язык"
+
+msgid "Fail to upload CSV file for phonebook"
+msgstr ""
 
 msgid "Failed"
-msgstr "Отказ"
+msgstr ""
 
+#, fuzzy
 msgid "Feature"
 msgstr "Функции"
 
-msgid "Fill to change password for username"
-msgstr "Заполните для изменения пароля"
+msgid "Features"
+msgstr "Функции"
 
-msgid "Fill to update"
-msgstr "Заполните для обновления"
+msgid "Fill the password field to change password"
+msgstr ""
 
-msgid "Flash message"
-msgstr "Всплывающее СМС"
+msgid "Fill to change the API key"
+msgstr ""
 
-msgid "Footer"
-msgstr "Подпись"
+msgid "Fill to change the API password"
+msgstr ""
+
+msgid "Fill to change the API secret"
+msgstr ""
+
+msgid "Fill to change the Auth Token"
+msgstr ""
+
+msgid "Fill to change the password"
+msgstr ""
+
+msgid "Fill with zero to disable limit"
+msgstr ""
 
 #, fuzzy
-msgid "Forgot password"
-msgstr "Включить восстановление пароля"
+msgid "Flash message"
+msgstr "Отправить сообщение"
+
+msgid "Footer"
+msgstr ""
+
+msgid "For example a short code"
+msgstr ""
+
+msgid "Format YYYY-MM-DD hh:mm"
+msgstr ""
 
 msgid "Forward"
 msgstr "Переслать"
 
-msgid "Forward PV to email"
-msgstr "Переадресация ЛС на email"
-
-msgid "Forward PV to inbox"
-msgstr "Переадресация ЛС в Принятые"
-
-msgid "Forward PV to mobile"
-msgstr "Переадресация ЛС на мобильный"
-
-msgid "Forward Private WebSMS"
-msgstr "Переадресация личного сообщения"
-
-msgid "Forward SMS to email"
-msgstr "Переадресация СМС на email"
-
-msgid "Forward SMS to inbox"
-msgstr "Переадресация СМС в Принятые"
-
-msgid "Forward SMS to mobile"
-msgstr "Переадресация СМС на мобильный"
-
-msgid "Forward from"
-msgstr "Отправитель"
-
 msgid "Forward message to email"
-msgstr "Переадресация ЛС на email"
+msgstr ""
 
 msgid "Forward message to inbox"
-msgstr "Переадресация ЛС в Принятые"
+msgstr ""
 
 msgid "Forward message to mobile"
-msgstr "Переадресация ЛС на мобильный"
+msgstr ""
+
+#, fuzzy
+msgid "Forward to email"
+msgstr "Переслать"
 
 msgid "Forwarded email footer"
-msgstr "Подпись переадресованного сообщения"
+msgstr ""
+
+msgid "Found invalid entries in uploaded file"
+msgstr ""
+
+msgid "Found valid entries in uploaded file"
+msgstr ""
 
 msgid "From"
-msgstr "От"
+msgstr ""
 
 msgid "Full name"
-msgstr "Полное имя"
+msgstr ""
 
 msgid "Gateway"
-msgstr "Шлюз"
+msgstr ""
+
+msgid "Gateway host"
+msgstr ""
+
+msgid "Gateway module configurations has been saved"
+msgstr ""
+
+msgid "Gateway name"
+msgstr ""
+
+msgid "Gateway port"
+msgstr ""
+
+msgid "Gateways"
+msgstr ""
+
+msgid "Generic send SMS URL"
+msgstr ""
+
+msgid "Generic will push DLR and incoming SMS to your callback URL"
+msgstr ""
+
+msgid "Gnokii installation path"
+msgstr ""
 
 msgid "Go"
 msgstr "Вперёд"
 
+msgid "Go to main configuration or manage site to edit this page"
+msgstr ""
+
+msgid "Go to manage site menu to edit this page"
+msgstr ""
+
+msgid "Grand total SMS"
+msgstr ""
+
+msgid "Grand total senders"
+msgstr ""
+
+msgid "Graph output"
+msgstr ""
+
 msgid "Group"
 msgstr "Группа"
 
+#, fuzzy
 msgid "Group code"
-msgstr "Код группы"
+msgstr "Группа"
 
-msgid "HTTP API"
-msgstr "HTTP API"
+msgid "Group code already exists"
+msgstr ""
+
+msgid "Group code has been added"
+msgstr ""
+
+msgid "Group code may be used to broadcast SMS to this group"
+msgstr ""
+
+msgid "Group has been edited"
+msgstr ""
+
+msgid ""
+"Group has been edited but unable to set broadcast from members or anyone"
+msgstr ""
+
+#, fuzzy
+msgid "Group inbox"
+msgstr "Группа"
+
+msgid "Group inbox has been added"
+msgstr ""
+
+msgid "Group inbox has been deleted"
+msgstr ""
+
+msgid "Group inbox has been disabled"
+msgstr ""
+
+msgid "Group inbox has been edited"
+msgstr ""
+
+msgid "Group inbox has been enabled"
+msgstr ""
+
+#, fuzzy
+msgid "Group name"
+msgstr "Группа"
+
+msgid "HTML output"
+msgstr ""
+
+msgid "HTTP Kannel admin host"
+msgstr ""
+
+msgid "HTTP Kannel admin password"
+msgstr ""
+
+msgid "HTTP Kannel admin port"
+msgstr ""
 
 msgid "Home"
 msgstr "Главная"
 
-msgid "Idle"
+msgid "ID"
 msgstr ""
+
+msgid "IP address"
+msgstr ""
+
+msgid "IP addresses"
+msgstr ""
+
+msgid "IP addresses have been blocked"
+msgstr ""
+
+msgid "IP addresses have been deleted"
+msgstr ""
+
+msgid "Idle"
+msgstr "Простаивает"
 
 msgid "Import"
 msgstr "Импортировать"
 
+msgid "Import above destination entries ?"
+msgstr ""
+
+msgid "Import above phonebook entries ?"
+msgstr ""
+
+#, fuzzy
+msgid "Import confirmation"
+msgstr "Настройки"
+
 msgid "Inbox"
-msgstr "Принятые"
+msgstr ""
 
-msgid "Incoming SMS"
-msgstr "Входящие СМС"
+msgid "Incoming SMS route changes has been saved"
+msgstr ""
 
-msgid "Incoming messages"
-msgstr "Входящие сообщения"
+msgid "Incoming SMS time is in local time"
+msgstr ""
 
-msgid "Installation Guide"
-msgstr "Инструкция по установке"
+msgid "Infobip API URL"
+msgstr ""
 
-msgid "International format"
-msgstr "Международный формат"
+msgid "Infobip is a bulk SMS provider"
+msgstr ""
+
+msgid "Infobip will push DLR and incoming SMS to above URL"
+msgstr ""
+
+msgid "Information"
+msgstr ""
+
+msgid "Information page"
+msgstr ""
+
+msgid "Insert keyword"
+msgstr ""
+
+msgid "Internal error please contact service provider"
+msgstr ""
+
+msgid "Invalid"
+msgstr ""
+
+msgid "Invalid CSV file"
+msgstr ""
+
+msgid "Invalid entries"
+msgstr ""
+
+#, fuzzy
+msgid "Invalid sender ID"
+msgstr "Управление именами отправителей"
+
+msgid "Invalid session ID"
+msgstr ""
 
 msgid "Invalid username or password"
-msgstr "Неправильное имя пользователя или пароль"
+msgstr ""
+
+msgid "JSON output"
+msgstr ""
+
+msgid "Jasmin send SMS URL"
+msgstr ""
+
+msgid "Jasmin will push DLR and incoming SMS to your callback URL"
+msgstr ""
+
+msgid "Kannel admin host"
+msgstr ""
+
+msgid "Kannel admin password"
+msgstr ""
+
+msgid "Kannel admin port"
+msgstr ""
+
+msgid "Kannel specific"
+msgstr ""
+
+msgid "Kannel status"
+msgstr ""
 
 msgid "Keyword"
-msgstr "Ключевое слово"
+msgstr ""
+
+msgid "Keyword separator"
+msgstr ""
+
+msgid "Keywords"
+msgstr ""
+
+msgid "Languages"
+msgstr ""
 
 msgid "Last update"
-msgstr "Последнее обновление"
+msgstr ""
 
-msgid "License"
-msgstr "Пользовательское соглашение"
+msgid "Layout footer"
+msgstr ""
+
+msgid "Leave a copy in sandbox SMS page"
+msgstr ""
+
+msgid "Leaving a copy in sandbox SMS page may be useful for audit or reviews"
+msgstr ""
+
+#, fuzzy
+msgid "List of accounts"
+msgstr "Мой профиль"
 
 #, fuzzy
 msgid "List of administrators"
-msgstr "Показать администраторов"
+msgstr "Администратор"
 
-#, fuzzy
-msgid "List of normal users"
-msgstr "Показать пользователей"
-
-msgid "Local number length"
-msgstr "Длина местного номера"
-
-msgid "Login"
+msgid "List of destinations"
 msgstr ""
 
+#, fuzzy
+msgid "List of gateways and SMSCs"
+msgstr "Управление шлюзами и SMS-центрами"
+
+msgid "List of my credit transactions"
+msgstr ""
+
+msgid "List of subusers"
+msgstr ""
+
+msgid "List of transactions"
+msgstr ""
+
+msgid "List of users"
+msgstr ""
+
+msgid "Local number length"
+msgstr ""
+
+msgid "Local playnet password"
+msgstr ""
+
+msgid "Local playnet username"
+msgstr ""
+
+#, fuzzy
+msgid "Logged in as"
+msgstr "Войти как"
+
+#, fuzzy
+msgid "Login"
+msgstr "Войти как"
+
+msgid "Login as"
+msgstr "Войти как"
+
+#, fuzzy
 msgid "Login information"
-msgstr "Регистрационная информация"
+msgstr "Конфигурация"
 
 msgid "Logo URL"
 msgstr ""
@@ -413,224 +1513,709 @@ msgstr ""
 msgid "Logout"
 msgstr "Выйти"
 
+msgid "Lowest credit limit to trigger notification"
+msgstr ""
+
+msgid "MBOX output"
+msgstr ""
+
+msgid "Mail server address"
+msgstr ""
+
+msgid "Mail server port"
+msgstr ""
+
+msgid "Mailbox password"
+msgstr ""
+
+msgid "Mailbox username"
+msgstr ""
+
 msgid "Main configuration"
 msgstr "Конфигурация"
 
+#, fuzzy
 msgid "Main configuration changes has been saved"
-msgstr "Конфигурация сохранена"
+msgstr "Конфигурация"
 
 msgid "Main website URL"
-msgstr "Ссылка на сайт"
+msgstr ""
 
 msgid "Main website name"
-msgstr "Название сайта"
+msgstr ""
+
+msgid "Make return as reply"
+msgstr ""
 
 msgid "Manage"
 msgstr "Редактировать"
 
-msgid "Manage user"
-msgstr "Управление пользователями"
-
-msgid "Max. 16 numeric or 11 alphanumeric characters"
-msgstr "Макс. 16 цифр или 11 символов"
-
-msgid "Max. 20 digits mobile phone number"
-msgstr "Номер мобильного, макс. 20 цифр"
-
-msgid "Max. 30 alphanumeric characters"
-msgstr "Макс. 30 символов"
-
-msgid "Maximum SMS count"
-msgstr "Макс. СМС сегментов"
-
-msgid "Message"
-msgstr "Сообщение"
-
-msgid "Message from"
-msgstr "Сообщение от"
-
-msgid "Message template"
-msgstr "Шабон сообщения"
-
-msgid "Message template content"
-msgstr "Текст шаблона"
-
-msgid "Message template has been edited"
-msgstr "Шаблон отредактирован"
-
-msgid "Message template has been saved"
-msgstr "Шаблон сохранён"
-
-msgid "Message template name"
-msgstr "Название шаблона"
-
-msgid "Min length to detect missing country code"
-msgstr "Минимальная длина номера для определения отсутствующего кода страны"
-
-msgid "Mobile"
-msgstr "Мобильный"
-
-msgid "Mobile is already in use by other username"
-msgstr "Номер уже используется другим пользователем"
-
-msgid "Mobile number"
-msgstr "Номер мобильного"
+#, fuzzy
+msgid "Manage ACL"
+msgstr "Редактировать"
 
 #, fuzzy
+msgid "Manage Clients"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage OpenVox"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage SMS rate"
+msgstr "Управление пользователями"
+
+msgid "Manage account"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage autoreply"
+msgstr "Управление шлюзами"
+
+#, fuzzy
+msgid "Manage blocked"
+msgstr "Управление дочерними пользователями"
+
+#, fuzzy
+msgid "Manage board"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage bulksms"
+msgstr "Управление дочерними пользователями"
+
+#, fuzzy
+msgid "Manage clickatell"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage command"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage credit"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage custom"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage dev"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage email to SMS"
+msgstr "Управление шлюзами и SMS-центрами"
+
+#, fuzzy
+msgid "Manage firewall"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage gammu"
+msgstr "Управление пользователями"
+
+msgid "Manage gateway and SMSC"
+msgstr "Управление шлюзами и SMS-центрами"
+
+#, fuzzy
+msgid "Manage generic"
+msgstr "Управление именами отправителей"
+
+#, fuzzy
+msgid "Manage gnokii"
+msgstr "Управление именами отправителей"
+
+#, fuzzy
+msgid "Manage infobip"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage jasmin"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage kannel"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage msgtoolbox"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage nexmo"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage payments"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage playnet"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage plugin"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage poll"
+msgstr "Редактировать"
+
+#, fuzzy
+msgid "Manage quiz"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage schedule"
+msgstr "Управление именами отправителей"
+
+msgid "Manage sender ID"
+msgstr "Управление именами отправителей"
+
+#, fuzzy
+msgid "Manage site"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage smstools"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage stoplist"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage subscribe"
+msgstr "Управление дочерними пользователями"
+
+msgid "Manage subuser"
+msgstr "Управление дочерними пользователями"
+
+#, fuzzy
+msgid "Manage sync"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage telerivet"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage template"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Manage twilio"
+msgstr "Управление шлюзами"
+
+#, fuzzy
+msgid "Manage uplink"
+msgstr "Управление пользователями"
+
+msgid "Mandatory fields must not be empty"
+msgstr ""
+
+msgid "Master URL"
+msgstr ""
+
+msgid "Match with all approved sender ID"
+msgstr ""
+
+msgid "Max. 16 numeric or 11 alphanumeric char. empty to disable"
+msgstr ""
+
+msgid "Max. 16 numeric or 11 alphanumeric characters"
+msgstr ""
+
+msgid "Max. 30 alphanumeric characters"
+msgstr ""
+
+msgid "Maximum 8 digits numeric only"
+msgstr ""
+
+msgid "Maximum SMS count"
+msgstr ""
+
+msgid "Maximum username length"
+msgstr ""
+
+msgid "Maximum username length must be a number between 4 to 100"
+msgstr ""
+
+msgid "Me only"
+msgstr ""
+
+msgid "Member has been added"
+msgstr ""
+
+msgid "Member has been deleted"
+msgstr ""
+
+msgid "Member join datetime"
+msgstr ""
+
+msgid "Member list"
+msgstr ""
+
+msgid "Member list for keyword"
+msgstr ""
+
+msgid "Members"
+msgstr ""
+
+#, fuzzy
+msgid "Message"
+msgstr "Отправить сообщение"
+
+#, php-format
+msgid "Message %s has been delivered to queue"
+msgstr ""
+
+msgid "Message ID"
+msgstr ""
+
+msgid "Message body"
+msgstr ""
+
+msgid "Message detail"
+msgstr ""
+
+msgid "Message footer"
+msgstr ""
+
+msgid "Message from"
+msgstr ""
+
+msgid "Message has been added"
+msgstr ""
+
+msgid "Message has been deleted"
+msgstr ""
+
+msgid "Message has been edited"
+msgstr ""
+
+msgid "Message received at"
+msgstr ""
+
+msgid "Message template"
+msgstr ""
+
+msgid "Message template content"
+msgstr ""
+
+msgid "Message template has been edited"
+msgstr ""
+
+msgid "Message template has been saved"
+msgstr ""
+
+msgid "Message template name"
+msgstr ""
+
+#, fuzzy
+msgid "Messages"
+msgstr "Отправить сообщение"
+
+msgid "Min length to detect missing country code"
+msgstr ""
+
+msgid "Mobile"
+msgstr ""
+
+msgid "Mobile numbers"
+msgstr ""
+
+msgid "Mobile numbers have been blocked"
+msgstr ""
+
+msgid "Mobile numbers have been deleted"
+msgstr ""
+
+#, fuzzy
+msgid "Module sender ID"
+msgstr "Управление именами отправителей"
+
+msgid "Module timezone"
+msgstr ""
+
+msgid "Monthly"
+msgstr ""
+
 msgid "Move"
 msgstr "Переместить в"
 
+#, fuzzy
 msgid "Move to"
 msgstr "Переместить в"
 
-msgid "My Account"
-msgstr "Мой профиль"
-
-msgid "Name"
-msgstr "Имя"
-
-msgid "New account registration"
-msgstr "Регистрация нового пользователя"
-
-msgid "New inbox from"
+msgid "Multi"
 msgstr ""
 
-msgid "New webservices token"
-msgstr "Новый токен для веб-сервисов"
+msgid "Multiple IP addresses must be comma-separated"
+msgstr ""
 
-msgid "No changes made"
-msgstr "Нет изменений"
+msgid "Multiple entries separated by space"
+msgstr ""
 
-msgid "Normal User"
-msgstr "Обычный пользователь"
+msgid "Multiple mobile numbers must be comma-separated"
+msgstr ""
 
-msgid "Normal user"
-msgstr "Обычный пользователь"
+msgid "My account"
+msgstr "Мой профиль"
+
+msgid "My credit transactions"
+msgstr ""
+
+msgid "My email to SMS"
+msgstr ""
+
+msgid "My feature messages"
+msgstr ""
 
 #, fuzzy
-msgid "Normal users"
-msgstr "Обычный пользователь"
+msgid "My report"
+msgstr "Отчёты"
+
+#, fuzzy
+msgid "My sent messages"
+msgstr "Отправить сообщение"
+
+msgid "Name"
+msgstr ""
+
+msgid "New ACL been added"
+msgstr ""
+
+msgid "New SMS schedule been added"
+msgstr ""
+
+msgid "New SMSC has been added"
+msgstr ""
+
+msgid "New account registration"
+msgstr ""
+
+msgid "New destination has been added"
+msgstr ""
+
+msgid "Nexmo URL"
+msgstr ""
+
+msgid "Nexmo is a bulk SMS provider"
+msgstr ""
+
+msgid "Nexmo will push DLR and incoming SMS to your callback URL"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No changes has been made"
+msgstr ""
+
+msgid "No changes have been made"
+msgstr ""
+
+msgid "No changes made"
+msgstr ""
+
+msgid "No changes made!"
+msgstr ""
+
+#, fuzzy
+msgid "No group"
+msgstr "Группа"
+
+msgid "No route has been saved"
+msgstr ""
+
+msgid "No trailing slash"
+msgstr ""
+
+msgid "No validate cert option"
+msgstr ""
+
+msgid "Non-Delivered to SMSC"
+msgstr ""
+
+msgid "Non-Delivered to phone"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+msgid "Number"
+msgstr ""
+
+msgid "Number of sent SMS per hour limit"
+msgstr ""
+
+msgid "Number of votes"
+msgstr ""
 
 msgid "Offline"
+msgstr "Автономный"
+
+msgid "Once"
 msgstr ""
 
 msgid "Online"
+msgstr "Онлайн"
+
+msgid "Only when the sender ID is approved"
 msgstr ""
 
 msgid "Options"
-msgstr "Параметры"
+msgstr ""
 
-msgid "Or"
-msgstr "Или"
+msgid "PHP serialize output"
+msgstr ""
 
-msgid "Outgoing SMS"
-msgstr "Исходящие СМС"
+msgid "PIN"
+msgstr ""
 
-msgid "Outgoing messages"
-msgstr "Исходящие сообщения"
+msgid "PIN for email to SMS"
+msgstr ""
 
-msgid "Password"
-msgstr "Пароль"
-
-msgid "Password does not match"
-msgstr "Пароли не совпвдают"
+msgid "PIN is empty"
+msgstr ""
 
 #, fuzzy
-msgid "Password has been emailed"
-msgstr "Пароль был выслан на ваш email"
+msgid "Page content"
+msgstr "Управление пользователями"
 
-msgid "Password has been sent to your email"
-msgstr "Пароль был выслан на ваш email"
+#, fuzzy
+msgid "Page title"
+msgstr "Управление пользователями"
+
+msgid "Param"
+msgstr ""
+
+msgid "Parent"
+msgstr ""
+
+#, fuzzy
+msgid "Parent account"
+msgstr "Управление пользователями"
+
+msgid ""
+"Parent account is mandatory for subusers only. If no value is given then the "
+"subuser will be automatically assigned to user admin"
+msgstr ""
+
+msgid "Pass these parameter to command exec field"
+msgstr ""
+
+msgid "Pass these parameters to custom URL field"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Password does not match"
+msgstr ""
+
+msgid "Password has been emailed"
+msgstr ""
 
 msgid "Password recovery"
-msgstr "Восстановление пароля"
+msgstr ""
 
 msgid "Password should be at least 4 characters"
-msgstr "Минимальная длина пароля 4 знака"
+msgstr ""
 
 msgid "Pending"
-msgstr "Ожидает"
+msgstr ""
 
 msgid "Personal information"
-msgstr "Персональная информация"
+msgstr ""
 
-msgid "Phone number(s)"
-msgstr "Номер(а)"
+msgid "Phone number"
+msgstr ""
 
 msgid "Phonebook"
-msgstr "Контакты"
+msgstr ""
 
-msgid "Phonebook groups"
-msgstr "Группы контактов"
-
-msgid "Phonebook numbers"
-msgstr "Номера контактов"
-
-msgid "Pick Date & Time"
-msgstr "Выбрать дату/время"
-
-msgid "Pick date & time"
-msgstr "Выбрать дату и время"
+msgid "Please remove all subusers from this user to delete"
+msgstr ""
 
 msgid "Please select"
-msgstr "Выберите"
+msgstr ""
+
+msgid "Please select CSV file"
+msgstr ""
+
+msgid "Please select CSV file for phonebook entries"
+msgstr ""
 
 msgid "Please select template"
-msgstr "Выберите шаблон"
+msgstr ""
+
+msgid "Please type the displayed captcha phrase correctly"
+msgstr ""
+
+msgid "Please use alphanumeric only and make it short"
+msgstr ""
+
+msgid "Please use uppercase and make it short"
+msgstr ""
+
+msgid "Post rules"
+msgstr ""
+
+msgid "Pre rules"
+msgstr ""
 
 msgid "Preferences"
 msgstr "Профиль"
 
-msgid "Preferences has been saved"
-msgstr "Настройки сохранены"
+msgid "Preferences have been saved"
+msgstr ""
 
-msgid "Preferences has been saved and password updated"
-msgstr "Настройки сохранены, пароль изменён"
+msgid "Preferences have been saved and password updated"
+msgstr ""
 
-msgid "Preferences has been saved and webservices token updated"
-msgstr "Настройки сохранены, токен изменён"
+msgid "Preferences have been saved and webservices token updated"
+msgstr ""
+
+msgid "Prefix"
+msgstr ""
 
 msgid "Prefix or country code"
-msgstr "Код страны или префикс"
+msgstr ""
 
-msgid "Public registration disabled"
-msgstr "Регистрация отключена"
+msgid "Prefix with # for groups and @ for users"
+msgstr ""
 
-#, fuzzy
-msgid "Public registration is disabled"
-msgstr "Регистрация отключена"
+msgid "Press submit button to add selected users to catch-all list"
+msgstr ""
 
-msgid "Publish"
-msgstr "Опубликовать"
+msgid "Press submit button to add selected users to member list"
+msgstr ""
 
-msgid "Re-Type Password"
-msgstr "Повторите пароль"
+msgid "Press submit button to remove selected catchall from catch-all list"
+msgstr ""
+
+msgid "Press submit button to remove selected members from member list"
+msgstr ""
+
+msgid "Prevent duplicates"
+msgstr ""
+
+msgid "Project ID"
+msgstr ""
+
+msgid "Question"
+msgstr ""
+
+msgid "Queue Code"
+msgstr ""
+
+msgid "Queue has been removed"
+msgstr ""
+
+msgid "Queued on SMSC"
+msgstr ""
+
+msgid "RSS 0.91 output"
+msgstr ""
+
+msgid "RSS 1.0 output"
+msgstr ""
+
+msgid "RSS 2.0 output"
+msgstr ""
+
+msgid "RSS ATOM output"
+msgstr ""
+
+msgid "Rate"
+msgstr ""
+
+msgid "Rate already exists"
+msgstr ""
+
+msgid "Rate has been added"
+msgstr ""
+
+msgid "Rate has been deleted"
+msgstr ""
+
+msgid "Rate has been saved"
+msgstr ""
 
 msgid "Re-type password"
-msgstr "Повторите пароль"
+msgstr ""
 
-msgid "Received"
-msgstr "Получено"
+msgid "Received answer list for keyword"
+msgstr ""
 
 msgid "Receiver"
-msgstr "Получатель"
+msgstr ""
 
-#, fuzzy
+msgid "Receiver number"
+msgstr ""
+
+msgid ""
+"Receiver number can be matched with default sender ID or with all approved "
+"sender ID"
+msgstr ""
+
+msgid "Receiver number does not exist"
+msgstr ""
+
 msgid "Recover password"
-msgstr "Восстановление пароля отключено"
+msgstr ""
 
 msgid "Recover password disabled"
-msgstr "Восстановление пароля отключено"
+msgstr ""
+
+msgid "Reduce"
+msgstr "Уменьшить"
+
+#, fuzzy
+msgid "Reduce credit"
+msgstr "Уменьшить"
+
+msgid "Reduce credit from users"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
 
 #, fuzzy
 msgid "Register an account"
-msgstr "Не удалось зарегистрировать пользователя"
+msgstr "Управление пользователями"
 
 msgid "Registered"
-msgstr "Зарегистрирован"
+msgstr ""
+
+msgid "Remote is on"
+msgstr ""
+
+msgid "Remote playSMS URL"
+msgstr ""
+
+msgid "Remote playnet SMSC name"
+msgstr ""
+
+msgid "Remote playnet password"
+msgstr ""
+
+msgid "Remote playnet username"
+msgstr ""
+
+msgid "Renew webservices token"
+msgstr ""
 
 msgid "Replace prefix 0 or padding local numbers"
-msgstr "Заменить префикс 0 или дополнить местные номера"
+msgstr ""
 
 msgid "Replace website title with logo"
 msgstr ""
@@ -638,398 +2223,1136 @@ msgstr ""
 msgid "Reply"
 msgstr "Ответить"
 
+msgid "Reply message on correct"
+msgstr ""
+
+msgid "Reply message on incorrect"
+msgstr ""
+
+msgid "Reply message on invalid vote"
+msgstr ""
+
+msgid "Reply message on out of vote option"
+msgstr ""
+
+msgid "Reply message on valid vote"
+msgstr ""
+
+#, fuzzy
+msgid "Report"
+msgstr "Отчёты"
+
+#, fuzzy
+msgid "Report all users"
+msgstr "Отчёты"
+
+msgid "Report banned users"
+msgstr ""
+
+msgid "Report whose online"
+msgstr ""
+
+msgid "Reports"
+msgstr "Отчёты"
+
 msgid "Resend"
 msgstr "Повторить"
 
-msgid "SMS"
-msgstr "СМС"
+msgid "Restart Kannel"
+msgstr ""
 
-msgid "SMS character"
-msgstr "СМС символы"
+msgid "Restrict sender to regular members or catch-all members only"
+msgstr ""
+
+msgid "Result graph"
+msgstr ""
+
+msgid "Result table"
+msgstr ""
+
+msgid "Return"
+msgstr ""
+
+msgid "Route"
+msgstr ""
+
+msgid "Route SMS outgoing"
+msgstr ""
+
+msgid "Route all sandbox SMS to users"
+msgstr ""
+
+msgid "Route all sandbox SMS with matched sender ID"
+msgstr ""
+
+msgid "Route has been added"
+msgstr ""
+
+msgid "Route has been deleted"
+msgstr ""
+
+msgid "Route has been saved"
+msgstr ""
+
+msgid "Route incoming SMS"
+msgstr ""
+
+msgid "Route outgoing SMS"
+msgstr ""
+
+msgid "Route to user inbox if receiver number matched with user sender ID"
+msgstr ""
+
+msgid "Routed SMSC"
+msgstr ""
+
+msgid "Row template"
+msgstr ""
+
+msgid "Rules applied after incoming SMS processed"
+msgstr ""
+
+msgid "Rules applied before incoming SMS processed"
+msgstr ""
+
+msgid "SMS"
+msgstr ""
+
+msgid "SMS Board"
+msgstr ""
+
+msgid "SMS Sync configuration has been saved"
+msgstr ""
+
+msgid "SMS autoreply has been deleted"
+msgstr ""
+
+msgid "SMS autoreply has been updated"
+msgstr ""
+
+msgid "SMS autoreply keyword"
+msgstr ""
+
+msgid "SMS autoreply keyword has been added"
+msgstr ""
+
+msgid "SMS autoreply scenario has been added"
+msgstr ""
+
+msgid "SMS autoreply scenario has been deleted"
+msgstr ""
+
+msgid "SMS autoreply scenario has been edited"
+msgstr ""
+
+msgid "SMS autoreply scenario parameter"
+msgstr ""
+
+msgid "SMS autoreply scenario replies with"
+msgstr ""
+
+msgid "SMS board from"
+msgstr ""
+
+msgid "SMS board has been added"
+msgstr ""
+
+msgid "SMS board has been saved"
+msgstr ""
+
+msgid "SMS board keyword"
+msgstr ""
+
+msgid "SMS board with all its messages has been deleted"
+msgstr ""
+
+msgid "SMS command already exists, reserved or use by other feature"
+msgstr ""
+
+msgid "SMS command exec"
+msgstr ""
+
+msgid "SMS command exec path"
+msgstr ""
+
+msgid "SMS command has been added"
+msgstr ""
+
+msgid "SMS command has been deleted"
+msgstr ""
+
+msgid "SMS command has been saved"
+msgstr ""
+
+msgid "SMS command keyword"
+msgstr ""
+
+msgid "SMS custom URL"
+msgstr ""
+
+msgid "SMS custom already exists, reserved or use by other feature"
+msgstr ""
+
+#, fuzzy
+msgid "SMS custom has been added"
+msgstr "Настройки"
+
+msgid "SMS custom has been deleted"
+msgstr ""
+
+msgid "SMS custom has been saved"
+msgstr ""
+
+msgid "SMS custom keyword"
+msgstr ""
 
 msgid "SMS footer"
-msgstr "Подпись СМС"
+msgstr ""
 
-msgid "SMS from"
-msgstr "Отправитель"
+msgid "SMS forward parameter"
+msgstr ""
 
-msgid "SMS sender ID"
-msgstr "Имя отправителя СМС"
+msgid "SMS has been sent to valid numbers in uploaded file"
+msgstr ""
 
-msgid "SMS to email"
-msgstr "Переадресация СМС на email"
+msgid "SMS keyword already exists, reserved or use by other feature"
+msgstr ""
+
+msgid "SMS messages list for keyword"
+msgstr ""
+
+msgid "SMS poll access code"
+msgstr ""
+
+msgid "SMS poll access code used mainly by webservices"
+msgstr ""
+
+msgid "SMS poll already exists, reserved or use by other feature"
+msgstr ""
+
+msgid "SMS poll choice and all its voters has been deleted"
+msgstr ""
+
+msgid "SMS poll has been added"
+msgstr ""
+
+msgid "SMS poll has been saved"
+msgstr ""
+
+msgid "SMS poll keyword"
+msgstr ""
+
+msgid "SMS poll status has been changed"
+msgstr ""
+
+msgid "SMS poll title"
+msgstr ""
+
+msgid "SMS poll with all its messages has been deleted"
+msgstr ""
+
+msgid "SMS quiz already exists, reserved or use by other feature"
+msgstr ""
+
+msgid "SMS quiz answer"
+msgstr ""
+
+msgid "SMS quiz answer messages have been deleted"
+msgstr ""
+
+msgid "SMS quiz has been added"
+msgstr ""
+
+msgid "SMS quiz has been saved"
+msgstr ""
+
+msgid "SMS quiz keyword"
+msgstr ""
+
+msgid "SMS quiz question"
+msgstr ""
+
+msgid "SMS quiz status has been changed"
+msgstr ""
+
+msgid "SMS quiz with all its messages has been deleted"
+msgstr ""
+
+msgid "SMS schedule been saved"
+msgstr ""
+
+msgid "SMS schedule has been deleted"
+msgstr ""
+
+msgid "SMS schedule has been disabled"
+msgstr ""
+
+msgid "SMS schedule has been enabled"
+msgstr ""
+
+msgid "SMS subscribe already exists, reserved or use by other feature"
+msgstr ""
+
+msgid "SMS subscribe has been added"
+msgstr ""
+
+msgid "SMS subscribe has been saved"
+msgstr ""
+
+msgid "SMS subscribe keyword"
+msgstr ""
+
+msgid "SMS subscribe parameter"
+msgstr ""
+
+msgid "SMS subscribe reply"
+msgstr ""
+
+msgid "SMS subscribe status has been changed"
+msgstr ""
+
+msgid "SMS subscribe with all its messages and members has been deleted"
+msgstr ""
+
+msgid "SMS unsubscribe parameter"
+msgstr ""
+
+msgid "SMS unsubscribe reply"
+msgstr ""
+
+msgid "SMSC"
+msgstr ""
+
+msgid "SMSC already exists"
+msgstr ""
+
+msgid "SMSC has been edited"
+msgstr ""
+
+msgid "SMSC has been removed"
+msgstr ""
+
+msgid "SMSC name"
+msgstr ""
+
+msgid "SMSCs"
+msgstr ""
 
 msgid "Sandbox"
-msgstr "Необработанные сообщения"
+msgstr ""
 
 msgid "Save"
-msgstr "Сохранить"
+msgstr ""
 
-msgid "Save template"
-msgstr "Сохранить шаблон"
+msgid "Scan incoming SMS for #groupcode"
+msgstr ""
+
+msgid "Scan incoming SMS for @username"
+msgstr ""
 
 msgid "Schedule"
-msgstr "Запланировать"
+msgstr ""
 
-msgid "Search"
-msgstr "Поиск"
+msgid "Schedule ID"
+msgstr ""
 
-msgid "Select"
-msgstr "Выберите..."
-
-msgid "Select action"
-msgstr "Выберите действие"
-
-msgid "Selected incoming SMS has been deleted"
-msgstr "Выбранные принятые СМС удалены"
-
-msgid "Selected incoming message has been deleted"
-msgstr "Выбранные сообщения удалены"
-
-msgid "Selected message template has been deleted"
-msgstr "Выбранные шаблоны удалены"
-
-msgid "Selected outgoing SMS has been deleted"
-msgstr "Выбранные исходящие СМС удалены"
-
-msgid "Selected outgoing message has been deleted"
-msgstr "Выбранные сообщения удалены"
-
-msgid "Send"
-msgstr "Отправить"
-
-msgid "Send SMS"
-msgstr "Отправка СМС"
-
-msgid "Send as flash message"
-msgstr "Отправить как всплывающее СМС"
-
-msgid "Send as unicode message"
-msgstr "Отправить в юникоде"
-
-msgid "Send broadcast SMS"
-msgstr "Рассылка"
-
-msgid "Send message"
+#, fuzzy
+msgid "Schedule messages"
 msgstr "Отправить сообщение"
 
-msgid "Send to"
-msgstr "Кому"
+msgid "Schedule name"
+msgstr ""
 
-msgid "Send to group"
-msgstr "Группе"
+msgid "Schedule rule"
+msgstr ""
+
+msgid "Scheduled"
+msgstr ""
+
+#, fuzzy
+msgid "Scheduled message"
+msgstr "Отправить сообщение"
+
+msgid "Search"
+msgstr ""
+
+msgid "Secret key"
+msgstr ""
+
+msgid "Secret key is used in SMSSync app"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Select no if the incoming SMS time is in UTC"
+msgstr ""
+
+#, fuzzy
+msgid "Select username"
+msgstr "Удалить пользователя"
+
+#, fuzzy
+msgid "Select users"
+msgstr "Удалить пользователя"
+
+msgid "Selected catchall"
+msgstr ""
+
+msgid "Selected contact has been deleted"
+msgstr ""
+
+msgid "Selected contact moved to new group"
+msgstr ""
+
+msgid "Selected group has been deleted"
+msgstr ""
+
+msgid "Selected incoming message has been deleted"
+msgstr ""
+
+msgid "Selected members"
+msgstr ""
+
+msgid "Selected message template has been deleted"
+msgstr ""
+
+msgid "Selected outgoing message has been deleted"
+msgstr ""
+
+msgid "Selected transactions has been deleted"
+msgstr ""
+
+#, fuzzy
+msgid "Selected users"
+msgstr "Удалить пользователя"
+
+msgid "Send"
+msgstr ""
+
+msgid "Send SMS from remote using local username"
+msgstr ""
+
+msgid "Send SMS hostname or IP"
+msgstr ""
+
+msgid "Send SMS port"
+msgstr ""
+
+msgid "Send SMS to groups with found group codes in the incoming SMS"
+msgstr ""
+
+msgid "Send SMS to valid entries"
+msgstr ""
+
+msgid "Send from file"
+msgstr ""
+
+msgid "Send from file has been cancelled"
+msgstr ""
+
+msgid "Send message failed due to insufficient funds"
+msgstr ""
+
+msgid "Send message failed due to unable to create queue"
+msgstr ""
+
+#, php-format
+msgid "Send message failed due to unable to prepare queue %s"
+msgstr ""
+
+#, php-format
+msgid "Send message to %s in queue %s has failed"
+msgstr ""
+
+msgid "Send this message to all members"
+msgstr ""
+
+msgid "Send to"
+msgstr ""
 
 msgid "Sender"
-msgstr "Отправитель"
+msgstr ""
+
+#, fuzzy
+msgid "Sender ID"
+msgstr "Управление именами отправителей"
+
+msgid "Sender ID description has been added"
+msgstr ""
+
+msgid "Sender ID description has been updated"
+msgstr ""
+
+msgid "Sender ID has been added and waiting for approval"
+msgstr ""
+
+msgid "Sender ID has been removed"
+msgstr ""
+
+msgid "Sender ID is not available"
+msgstr ""
+
+msgid "Sender ID is now approved"
+msgstr ""
+
+msgid "Sender ID is now disabled"
+msgstr ""
+
+msgid "Senders sent multi votes"
+msgstr ""
+
+msgid "Senders sent multiple votes"
+msgstr ""
+
+msgid "Senders sent once"
+msgstr ""
 
 msgid "Sent"
-msgstr "Отправлено"
+msgstr ""
+
+msgid "Separate by comma for multiple destinations"
+msgstr ""
+
+msgid "Separate with comma for multiple items"
+msgstr ""
+
+msgid "Set as default"
+msgstr ""
+
+msgid ""
+"Set credit value bigger than 0 to set credit lowest limit that will trigger "
+"notification"
+msgstr ""
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Share phonebook and allow broadcast"
+msgstr ""
+
+msgid ""
+"Share this phonebook group and set permission for broadcasting SMS to this "
+"group from mobile phone"
+msgstr ""
+
+msgid "Simulate incoming SMS"
+msgstr ""
+
+#, fuzzy
+msgid "Site configuration"
+msgstr "Конфигурация"
+
+msgid "Site configuration has been saved"
+msgstr ""
 
 msgid "State or Province"
-msgstr "Штат или регион"
+msgstr ""
+
+msgid "Statistics"
+msgstr ""
 
 msgid "Status"
-msgstr "Состояние"
+msgstr ""
 
 msgid "Submit"
 msgstr ""
 
+msgid "Subscribe duration"
+msgstr ""
+
+msgid "Subscription expired reply"
+msgstr ""
+
+msgid "Subuser"
+msgstr ""
+
+msgid "Subuser ACL"
+msgstr ""
+
+#, fuzzy
+msgid "Subusers"
+msgstr "Управление дочерними пользователями"
+
+msgid "Supplied SMSC"
+msgstr ""
+
+msgid "Sync URL"
+msgstr ""
+
+msgid "System error has occured"
+msgstr ""
+
+msgid "Tags"
+msgstr ""
+
+msgid "Telerivet URL"
+msgstr ""
+
+msgid "Template installation path"
+msgstr ""
+
+msgid "The domain is already configured by other user"
+msgstr ""
+
+msgid "Themes"
+msgstr ""
+
 msgid "This field is required"
-msgstr "обязательное поле"
+msgstr ""
+
+msgid "This is a test incoming SMS message"
+msgstr ""
 
 msgid ""
 "This temporary password will be removed once you have logged in successfully"
 msgstr ""
 
 msgid "Time"
-msgstr "Время"
-
-msgid "Timezone"
-msgstr "Часовой пояс"
-
-msgid "To"
-msgstr "Кому"
-
-msgid "Tools"
-msgstr "Инструменты"
-
-#, fuzzy
-msgid "Unable to ban user"
-msgstr "Не удалось обновить сеанс"
-
-#, fuzzy
-msgid "Unable to unban user"
-msgstr "Не удалось обновить сеанс"
-
-msgid "Unable to update login session"
-msgstr "Не удалось обновить сеанс"
-
-msgid "Unban"
 msgstr ""
 
+msgid "Timezone"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "To"
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Total invalid SMS"
+msgstr ""
+
+msgid "Total multiple votes SMS"
+msgstr ""
+
+msgid "Total one time vote SMS"
+msgstr ""
+
+msgid "Total valid SMS"
+msgstr ""
+
+msgid "Transaction datetime"
+msgstr ""
+
+msgid "Try to disable SMS footer on master"
+msgstr ""
+
+msgid "Twilio URL"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "URL to playSMS, empty it to set it to base URL"
+msgstr ""
+
+msgid "URLs"
+msgstr ""
+
+#, fuzzy
+msgid "Unable to ban account"
+msgstr "Управление пользователями"
+
+#, fuzzy
+msgid "Unable to ban subuser"
+msgstr "Управление дочерними пользователями"
+
+msgid "Unable to delete group until the group is empty"
+msgstr ""
+
+#, fuzzy
+msgid "Unable to delete other users"
+msgstr "Не удалось нати файлы composer"
+
+msgid ""
+"Unable to delete this user until all subusers under this user have been "
+"removed"
+msgstr ""
+
+msgid "Unable to login"
+msgstr ""
+
+msgid "Unable to process subuser addition"
+msgstr ""
+
+msgid "Unable to process user addition"
+msgstr ""
+
+#, fuzzy
+msgid "Unable to unban account"
+msgstr "Управление дочерним пользователем"
+
+msgid "Unable to unban subuser"
+msgstr ""
+
+msgid "Unban"
+msgstr "Разблокировать"
+
+#, fuzzy
 msgid "Unicode message"
-msgstr "Содержит русские символы"
+msgstr "Отправить сообщение"
+
+msgid "Unknown error"
+msgstr ""
 
 msgid "Unknown error has occurred"
 msgstr ""
 
-msgid "Unpublish"
-msgstr "Отменить публикацию"
-
-msgid "Use"
-msgstr "Использовать"
-
-msgid "Use template"
-msgstr "Применить шаблон"
-
-msgid "User"
-msgstr "Пользователь"
-
-msgid "User admin or currently logged in administrator cannot be unbanned"
+msgid "Unknown format reply"
 msgstr ""
 
-msgid "User already exists"
-msgstr "Пользователь уже существует"
+msgid "Unlimited"
+msgstr ""
+
+msgid "Upload file"
+msgstr ""
+
+msgid "Uploaded file"
+msgstr ""
+
+msgid "Use JSON format URL"
+msgstr ""
+
+msgid "Use SSL"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "User ID"
+msgstr ""
+
+msgid "User agent"
+msgstr ""
 
 msgid "User configuration"
 msgstr "Настройки"
 
+#, fuzzy
 msgid "User configuration has been saved"
-msgstr "Пользовательские настройки сохранены"
-
-msgid "User configuration has been saved and password updated"
-msgstr "Пользовательские настройки сохранены, пароль обновлён"
+msgstr "Настройки"
 
 msgid "User configuration has been saved and webservices token updated"
-msgstr "Пользовательские настройки сохранены, токен изменён"
+msgstr ""
 
-msgid "User does not exists"
-msgstr "Пользователь не существует"
+msgid "User deletion unavailable"
+msgstr ""
 
-msgid "User has been added"
-msgstr "Пользователь добавлен"
+msgid "User does not exist"
+msgstr ""
 
-#, fuzzy
-msgid "User has been added and password has been emailed"
-msgstr "Пользователь удалён"
+msgid "User is already on banned subusers list"
+msgstr ""
 
-#, fuzzy
-msgid "User has been added but failed to send email"
-msgstr "Пользователь удалён"
-
-#, fuzzy
-msgid "User has been banned"
-msgstr "Пользователь добавлен"
-
-msgid "User has been deleted"
-msgstr "Пользователь удалён"
-
-#, fuzzy
-msgid "User has been removed"
-msgstr "Пользователь удалён"
-
-#, fuzzy
-msgid "User has been unbanned"
-msgstr "Пользователь добавлен"
-
-msgid "User is already exists"
-msgstr "Пользователь уже существует"
-
-#, fuzzy
 msgid "User is already on banned users list"
-msgstr "Пользователь уже существует"
+msgstr ""
 
 msgid "User is immune to deletion"
-msgstr "Пользователь не может быть удалён"
+msgstr ""
+
+msgid "User is not on banned subusers list"
+msgstr ""
 
 msgid "User is not on banned users list"
 msgstr ""
 
-msgid "User level"
-msgstr "Уровень доступа"
-
 msgid "User preference"
 msgstr "Пользовательские настройки"
 
-#, fuzzy
-msgid "User with this email is already exists"
-msgstr "Пользователь уже существует"
-
-#, fuzzy
-msgid "User with this mobile is already exists"
-msgstr "Пользователь уже существует"
-
 msgid "Username"
-msgstr "Имя пользователя"
+msgstr ""
 
-#, fuzzy
-msgid "Username is empty"
-msgstr "Имя пользователя"
+#, php-format
+msgid "Username %s with account ID %d has made a succesfull PayPal payment"
+msgstr ""
 
-msgid "Username should be at least 3 characters"
-msgstr "Имя пользователя должно состоять минимум из 3х знаков"
+#, php-format
+msgid "Username %s with account ID %d has reached lowest credit limit of %s"
+msgstr ""
+
+#, php-format
+msgid "Username must be at least 3 characters and maximum %d characters"
+msgstr ""
+
+msgid "Username or email"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
 
 msgid "Valid characters for username are alphabets, numbers, dot or dash"
-msgstr "Имя пользователя может содержать буквы, цифры, точки и тире"
+msgstr ""
+
+msgid "Valid entries"
+msgstr ""
+
+msgid "Verify captcha"
+msgstr ""
+
+msgid "Version"
+msgstr ""
 
 msgid "View"
 msgstr "Показать"
 
-msgid "View administrator"
-msgstr "Показать администраторов"
+msgid "View SMS queue"
+msgstr ""
+
+msgid "View board"
+msgstr ""
 
 #, fuzzy
-msgid "View administrators"
-msgstr "Показать администраторов"
+msgid "View log"
+msgstr "Показать"
 
-msgid "View groups"
-msgstr "Показать группы"
-
-msgid "View normal user"
-msgstr "Показать пользователей"
+msgid "View members"
+msgstr ""
 
 #, fuzzy
-msgid "View normal users"
-msgstr "Показать пользователей"
+msgid "View messages"
+msgstr "Отправить сообщение"
 
-msgid "View numbers"
-msgstr "Показать номера"
+msgid "View report"
+msgstr ""
 
-msgid "Webapp Token"
-msgstr "Токен"
+msgid "Vote option"
+msgstr ""
 
-msgid "Webapp token"
-msgstr "токен"
+msgid "Webservice token"
+msgstr ""
 
-msgid "Webservices"
-msgstr "веб-сервисы"
+msgid "Webservice username"
+msgstr ""
 
 msgid "Webservices IP range"
-msgstr "Диапазон IP для веб-сервисов"
+msgstr ""
+
+msgid "Webservices links"
+msgstr ""
 
 msgid "Webservices token"
-msgstr "Токен для веб-сервисов"
+msgstr ""
 
 msgid "Webservices username"
-msgstr "Имя пользователя для веб-сервисов"
+msgstr ""
+
+msgid "Website URL"
+msgstr ""
 
 msgid "Website email"
-msgstr "Email сайта"
+msgstr ""
 
 msgid "Website title"
-msgstr "Название сайта"
+msgstr ""
 
-msgid "Welcome to playSMS"
-msgstr "Добро пожаловать"
+msgid "Weekly"
+msgstr ""
+
+msgid "Welcome information"
+msgstr ""
+
+msgid "Whose online"
+msgstr ""
+
+msgid "Wrong amount or user does not exist"
+msgstr ""
+
+msgid "XML output"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
 
 msgid "You have been logged out"
-msgstr "Сеанс работы завершён"
+msgstr ""
 
 msgid "You have no access to this page"
-msgstr "У Вас нет доступа к этой странице"
+msgstr ""
+
+msgid "You have no member"
+msgstr ""
+
+#, php-format
+msgid "You have reached lowest credit limit of %s"
+msgstr ""
 
 msgid "You must fill all field"
-msgstr "Вы должны заполнить все поля"
+msgstr ""
 
 msgid "You must fill all fields"
-msgstr "Вы должны заполнить все поля"
+msgstr ""
 
-#, fuzzy
+msgid "You must fill all mandatory fields"
+msgstr ""
+
 msgid "You must fill all required fields"
-msgstr "Вы должны заполнить все поля"
+msgstr ""
+
+msgid "You must fill mandatory fields"
+msgstr ""
+
+msgid "You must fill required fields"
+msgstr ""
 
 msgid "You must select receiver and your message should not be empty"
-msgstr "Вы должны выбрать получателей и заполнить текст сообщения"
-
-msgid "You must select receiver group and your message should not be empty"
-msgstr "Вы должны выбрать группу получателей и заполнить текст сообщения"
+msgstr ""
 
 msgid "You or someone else have requested a password recovery"
 msgstr ""
 
+msgid "Your DLR URL is"
+msgstr ""
+
 msgid "Your SMS has been delivered to queue"
-msgstr "Сообщение успешно поставлено в очередь"
+msgstr ""
+
+msgid "Your callback URL is"
+msgstr ""
+
+msgid "Your callback URL should be accessible from Bulksms"
+msgstr ""
+
+msgid "Your callback URL should be accessible from Clickatell"
+msgstr ""
+
+msgid "Your callback URL should be accessible from Generic"
+msgstr ""
+
+msgid "Your callback URL should be accessible from Infobip"
+msgstr ""
+
+msgid "Your callback URL should be accessible from Jasmin"
+msgstr ""
+
+msgid "Your callback URL should be accessible from Nexmo"
+msgstr ""
+
+msgid "Your callback URL should be accessible from OpenVox"
+msgstr ""
+
+msgid "Your callback URL should be accessible from twilio"
+msgstr ""
+
+msgid "Your choice"
+msgstr ""
+
+msgid "Your credit"
+msgstr ""
+
+msgid "Your current callback URL is"
+msgstr ""
 
 msgid "Your email format is invalid"
-msgstr "Неправильный формат email адреса"
-
-msgid "Your message"
-msgstr "Ваше сообщение"
+msgstr ""
 
 msgid "Your message has been delivered to queue"
-msgstr "Сообщение успешно поставлено в очередь"
+msgstr ""
+
+msgid "Your message has been delivered to some of the destinations"
+msgstr ""
 
 msgid "Your mobile format is invalid"
-msgstr "Неправильный формат номера телефона"
+msgstr ""
+
+#, php-format
+msgid ""
+"Your subuser with username %s and account ID %d has reached lowest credit "
+"limit of %s"
+msgstr ""
 
 msgid "Zipcode"
-msgstr "Индекс"
+msgstr ""
+
+#, fuzzy
+msgid "amount"
+msgstr "Мой профиль"
+
+msgid "balance"
+msgstr ""
+
+msgid "blocked"
+msgstr ""
 
 msgid "chars"
-msgstr "симв."
+msgstr ""
+
+msgid "code"
+msgstr ""
+
+msgid "correct"
+msgstr ""
+
+msgid "cost"
+msgstr ""
+
+#, fuzzy
+msgid "count"
+msgstr "Мой профиль"
+
+msgid "create an account to send SMS"
+msgstr ""
+
+msgid "destination"
+msgstr ""
+
+msgid "destination number, message"
+msgstr ""
+
+msgid "destination number, message, username"
+msgstr ""
+
+msgid "domain"
+msgstr ""
 
 msgid "email"
-msgstr "email"
+msgstr ""
 
 msgid "failed"
-msgstr "отказ"
+msgstr ""
 
-msgid "format YYYY-MM-DD hh:mm"
-msgstr "формат ГГГГ-ММ-ДД чч:мм"
+msgid "for subuser only"
+msgstr ""
 
-msgid "forward"
-msgstr "переслать"
+msgid "format"
+msgstr ""
 
-msgid "from"
-msgstr "от"
+msgid "free credits are available for testing purposes"
+msgstr ""
 
-msgid "generated on user creation"
-msgstr "сгенерировано при создании пользователя"
+#, fuzzy
+msgid "group"
+msgstr "Группа"
 
 msgid "handled"
-msgstr "обработано"
+msgstr ""
+
+msgid "incorrect"
+msgstr ""
+
+msgid "index.php?app=main&inc=feature_credit&op=actions&go=add"
+msgstr ""
+
+msgid "index.php?app=main&inc=feature_credit&op=actions&go=reduce"
+msgstr ""
+
+msgid "invalid entries"
+msgstr ""
+
+msgid "keyword"
+msgstr ""
 
 msgid "mobile"
-msgstr "мобильный"
+msgstr ""
+
+msgid "msgtoolbox URL"
+msgstr ""
+
+msgid "multiple times"
+msgstr ""
 
 msgid "no"
-msgstr "нет"
+msgstr ""
 
-msgid "not set"
-msgstr "не установлено"
+msgid "of"
+msgstr ""
 
-msgid "number"
-msgstr "номер"
+msgid "on"
+msgstr ""
 
-msgid "prefix with # for groups and @ for users"
-msgstr "# для поиска групп, @ для поиска пользователей"
+msgid "one time"
+msgstr ""
+
+msgid "one time every 24 hours"
+msgstr ""
+
+msgid "one time every month"
+msgstr ""
+
+msgid "one time every week"
+msgstr ""
+
+msgid "playSMS daemon is NOT running"
+msgstr ""
+
+msgid "playSMS daemon is running"
+msgstr ""
+
+msgid "playSMS daemon status"
+msgstr ""
+
+msgid "playSMS web URL"
+msgstr ""
+
+msgid "prefix"
+msgstr ""
 
 msgid "queued"
-msgstr "запланировано"
+msgstr ""
 
-msgid "reply"
-msgstr "ответить"
+msgid "rate"
+msgstr ""
 
-msgid "resend"
-msgstr "повторить"
+msgid "return"
+msgstr ""
 
-msgid "row"
-msgstr "строка"
+msgid "title"
+msgstr ""
 
-msgid "shared by"
-msgstr "опубликовано"
+msgid "twilio is a bulk SMS provider"
+msgstr ""
 
-msgid "to"
-msgstr "кому"
+msgid "twilio will push DLR and incoming SMS to your callback URL"
+msgstr ""
+
+#, fuzzy
+msgid "unable to translate"
+msgstr "Управление пользователями"
 
 msgid "unhandled"
-msgstr "не обработано"
+msgstr ""
+
+msgid "user"
+msgstr ""
 
 msgid "username"
-msgstr "имя пользователя"
+msgstr ""
 
-msgid "version"
-msgstr "версия"
+msgid "valid entries"
+msgstr ""
+
+msgid "will be replaced by SMS incoming date/time"
+msgstr ""
+
+msgid "will be replaced by SMS raw message"
+msgstr ""
+
+msgid "will be replaced by command keyword"
+msgstr ""
+
+msgid "will be replaced by command parameter passed to server from SMS"
+msgstr ""
+
+msgid "will be replaced by custom keyword"
+msgstr ""
+
+msgid "will be replaced by custom parameter passed to server from SMS"
+msgstr ""
+
+msgid "will be replaced by sender number"
+msgstr ""
+
+msgid "will be replaced with the name listed in phonebook"
+msgstr ""
+
+msgid "will be replaced with the phone number listed in phonebook"
+msgstr ""
 
 msgid "yes"
-msgstr "да"
+msgstr ""

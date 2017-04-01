@@ -1,0 +1,178 @@
+#, fuzzy
+msgid "Account has been unbanned"
+msgstr "   "
+
+#, fuzzy
+msgid "All feature messages"
+msgstr " "
+
+msgid "All inbox"
+msgstr ""
+
+msgid "All reports"
+msgstr ""
+
+#, fuzzy
+msgid "All sent messages"
+msgstr " "
+
+msgid "Amount"
+msgstr ""
+
+msgid "Are you sure you want to delete these items ?"
+msgstr ""
+
+msgid "Are you sure you want to delete these transactions ?"
+msgstr ""
+
+msgid "Balance"
+msgstr ""
+
+msgid "Balance recorded on transaction"
+msgstr ""
+
+msgid "Ban date/time"
+msgstr ""
+
+msgid "Banned users list"
+msgstr ""
+
+msgid "Billing"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Credit"
+msgstr ""
+
+msgid "Current IP address"
+msgstr ""
+
+msgid "Deleted"
+msgstr ""
+
+msgid "Delivered"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Failed"
+msgstr ""
+
+msgid "Feature"
+msgstr ""
+
+msgid "Footer"
+msgstr ""
+
+msgid "From"
+msgstr ""
+
+msgid "Inbox"
+msgstr ""
+
+msgid "Keyword"
+msgstr ""
+
+msgid "Last update"
+msgstr ""
+
+msgid "List of my credit transactions"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "My credit transactions"
+msgstr ""
+
+msgid "My feature messages"
+msgstr ""
+
+msgid "My report"
+msgstr ""
+
+#, fuzzy
+msgid "My sent messages"
+msgstr " "
+
+msgid "Pending"
+msgstr ""
+
+msgid "Report"
+msgstr ""
+
+msgid "Report all users"
+msgstr ""
+
+msgid "Report banned users"
+msgstr ""
+
+msgid "Report whose online"
+msgstr ""
+
+msgid "SMSC"
+msgstr ""
+
+msgid "Sandbox"
+msgstr ""
+
+msgid "Selected incoming message has been deleted"
+msgstr ""
+
+msgid "Selected outgoing message has been deleted"
+msgstr ""
+
+msgid "Selected transactions has been deleted"
+msgstr ""
+
+msgid "Sent"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "To"
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Transaction datetime"
+msgstr ""
+
+#, fuzzy
+msgid "Unable to unban account"
+msgstr "     "
+
+msgid "User"
+msgstr ""
+
+msgid "User agent"
+msgstr ""
+
+msgid "Whose online"
+msgstr ""
+
+msgid "cost"
+msgstr ""
+
+msgid "count"
+msgstr ""
+
+msgid "handled"
+msgstr ""
+
+msgid "rate"
+msgstr ""
+
+msgid "unhandled"
+msgstr ""
+
+msgid "username"
+msgstr ""

@@ -6,7 +6,7 @@
  *
  * @param $keyword
  *   checkavailablekeyword() will insert keyword for checking to the hook here
- * @return 
+ * @return
  *   TRUE if keyword is available
  */
 function inboxgroup_hook_checkavailablekeyword($keyword) {
@@ -90,7 +90,7 @@ function inboxgroup_forwardmembers($data, $log_in_id, $sms_sender, $message) {
 		if ($continue) {
 			for ($i=0;$i<count($users);$i++) {
 				if (($sms_to = $users[$i]['mobile']) && ($sms_to != $sms_sender)) {
-					//list($ok, $to, $smslog_id,$queue) = sendsms($username, $sms_to, $message, 'text', 0);
+					//list($ok, $to, $smslog_id,$queue) = sendsms_helper($username, $sms_to, $message, 'text', 0);
 					//logger_print("forwardmembers sendsms smslog_id:".$smslog_id[0]." to:".$sms_to, 2, "inboxgroup");
 					//inboxgroup_saveoutlog($log_in_id, $smslog_id[0], 0, $users[$i]['uid']);
 					$c_username = user_uid2username($users[$i]['uid']);
@@ -119,7 +119,7 @@ function inboxgroup_forwardcatchall($data, $log_in_id, $sms_sender, $message) {
 		if ($continue) {
 			for ($i=0;$i<count($users);$i++) {
 				if (($sms_to = $users[$i]['mobile']) && ($sms_to != $sms_sender)) {
-					//list($ok, $to, $smslog_id,$queue) = sendsms($username, $sms_to, $message, 'text', 0);
+					//list($ok, $to, $smslog_id,$queue) = sendsms_helper($username, $sms_to, $message, 'text', 0);
 					//logger_print("forwardcatchall sendsms smslog_id:".$smslog_id[0]." to:".$sms_to, 2, "inboxgroup");
 					//inboxgroup_saveoutlog($log_in_id, $smslog_id[0], 1, $users[$i]['uid']);
 					$c_username = user_uid2username($users[$i]['uid']);
@@ -258,7 +258,7 @@ function inboxgroup_dataedit($rid, $keywords, $description, $exclusive) {
 	$db_result = dba_query($db_query);
 	$db_row = dba_fetch_array($db_result);
 	$orig_keywords = explode(',', $db_row['keywords']);
-	$exclusive = $exclusive ? 1 : 0 ; 
+	$exclusive = $exclusive ? 1 : 0 ;
 	$keywords = str_replace(' ', '', $keywords);
 	$keywords = trim(strtoupper($keywords));
 	$keywords = explode(',', $keywords);

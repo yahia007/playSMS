@@ -1,5 +1,11 @@
-msgid "Cannot find PHP PEAR-DB"
+msgid ""
 msgstr ""
+"POT-Creation-Date: \n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Cannot find PHP PEAR-DB"
+msgstr "Impossible de trouver PHP PEAR-DB"
 
 msgid "FATAL ERROR"
-msgstr ""
+msgstr "ERREUR FATALE"

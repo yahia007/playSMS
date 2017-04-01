@@ -4,6 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
+"POT-Creation-Date: \n"
 "PO-Revision-Date: 2013-01-09 16:29+0100\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -46,6 +47,9 @@ msgstr "Prefix"
 msgid "Rate"
 msgstr "Tarifa"
 
+msgid "Rate already exists"
+msgstr "La tarifa ja existeix"
+
 msgid "Rate has been added"
 msgstr "La tarifa s'ha afegit"
 
@@ -55,14 +59,25 @@ msgstr "La tarifa s'ha el·liminat"
 msgid "Rate has been saved"
 msgstr "La tarifa s'ha guardat"
 
-msgid "Rate is already exists"
-msgstr "La tarifa ja existeix"
-
 msgid "Save"
 msgstr "Guardar"
 
+#, php-format
+msgid "Username %s with account ID %d has reached lowest credit limit of %s"
+msgstr ""
+
+#, php-format
+msgid "You have reached lowest credit limit of %s"
+msgstr ""
+
 msgid "You must fill all fields"
 msgstr "Heu d'omplir tots els camps"
+
+#, php-format
+msgid ""
+"Your subuser with username %s and account ID %d has reached lowest credit "
+"limit of %s"
+msgstr ""
 
 msgid "destination"
 msgstr "destí"

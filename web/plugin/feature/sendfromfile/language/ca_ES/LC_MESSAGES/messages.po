@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-29 17:59+0700\n"
+"POT-Creation-Date: \n"
 "PO-Revision-Date: 2013-12-10 15:49+0100\n"
 "Last-Translator: Joan <aseques@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -16,6 +16,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.4\n"
+
+msgid "CSV file format"
+msgstr ""
 
 msgid "Cancel send from file"
 msgstr "Cancel·lar l'enviament del fitxer"
@@ -50,6 +53,9 @@ msgstr "Missatge"
 msgid "Please select CSV file"
 msgstr "Trieu el fitxer CSV"
 
+msgid "Prevent duplicates"
+msgstr ""
+
 msgid "SMS has been sent to valid numbers in uploaded file"
 msgstr "S'ha enviat l'SMS als números vàlids del fitxer pujat"
 
@@ -77,10 +83,12 @@ msgstr "Entrades vàlides"
 msgid "Your choice"
 msgstr "La vostra tria"
 
-msgid "format : destination number, message"
+#, fuzzy
+msgid "destination number, message"
 msgstr "format: núm. destí, missatge"
 
-msgid "format : destination number, message, username"
+#, fuzzy
+msgid "destination number, message, username"
 msgstr "format: núm. destí, missatge, usuari"
 
 msgid "invalid entries"

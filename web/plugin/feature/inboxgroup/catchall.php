@@ -4,8 +4,8 @@ if(!auth_isadmin()){auth_block();};
 
 // error messages
 $error_content = '';
-if ($err = $_SESSION['error_string']) {
-	$error_content = "<div class=error_string>$err</div>";
+if ($err = TRUE) {
+	$error_content = _dialog();
 }
 
 // main
@@ -122,7 +122,7 @@ switch (_OP_) {
 		for ($i=0;$i<count($users);$i++) {
 			$list_of_users .= "<option value='".$users[$i]['uid']."'>".$users[$i]['name']." ".$users[$i]['mobile']."</option>";
 		}
-		// get normal users
+		// get users
 		$users = user_getallwithstatus(3);
 		for ($i=0;$i<count($users);$i++) {
 			$list_of_users .= "<option value='".$users[$i]['uid']."'>".$users[$i]['name']." ".$users[$i]['mobile']."</option>";
@@ -167,13 +167,13 @@ switch (_OP_) {
 				$c_uid = $uids[$i];
 				$c_username = user_uid2username($c_uid);
 				if (inboxgroup_catchalladd($rid, $c_uid)) {
-					$_SESSION['error_string'] .= _('Catch-all has been added')." ("._('Username').": ".$c_username.")<br />";
+					$_SESSION['dialog']['info'][] .= _('Catch-all has been added')." ("._('Username').": ".$c_username.")<br />";
 				} else {
-					$_SESSION['error_string'] .= _('Fail to add catch-all')." ("._('Username').": ".$c_username.")<br />";
+					$_SESSION['dialog']['info'][] .= _('Fail to add catch-all')." ("._('Username').": ".$c_username.")<br />";
 				}
 			}
 		} else {
-			$_SESSION['error_string'] = _('Receiver number does not exists');
+			$_SESSION['dialog']['info'][] = _('Receiver number does not exist');
 		}
 		header("Location: "._u('index.php?app=main&inc=feature_inboxgroup&route=catchall&op=catchall&rid='.$rid));
 		exit();
@@ -230,7 +230,7 @@ switch (_OP_) {
 						<br />
 						<p><input type=\"button\" class=\"button\" value=\"&gt;\" onclick=\"moveSelectedOptions(this.form['uids_dump[]'],this.form['uids[]'])\"></p>
 						<p><input type=\"button\" class=\"button\" value=\"&lt;\" onclick=\"moveSelectedOptions(this.form['uids[]'],this.form['uids_dump[]'])\"></p>
-					</td>		
+					</td>
 					<td nowrap>
 					    "._('Selected catchall').":<br>
 					    <select name=\"uids[]\" id=\"msg_combo_sendto\" size=\"10\" multiple=\"multiple\" onDblClick=\"moveSelectedOptions(this.form['uids[]'],this.form['uids_dump[]'])\"></select>
@@ -255,13 +255,13 @@ switch (_OP_) {
 				$c_uid = $uids[$i];
 				$c_username = user_uid2username($c_uid);
 				if (inboxgroup_catchalldel($rid, $c_uid)) {
-					$_SESSION['error_string'] .= _('Catch-all has been deleted')." ("._('Username').": ".$c_username.")<br />";
+					$_SESSION['dialog']['info'][] .= _('Catch-all has been deleted')." ("._('Username').": ".$c_username.")<br />";
 				} else {
-					$_SESSION['error_string'] .= _('Fail to delete catch-all')." ("._('Username').": ".$c_username.")<br />";
+					$_SESSION['dialog']['info'][] .= _('Fail to delete catch-all')." ("._('Username').": ".$c_username.")<br />";
 				}
 			}
 		} else {
-			$_SESSION['error_string'] = _('Receiver number does not exists');
+			$_SESSION['dialog']['info'][] = _('Receiver number does not exist');
 		}
 		header("Location: "._u('index.php?app=main&inc=feature_inboxgroup&route=catchall&op=catchall&rid='.$rid));
 		exit();

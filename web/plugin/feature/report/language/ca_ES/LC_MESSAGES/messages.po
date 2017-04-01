@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-19 17:59+0700\n"
+"POT-Creation-Date: \n"
 "PO-Revision-Date: 2014-03-25 15:30+0100\n"
 "Last-Translator: Joan <aseques@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -14,8 +14,38 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.5\n"
 
+#, fuzzy
+msgid "Account has been unbanned"
+msgstr "تم إلغاء حظر الحساب"
+
+#, fuzzy
+msgid "All feature messages"
+msgstr "كافة الرسائل"
+
+msgid "All inbox"
+msgstr ""
+
 msgid "All reports"
 msgstr "Tots els informes"
+
+#, fuzzy
+msgid "All sent messages"
+msgstr "كافة الرسائل"
+
+msgid "Amount"
+msgstr ""
+
+msgid "Are you sure you want to delete these items ?"
+msgstr ""
+
+msgid "Are you sure you want to delete these transactions ?"
+msgstr ""
+
+msgid "Balance"
+msgstr ""
+
+msgid "Balance recorded on transaction"
+msgstr ""
 
 msgid "Ban date/time"
 msgstr ""
@@ -25,6 +55,9 @@ msgstr ""
 
 msgid "Billing"
 msgstr "Facturació"
+
+msgid "Content"
+msgstr ""
 
 msgid "Credit"
 msgstr "Crèdit"
@@ -44,11 +77,42 @@ msgstr ""
 msgid "Failed"
 msgstr "Fallats"
 
+msgid "Feature"
+msgstr ""
+
+msgid "Footer"
+msgstr ""
+
+msgid "From"
+msgstr ""
+
+msgid "Inbox"
+msgstr ""
+
+msgid "Keyword"
+msgstr ""
+
 msgid "Last update"
+msgstr ""
+
+msgid "List of my credit transactions"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "My credit transactions"
+msgstr ""
+
+msgid "My feature messages"
 msgstr ""
 
 msgid "My report"
 msgstr "El meu informe"
+
+#, fuzzy
+msgid "My sent messages"
+msgstr "الرسائل "
 
 msgid "Pending"
 msgstr "Pendents"
@@ -65,14 +129,42 @@ msgstr ""
 msgid "Report whose online"
 msgstr ""
 
+msgid "SMSC"
+msgstr ""
+
+msgid "Sandbox"
+msgstr ""
+
+msgid "Selected incoming message has been deleted"
+msgstr ""
+
+msgid "Selected outgoing message has been deleted"
+msgstr ""
+
+msgid "Selected transactions has been deleted"
+msgstr ""
+
 msgid "Sent"
 msgstr "Enviats"
+
+msgid "Status"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "To"
+msgstr ""
 
 msgid "Total"
 msgstr "Total"
 
-msgid "Unable to unban user"
+msgid "Transaction datetime"
 msgstr ""
+
+#, fuzzy
+msgid "Unable to unban account"
+msgstr "غير قادر على إلغاء حظر الحساب"
 
 msgid "User"
 msgstr "Usuari"
@@ -80,10 +172,22 @@ msgstr "Usuari"
 msgid "User agent"
 msgstr ""
 
-msgid "User has been unbanned"
+msgid "Whose online"
 msgstr ""
 
-msgid "Whose online"
+msgid "cost"
+msgstr ""
+
+msgid "count"
+msgstr ""
+
+msgid "handled"
+msgstr ""
+
+msgid "rate"
+msgstr ""
+
+msgid "unhandled"
 msgstr ""
 
 msgid "username"

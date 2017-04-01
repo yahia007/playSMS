@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-29 17:59+0700\n"
+"POT-Creation-Date: \n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
@@ -64,7 +64,7 @@ msgstr ""
 msgid "SMS quiz answer"
 msgstr "Respuesta de Exámen corto (quiz) SMS"
 
-msgid "SMS quiz answer messages has been deleted"
+msgid "SMS quiz answer messages have been deleted"
 msgstr "Repuesta de Exámen corto (quiz) SMS ha sido borrada"
 
 msgid "SMS quiz has been added"
@@ -84,6 +84,9 @@ msgstr "El estado del Exámen corto (quiz) ha cambiado"
 
 msgid "SMS quiz with all its messages has been deleted"
 msgstr "El Exámen corto con todos sus mensajes ha sido eliminado"
+
+msgid "SMSC"
+msgstr ""
 
 msgid "Save"
 msgstr "Guardar"

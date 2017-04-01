@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-19 17:59+0700\n"
+"POT-Creation-Date: \n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
@@ -14,11 +14,10 @@ msgstr "Tambah kontak"
 msgid "Add group"
 msgstr "Tambah grup"
 
-#, fuzzy
-msgid "Allow broadcast from mobile"
-msgstr "sebarkan SMS dari satu SMS"
-
 msgid "Anyone"
+msgstr ""
+
+msgid "CSV file format"
 msgstr ""
 
 msgid "Contact has been added"
@@ -27,7 +26,7 @@ msgstr "Kontak telah ditambah"
 msgid "Contact has been edited"
 msgstr "Kontak telah diubah"
 
-msgid "Contacts has been imported"
+msgid "Contacts have been imported"
 msgstr "Kontak telah di-impor"
 
 msgid "Delete"
@@ -54,17 +53,21 @@ msgstr "Grup"
 msgid "Group code"
 msgstr "Kode grup"
 
+msgid "Group code already exists"
+msgstr "Kode grup sudah ada"
+
 msgid "Group code has been added"
 msgstr "Kode grup telah ditambah"
 
-msgid "Group code is already exists"
-msgstr "Kode grup sudah ada"
-
-msgid "Group code used by keyword"
-msgstr "Kode grup digunakan oleh kata kunci"
+msgid "Group code may be used to broadcast SMS to this group"
+msgstr ""
 
 msgid "Group has been edited"
 msgstr "Grup telah diubah"
+
+msgid ""
+"Group has been edited but unable to set broadcast from members or anyone"
+msgstr ""
 
 msgid "Group name"
 msgstr "Nama grup"
@@ -90,20 +93,32 @@ msgstr "Handphone"
 msgid "Move to"
 msgstr ""
 
+msgid "Multiple entries separated by space"
+msgstr ""
+
 msgid "Name"
 msgstr "Nama"
 
-msgid "No changes has been made"
+msgid "No changes have been made"
 msgstr "Tidak ada perubahan"
 
-msgid "Note"
-msgstr "Catatan"
+#, fuzzy
+msgid "No group"
+msgstr "grup"
 
 msgid "Phonebook"
 msgstr "Buku telepon"
 
 msgid "Please select CSV file for phonebook entries"
 msgstr "Pilih berkas CSV untuk isian buku telepon"
+
+#, fuzzy
+msgid "Please use alphanumeric only and make it short"
+msgstr "gunakan hurup besar dan singkat saja"
+
+#, fuzzy
+msgid "Please use uppercase and make it short"
+msgstr "gunakan hurup besar dan singkat saja"
 
 msgid "Save"
 msgstr "Simpan"
@@ -121,6 +136,18 @@ msgstr "Kontak terpilih telah dihapus"
 msgid "Selected group has been deleted"
 msgstr "Grup terpilih telah dihapus"
 
+msgid "Share phonebook and allow broadcast"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Share this phonebook group and set permission for broadcasting SMS to this "
+"group from mobile phone"
+msgstr "تعيين صلاحيات إرسال رسالة جماعية لعناصر هذه المجموعة من رقم الجوال"
+
+msgid "Tags"
+msgstr ""
+
 msgid "Unable to delete group until the group is empty"
 msgstr ""
 
@@ -135,17 +162,14 @@ msgstr "Anda harus mengisi semua isian"
 msgid "You must fill required fields"
 msgstr "Anda harus mengisi semua isian"
 
-msgid "broadcast SMS from single SMS"
-msgstr "sebarkan SMS dari satu SMS"
-
 msgid "code"
 msgstr "kode"
-
-msgid "format"
-msgstr "format"
 
 msgid "group"
 msgstr "grup"
 
-msgid "please use uppercase and make it short"
-msgstr "gunakan hurup besar dan singkat saja"
+msgid " "
+msgstr ""
+
+msgid "  "
+msgstr ""

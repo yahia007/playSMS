@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-29 17:59+0700\n"
+"POT-Creation-Date: \n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
@@ -14,11 +14,10 @@ msgstr "Adicionar contato"
 msgid "Add group"
 msgstr "Adicionar grupo"
 
-#, fuzzy
-msgid "Allow broadcast from mobile"
-msgstr "distribuir SMS de outro SMS"
-
 msgid "Anyone"
+msgstr ""
+
+msgid "CSV file format"
 msgstr ""
 
 msgid "Contact has been added"
@@ -27,7 +26,7 @@ msgstr "Contato foi adicionado"
 msgid "Contact has been edited"
 msgstr "Contato foi editado"
 
-msgid "Contacts has been imported"
+msgid "Contacts have been imported"
 msgstr "Contatos foram importados"
 
 msgid "Delete"
@@ -54,17 +53,21 @@ msgstr "Grupo"
 msgid "Group code"
 msgstr "Código de grupo"
 
+msgid "Group code already exists"
+msgstr "Código do grupo já existe"
+
 msgid "Group code has been added"
 msgstr "Código do grupo foi adicionado"
 
-msgid "Group code is already exists"
-msgstr "Código do grupo já existe"
-
-msgid "Group code used by keyword"
-msgstr "Código do grupo utilizado por palavra-chave"
+msgid "Group code may be used to broadcast SMS to this group"
+msgstr ""
 
 msgid "Group has been edited"
 msgstr "Grupo foi editado"
+
+msgid ""
+"Group has been edited but unable to set broadcast from members or anyone"
+msgstr ""
 
 msgid "Group name"
 msgstr "Nome do grupo"
@@ -90,20 +93,32 @@ msgstr "Celular"
 msgid "Move to"
 msgstr ""
 
+msgid "Multiple entries separated by space"
+msgstr ""
+
 msgid "Name"
 msgstr "Nome"
 
-msgid "No changes has been made"
+msgid "No changes have been made"
 msgstr "Nenhuma alteração realizada"
 
-msgid "Note"
-msgstr "Observações"
+#, fuzzy
+msgid "No group"
+msgstr "grupo"
 
 msgid "Phonebook"
 msgstr "Contatos"
 
 msgid "Please select CSV file for phonebook entries"
 msgstr "Por favor selecione o arquivo CSV para entradas dos contatos"
+
+#, fuzzy
+msgid "Please use alphanumeric only and make it short"
+msgstr "por favor use somente letras maisculas e seja curto"
+
+#, fuzzy
+msgid "Please use uppercase and make it short"
+msgstr "por favor use somente letras maisculas e seja curto"
 
 msgid "Save"
 msgstr "Salvar"
@@ -121,6 +136,18 @@ msgstr "Os contatos selecionados foram removidos"
 msgid "Selected group has been deleted"
 msgstr "O grupo selecionado foi removido"
 
+msgid "Share phonebook and allow broadcast"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Share this phonebook group and set permission for broadcasting SMS to this "
+"group from mobile phone"
+msgstr "تعيين صلاحيات إرسال رسالة جماعية لعناصر هذه المجموعة من رقم الجوال"
+
+msgid "Tags"
+msgstr ""
+
 msgid "Unable to delete group until the group is empty"
 msgstr ""
 
@@ -135,17 +162,14 @@ msgstr "Você deve preencher todos os campos"
 msgid "You must fill required fields"
 msgstr "Você deve preencher todos os campos"
 
-msgid "broadcast SMS from single SMS"
-msgstr "distribuir SMS de outro SMS"
-
 msgid "code"
 msgstr "código"
-
-msgid "format"
-msgstr "formato"
 
 msgid "group"
 msgstr "grupo"
 
-msgid "please use uppercase and make it short"
-msgstr "por favor use somente letras maisculas e seja curto"
+msgid " "
+msgstr ""
+
+msgid "  "
+msgstr ""

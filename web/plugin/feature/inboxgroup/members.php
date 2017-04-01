@@ -4,8 +4,8 @@ if(!auth_isadmin()){auth_block();};
 
 // error messages
 $error_content = '';
-if ($err = $_SESSION['error_string']) {
-	$error_content = "<div class=error_string>$err</div>";
+if ($err = TRUE) {
+	$error_content = _dialog();
 }
 
 // main
@@ -123,7 +123,7 @@ switch (_OP_) {
 		for ($i=0;$i<count($users);$i++) {
 			$list_of_users .= "<option value='".$users[$i]['uid']."'>".$users[$i]['name']." ".$users[$i]['mobile']."</option>";
 		}
-		// get normal users
+		// get users
 		$users = user_getallwithstatus(3);
 		for ($i=0;$i<count($users);$i++) {
 			$list_of_users .= "<option value='".$users[$i]['uid']."'>".$users[$i]['name']." ".$users[$i]['mobile']."</option>";
@@ -168,13 +168,13 @@ switch (_OP_) {
 				$c_uid = $uids[$i];
 				$c_username = user_uid2username($c_uid);
 				if (inboxgroup_membersadd($rid, $c_uid)) {
-					$_SESSION['error_string'] .= _('Member has been added')." ("._('Username').": ".$c_username.")<br />";
+					$_SESSION['dialog']['info'][] .= _('Member has been added')." ("._('Username').": ".$c_username.")<br />";
 				} else {
-					$_SESSION['error_string'] .= _('Fail to add member')." ("._('Username').": ".$c_username.")<br />";
+					$_SESSION['dialog']['info'][] .= _('Fail to add member')." ("._('Username').": ".$c_username.")<br />";
 				}
 			}
 		} else {
-			$_SESSION['error_string'] = _('Receiver number does not exists');
+			$_SESSION['dialog']['info'][] = _('Receiver number does not exist');
 		}
 		header("Location: "._u('index.php?app=main&inc=feature_inboxgroup&route=members&op=members&rid='.$rid));
 		exit();
@@ -256,13 +256,13 @@ switch (_OP_) {
 				$c_uid = $uids[$i];
 				$c_username = user_uid2username($c_uid);
 				if (inboxgroup_membersdel($rid, $c_uid)) {
-					$_SESSION['error_string'] .= _('Member has been deleted')." ("._('Username').": ".$c_username.")<br />";
+					$_SESSION['dialog']['info'][] .= _('Member has been deleted')." ("._('Username').": ".$c_username.")<br />";
 				} else {
-					$_SESSION['error_string'] .= _('Fail to delete member')." ("._('Username').": ".$c_username.")<br />";
+					$_SESSION['dialog']['info'][] .= _('Fail to delete member')." ("._('Username').": ".$c_username.")<br />";
 				}
 			}
 		} else {
-			$_SESSION['error_string'] = _('Receiver number does not exists');
+			$_SESSION['dialog']['info'][] = _('Receiver number does not exist');
 		}
 		header("Location: "._u('index.php?app=main&inc=feature_inboxgroup&route=members&op=members&rid='.$rid));
 		exit();

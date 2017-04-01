@@ -5,11 +5,47 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Administrator"
+msgstr "Administrateur"
+
+msgid "Administrators"
+msgstr "Administrateurs"
+
 msgid "Back"
-msgstr ""
+msgstr "Retour"
+
+msgid "Compose message"
+msgstr "Rédiger un message"
+
+msgid "Information"
+msgstr "Information"
+
+msgid "Please select"
+msgstr "Veuillez sélectionner"
 
 msgid "Search"
-msgstr ""
+msgstr "Recherche"
+
+msgid "Select users"
+msgstr "Sélectionner les utilisateurs"
+
+msgid "Subuser"
+msgstr "Sous-utilisateur"
+
+msgid "Subusers"
+msgstr "Sous-utilisateurs"
 
 msgid "This field is required"
-msgstr ""
+msgstr "Ce champ est obligatoire"
+
+msgid "User"
+msgstr "Utilisateur"
+
+msgid "Users"
+msgstr "Utilisateurs"
+
+msgid "no"
+msgstr "non"
+
+msgid "yes"
+msgstr "yes"

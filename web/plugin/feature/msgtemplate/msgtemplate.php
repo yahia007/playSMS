@@ -64,14 +64,14 @@ switch (_OP_) {
 				</ul>
 			</div>
 		";
-		if ($err = $_SESSION['error_string']) {
-			_p("<div class=error_string>$err</div>");
+		if ($err = TRUE) {
+			_p(_dialog());
 		}
 		_p($content);
 		break;
 	case "add":
-		if ($err = $_SESSION['error_string']) {
-			$content = "<div class=error_string>$err</div>";
+		if ($err = TRUE) {
+			$content = _dialog();
 		}
 		$content .= "
 			<h2>"._('Message template')."</h2>
@@ -80,10 +80,10 @@ switch (_OP_) {
 			"._CSRF_FORM_."
 			<table class=playsms-table>
 			<tr>
-				<td class=label-sizer>"._('Message template name')."</td><td><input type=text size=30 maxlength=100 name=t_title></td>
+				<td class=label-sizer>"._('Message template name')."</td><td><input type=text maxlength=100 name=t_title></td>
 			</tr>
 			<tr>
-				<td>"._('Message template content')."</td><td><input type=text name=t_text size=30></td>
+				<td>"._('Message template content')."</td><td><input type=text name=t_text></td>
 			</tr>	
 			</table>	
 			<p><input type='submit' class='button' value='"._('Save')."'></p>
@@ -95,8 +95,8 @@ switch (_OP_) {
 		$db_query = "SELECT * FROM "._DB_PREF_."_featureMsgtemplate WHERE tid='$tid'";
 		$db_result = dba_query($db_query);
 		$db_row = dba_fetch_array($db_result);
-		if ($err = $_SESSION['error_string']) {
-			$content = "<div class=error_string>$err</div>";
+		if ($err = TRUE) {
+			$content = _dialog();
 		}
 		$content .= "
 			<h2>"._('Message template')."</h2>
@@ -107,10 +107,10 @@ switch (_OP_) {
 			<input type=hidden name=tid value='".$tid."'>
 			<table class=playsms-table>
 			<tr>
-				<td class=label-sizer>"._('Message template name')."</td><td><input type=text size=30 maxlength=100 name=t_title value='".$db_row['t_title']."'></td>
+				<td class=label-sizer>"._('Message template name')."</td><td><input type=text maxlength=100 name=t_title value='".$db_row['t_title']."'></td>
 			</tr>
 			<tr>
-				<td>"._('Message template content')."</td><td><input type=text name=t_text size=30 value='".$db_row['t_text']."'></td>
+				<td>"._('Message template content')."</td><td><input type=text name=t_text value='".$db_row['t_text']."'></td>
 			</tr>
 			</table>
 			<input type='hidden' name='item_count' value='$i'>
@@ -129,12 +129,12 @@ switch (_OP_) {
 					$db_query = "INSERT INTO "._DB_PREF_."_featureMsgtemplate (uid,t_title,t_text) VALUES ('".$user_config['uid']."','$t_title','$t_text')";
 					$db_result = dba_insert_id($db_query);
 					if ($db_result > 0) {
-						$_SESSION['error_string'] = _('Message template has been saved');
+						$_SESSION['dialog']['info'][] = _('Message template has been saved');
 					} else {
-						$_SESSION['error_string'] = _('Fail to add message template');
+						$_SESSION['dialog']['info'][] = _('Fail to add message template');
 					}
 				} else {
-					$_SESSION['error_string'] = _('You must fill all fields');
+					$_SESSION['dialog']['info'][] = _('You must fill all fields');
 				}
 				header("Location: "._u('index.php?app=main&inc=feature_msgtemplate&op=add'));
 				exit();
@@ -146,12 +146,12 @@ switch (_OP_) {
 					$db_query = "UPDATE "._DB_PREF_."_featureMsgtemplate SET c_timestamp='".mktime()."',t_title='$t_title', t_text='$t_text' WHERE tid='$tid'";
 					$db_result = dba_affected_rows($db_query);
 					if ($db_result > 0) {
-						$_SESSION['error_string'] = _('Message template has been edited');
+						$_SESSION['dialog']['info'][] = _('Message template has been edited');
 					} else {
-						$_SESSION['error_string'] = _('Fail to edit message template');
+						$_SESSION['dialog']['info'][] = _('Fail to edit message template');
 					}
 				} else {
-					$_SESSION['error_string'] = _('You must fill all fields');
+					$_SESSION['dialog']['info'][] = _('You must fill all fields');
 				}
 				header("Location: "._u('index.php?app=main&inc=feature_msgtemplate&op=list'));
 				exit();
@@ -168,7 +168,7 @@ switch (_OP_) {
 						$db_result = dba_affected_rows($db_query);
 					}
 				}
-				$_SESSION['error_string'] = _('Selected message template has been deleted');
+				$_SESSION['dialog']['info'][] = _('Selected message template has been deleted');
 				header("Location: "._u('index.php?app=main&inc=feature_msgtemplate&op=list'));
 				exit();
 				break;
